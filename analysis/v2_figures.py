@@ -125,15 +125,10 @@ def fig_val_arms() -> None:
         # labels sit almost at the same height; stagger those two pairs
         dy = 0.024 if abs(s - a) < 0.008 else 0.006
         ax.text(xi + 0.2, a + dy, f"{a:.4f}", ha="center", fontsize=7.5)
-        if n > 1:
-            ax.text(xi, -0.055, f"{n} seeds", ha="center", fontsize=7,
-                    color=C_REF)
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
-    ax.set_ylim(-0.10, 0.74)
+    ax.set_ylim(-0.04, 0.66)
     ax.set_ylabel("value")
-    ax.set_title("Corrected policy set on the validation split (21 episodes): "
-                 "both selection criteria shown", fontsize=10)
     ax.legend(frameon=False, fontsize=9, loc="upper right")
     ax.grid(**GRID)
     ax.axhline(0, color="black", linewidth=0.6)
@@ -203,8 +198,6 @@ def fig_gap_closure() -> None:
     ax.set_xticklabels([p[0] for p in pairs], fontsize=9)
     ax.set_ylabel("achievement-rate difference (A \u2212 B)")
     ax.set_ylim(-0.225, 0.035)
-    ax.set_title("Learner-minus-rule achievement-rate difference:\nthe archived "
-                 "Run 1 shortfall and the Run 2 validation split", fontsize=10)
     ax.grid(**GRID)
     fig.text(0.01, -0.03,
              "sources: analysis/tables/main_seedcollapsed_paired_comparisons.csv "
@@ -386,9 +379,6 @@ def fig_outage_coverage() -> None:
     ax = axes[0]
     ax.fill_between(hours, hist, color=C_MAIN, alpha=0.85)
     ax.set_ylabel("DR steps\n(21 held-out\nepisodes)")
-    ax.set_title("Demand-response steps by hour of day (21 held-out episodes)\n"
-                 "and the configured outage windows used in the study",
-                 fontsize=10)
     ax.grid(alpha=0.3, linewidth=0.6)
 
     ax2 = axes[1]
@@ -480,9 +470,6 @@ def fig_transfer() -> None:
     ax.set_xlim(-0.045, 0.096)
     ax.axvline(0, color="black", linewidth=0.8)
     ax.set_xlabel("selection-score difference (learner \u2212 re-tuned rule)")
-    ax.set_title("Transfer across operating points: learner, never retrained, "
-                 "minus the per-condition re-tuned rule\nselection score, "
-                 "episode-clustered 95% intervals (post-hoc)", fontsize=10)
     handles = [
         Line2D([], [], marker="o", linestyle="none", mfc=C_MAIN, mec=C_MAIN,
                ms=7, label="interval excludes zero"),
@@ -545,9 +532,6 @@ def fig_baselines() -> None:
     ax.set_xticklabels([lab for lab, _ in rows], fontsize=8)
     ax.set_ylim(0, 0.64)
     ax.set_ylabel("raw achievement rate (validation split)")
-    ax.set_title("Baseline set on the validation split\n"
-                 "the tuned rule and the learner evaluated the same 144 "
-                 "candidates", fontsize=10)
     ax.grid(**GRID)
     fig.text(0.01, -0.03,
              "source: runs_v2/validation_scores_v2.json; candidate budgets from "
@@ -794,8 +778,6 @@ def fig_primary_forest() -> None:
     axA.set_title("(a) comparisons at the margin (\u00b1\u03b4 shown)",
                   fontsize=9.5)
     axB.set_title("(b) comparisons far beyond \u03b4", fontsize=9.5)
-    fig.suptitle("Held-out achievement-rate differences: 21 episodes, "
-                 "episode-clustered 95% intervals", fontsize=11, y=0.985)
     handles = [
         Line2D([], [], marker="o", linestyle="none", mfc=C_MAIN, mec=C_MAIN,
                ms=7, label="equal weight per fault id"),

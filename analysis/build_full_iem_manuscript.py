@@ -61,7 +61,7 @@ FIG_MAP = {
 TABLE_CAPTIONS = {
     1: "Table 1: Policy arm definitions and training configurations across the two evaluation runs.",
     2: "Table 2: Run 1 descriptive means, averaged over the 21 episodes with each episode weighted equally.",
-    3: "Table 3: Validation-split results for the corrected policy set across 21 episodes and four fault conditions.",
+    3: "Table 3: Validation-split results for the Run 2 policy set across 21 episodes and four fault instances.",
     4: "Table 4: Held-out arm means, one value per episode averaged over the 21 test episodes (frozen selection objective; learned arms averaged over five seeds).",
     5: "Table 5: Frozen composite selection score pooled over 105 runs per condition across shifted operating points.",
     6: "Table 6: Measured wall-clock inference time on the evaluation host per control step for the full feeder.",
@@ -74,6 +74,8 @@ TABLE_NOTES = {
     2: ("Achievement is averaged over the 21 episodes with each episode weighted equally. The switches "
         "column counts transitions across all 50 groups, and Table 3 reports the same quantity per group. "
         "Episode-mean and pooled figures differ, and each table states which it reports."),
+    3: ("Each arm contributes 84 runs, one for each of the 21 validation episodes crossed with four fault "
+        "instances: F0, F2 under two communication seeds, and F3. Learned arms are five-seed means."),
     4: ("Each column is built from one value per episode, and the 21 episodes are averaged. The selection "
         "score column is Equation (5) applied to the three columns to its left. The pre-registered primary "
         "contrast weights each fault id equally within an episode and is therefore not the difference of two "
@@ -84,8 +86,8 @@ TABLE_NOTES = {
         "not the reported contrast. At δ_DR = 8% the pooled difference is +0.0047 while the paired difference "
         "is +0.0212."),
     6: ("Times are wall-clock per control step for the whole feeder, obtained as the per-episode inference "
-        "time divided by 1,440 steps. The ratio column divides unrounded means, so the rounded means imply "
-        "33.3× for C4v2 where the table reports 32.8×."),
+        "time divided by 1,440 steps. The ratio column divides unrounded means; dividing the rounded means "
+        "instead gives 33.3× for C4v2."),
 }
 
 # Column widths in points for full-page tables (total = 516.1 pt)
@@ -534,6 +536,14 @@ def main():
                     p.paragraph_format.line_spacing = 1.0
                     add_formatted_runs(p, val, font_name="Arial", font_size_pt=9.0)
 
+        # Keep the whole table on one page. Every row except the last is glued
+        # to the row beneath it, so Word moves the table to the next page rather
+        # than orphaning a single row below the caption.
+        for row in t.rows[:-1]:
+            for cell in row.cells:
+                for p in cell.paragraphs:
+                    p.paragraph_format.keep_with_next = True
+
         # Note printed under the table, still in the full-width flow
         note_text = TABLE_NOTES.get(table_idx)
         if note_text:
@@ -785,11 +795,30 @@ def main():
             p.paragraph_format.space_before = Pt(4)
             p.paragraph_format.space_after = Pt(4)
             p.paragraph_format.keep_together = True
+            # The equation stays with the sentence that defines its symbols.
+            p.paragraph_format.keep_with_next = True
             r_form = p.add_run(formula_text)
             r_form.font.name = "Cambria Math"
             r_form.font.size = Pt(9.5)
             r_form.italic = True
-            
+
+            # A caret exponent is typeset as a real superscript, so the
+            # published equation never carries a literal "^" character.
+            if "^" in formula_text:
+                segs = formula_text.split("^")
+                r_form.text = segs[0]
+                for seg in segs[1:]:
+                    r_sup = p.add_run(seg[0])
+                    r_sup.font.name = "Cambria Math"
+                    r_sup.font.size = Pt(9.5)
+                    r_sup.italic = True
+                    r_sup.font.superscript = True
+                    if seg[1:]:
+                        r_tail = p.add_run(seg[1:])
+                        r_tail.font.name = "Cambria Math"
+                        r_tail.font.size = Pt(9.5)
+                        r_tail.italic = True
+
             if eq_num:
                 r_tab = p.add_run(f"    ({eq_num})")
                 r_tab.font.name = "Arial"
