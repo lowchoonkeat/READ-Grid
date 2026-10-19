@@ -1,0 +1,1246 @@
+{
+  "dr_overlap": {
+    "dr_trigger_fraction": 0.8,
+    "f3_window_s": [
+      66600.0,
+      73800.0
+    ],
+    "n_episodes": 100,
+    "n_fully_covered": 0,
+    "mean_overlap_fraction": 0.1892259667550681,
+    "by_split": {
+      "train": {
+        "n_episodes": 58,
+        "n_dr_steps": 9890,
+        "n_dr_steps_inside_F3": 2067,
+        "dr_step_overlap_fraction": 0.2089989888776542
+      },
+      "val": {
+        "n_episodes": 21,
+        "n_dr_steps": 3438,
+        "n_dr_steps_inside_F3": 493,
+        "dr_step_overlap_fraction": 0.14339732402559627
+      },
+      "test": {
+        "n_episodes": 21,
+        "n_dr_steps": 3275,
+        "n_dr_steps_inside_F3": 712,
+        "dr_step_overlap_fraction": 0.21740458015267175
+      }
+    },
+    "per_episode": [
+      {
+        "episode_id": "LVP001",
+        "n_dr_steps": 145,
+        "n_dr_steps_inside_F3": 29,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2
+      },
+      {
+        "episode_id": "LVP002",
+        "n_dr_steps": 145,
+        "n_dr_steps_inside_F3": 18,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.12413793103448276
+      },
+      {
+        "episode_id": "LVP003",
+        "n_dr_steps": 173,
+        "n_dr_steps_inside_F3": 57,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.32947976878612717
+      },
+      {
+        "episode_id": "LVP004",
+        "n_dr_steps": 121,
+        "n_dr_steps_inside_F3": 27,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2231404958677686
+      },
+      {
+        "episode_id": "LVP005",
+        "n_dr_steps": 125,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.024
+      },
+      {
+        "episode_id": "LVP006",
+        "n_dr_steps": 130,
+        "n_dr_steps_inside_F3": 4,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.03076923076923077
+      },
+      {
+        "episode_id": "LVP007",
+        "n_dr_steps": 92,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP008",
+        "n_dr_steps": 201,
+        "n_dr_steps_inside_F3": 6,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.029850746268656716
+      },
+      {
+        "episode_id": "LVP009",
+        "n_dr_steps": 186,
+        "n_dr_steps_inside_F3": 16,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.08602150537634409
+      },
+      {
+        "episode_id": "LVP010",
+        "n_dr_steps": 137,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP011",
+        "n_dr_steps": 193,
+        "n_dr_steps_inside_F3": 41,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.21243523316062177
+      },
+      {
+        "episode_id": "LVP012",
+        "n_dr_steps": 149,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP013",
+        "n_dr_steps": 143,
+        "n_dr_steps_inside_F3": 16,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.11188811188811189
+      },
+      {
+        "episode_id": "LVP014",
+        "n_dr_steps": 168,
+        "n_dr_steps_inside_F3": 32,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.19047619047619047
+      },
+      {
+        "episode_id": "LVP015",
+        "n_dr_steps": 226,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP016",
+        "n_dr_steps": 187,
+        "n_dr_steps_inside_F3": 8,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0427807486631016
+      },
+      {
+        "episode_id": "LVP017",
+        "n_dr_steps": 221,
+        "n_dr_steps_inside_F3": 43,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.19457013574660634
+      },
+      {
+        "episode_id": "LVP018",
+        "n_dr_steps": 159,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.018867924528301886
+      },
+      {
+        "episode_id": "LVP019",
+        "n_dr_steps": 120,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.025
+      },
+      {
+        "episode_id": "LVP020",
+        "n_dr_steps": 114,
+        "n_dr_steps_inside_F3": 29,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2543859649122807
+      },
+      {
+        "episode_id": "LVP021",
+        "n_dr_steps": 165,
+        "n_dr_steps_inside_F3": 57,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.34545454545454546
+      },
+      {
+        "episode_id": "LVP022",
+        "n_dr_steps": 216,
+        "n_dr_steps_inside_F3": 118,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.5462962962962963
+      },
+      {
+        "episode_id": "LVP023",
+        "n_dr_steps": 102,
+        "n_dr_steps_inside_F3": 26,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2549019607843137
+      },
+      {
+        "episode_id": "LVP024",
+        "n_dr_steps": 157,
+        "n_dr_steps_inside_F3": 27,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.17197452229299362
+      },
+      {
+        "episode_id": "LVP025",
+        "n_dr_steps": 89,
+        "n_dr_steps_inside_F3": 1,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.011235955056179775
+      },
+      {
+        "episode_id": "LVP026",
+        "n_dr_steps": 214,
+        "n_dr_steps_inside_F3": 75,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.35046728971962615
+      },
+      {
+        "episode_id": "LVP027",
+        "n_dr_steps": 132,
+        "n_dr_steps_inside_F3": 32,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.24242424242424243
+      },
+      {
+        "episode_id": "LVP028",
+        "n_dr_steps": 276,
+        "n_dr_steps_inside_F3": 14,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.050724637681159424
+      },
+      {
+        "episode_id": "LVP029",
+        "n_dr_steps": 87,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.034482758620689655
+      },
+      {
+        "episode_id": "LVP030",
+        "n_dr_steps": 167,
+        "n_dr_steps_inside_F3": 49,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2934131736526946
+      },
+      {
+        "episode_id": "LVP031",
+        "n_dr_steps": 93,
+        "n_dr_steps_inside_F3": 11,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.11827956989247312
+      },
+      {
+        "episode_id": "LVP032",
+        "n_dr_steps": 168,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP033",
+        "n_dr_steps": 148,
+        "n_dr_steps_inside_F3": 60,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.40540540540540543
+      },
+      {
+        "episode_id": "LVP034",
+        "n_dr_steps": 218,
+        "n_dr_steps_inside_F3": 32,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.14678899082568808
+      },
+      {
+        "episode_id": "LVP035",
+        "n_dr_steps": 214,
+        "n_dr_steps_inside_F3": 28,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.1308411214953271
+      },
+      {
+        "episode_id": "LVP036",
+        "n_dr_steps": 266,
+        "n_dr_steps_inside_F3": 67,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2518796992481203
+      },
+      {
+        "episode_id": "LVP037",
+        "n_dr_steps": 168,
+        "n_dr_steps_inside_F3": 30,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.17857142857142858
+      },
+      {
+        "episode_id": "LVP038",
+        "n_dr_steps": 130,
+        "n_dr_steps_inside_F3": 60,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.46153846153846156
+      },
+      {
+        "episode_id": "LVP039",
+        "n_dr_steps": 343,
+        "n_dr_steps_inside_F3": 115,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.33527696793002915
+      },
+      {
+        "episode_id": "LVP040",
+        "n_dr_steps": 201,
+        "n_dr_steps_inside_F3": 20,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.09950248756218906
+      },
+      {
+        "episode_id": "LVP041",
+        "n_dr_steps": 146,
+        "n_dr_steps_inside_F3": 62,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.4246575342465753
+      },
+      {
+        "episode_id": "LVP042",
+        "n_dr_steps": 166,
+        "n_dr_steps_inside_F3": 53,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.3192771084337349
+      },
+      {
+        "episode_id": "LVP043",
+        "n_dr_steps": 138,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP044",
+        "n_dr_steps": 182,
+        "n_dr_steps_inside_F3": 23,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.12637362637362637
+      },
+      {
+        "episode_id": "LVP045",
+        "n_dr_steps": 237,
+        "n_dr_steps_inside_F3": 20,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.08438818565400844
+      },
+      {
+        "episode_id": "LVP046",
+        "n_dr_steps": 133,
+        "n_dr_steps_inside_F3": 29,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.21804511278195488
+      },
+      {
+        "episode_id": "LVP047",
+        "n_dr_steps": 173,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP048",
+        "n_dr_steps": 135,
+        "n_dr_steps_inside_F3": 6,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.044444444444444446
+      },
+      {
+        "episode_id": "LVP049",
+        "n_dr_steps": 134,
+        "n_dr_steps_inside_F3": 16,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.11940298507462686
+      },
+      {
+        "episode_id": "LVP050",
+        "n_dr_steps": 158,
+        "n_dr_steps_inside_F3": 16,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.10126582278481013
+      },
+      {
+        "episode_id": "LVP051",
+        "n_dr_steps": 105,
+        "n_dr_steps_inside_F3": 26,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.24761904761904763
+      },
+      {
+        "episode_id": "LVP052",
+        "n_dr_steps": 149,
+        "n_dr_steps_inside_F3": 16,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.10738255033557047
+      },
+      {
+        "episode_id": "LVP053",
+        "n_dr_steps": 144,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP054",
+        "n_dr_steps": 198,
+        "n_dr_steps_inside_F3": 65,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.3282828282828283
+      },
+      {
+        "episode_id": "LVP055",
+        "n_dr_steps": 126,
+        "n_dr_steps_inside_F3": 32,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.25396825396825395
+      },
+      {
+        "episode_id": "LVP056",
+        "n_dr_steps": 128,
+        "n_dr_steps_inside_F3": 57,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.4453125
+      },
+      {
+        "episode_id": "LVP057",
+        "n_dr_steps": 107,
+        "n_dr_steps_inside_F3": 40,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.37383177570093457
+      },
+      {
+        "episode_id": "LVP058",
+        "n_dr_steps": 100,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.03
+      },
+      {
+        "episode_id": "LVP059",
+        "n_dr_steps": 78,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP060",
+        "n_dr_steps": 104,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP061",
+        "n_dr_steps": 203,
+        "n_dr_steps_inside_F3": 69,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.3399014778325123
+      },
+      {
+        "episode_id": "LVP062",
+        "n_dr_steps": 177,
+        "n_dr_steps_inside_F3": 88,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.4971751412429379
+      },
+      {
+        "episode_id": "LVP063",
+        "n_dr_steps": 132,
+        "n_dr_steps_inside_F3": 36,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2727272727272727
+      },
+      {
+        "episode_id": "LVP064",
+        "n_dr_steps": 223,
+        "n_dr_steps_inside_F3": 97,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.4349775784753363
+      },
+      {
+        "episode_id": "LVP065",
+        "n_dr_steps": 143,
+        "n_dr_steps_inside_F3": 48,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.3356643356643357
+      },
+      {
+        "episode_id": "LVP066",
+        "n_dr_steps": 114,
+        "n_dr_steps_inside_F3": 36,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.3157894736842105
+      },
+      {
+        "episode_id": "LVP067",
+        "n_dr_steps": 164,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.018292682926829267
+      },
+      {
+        "episode_id": "LVP068",
+        "n_dr_steps": 142,
+        "n_dr_steps_inside_F3": 82,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.5774647887323944
+      },
+      {
+        "episode_id": "LVP069",
+        "n_dr_steps": 147,
+        "n_dr_steps_inside_F3": 34,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.23129251700680273
+      },
+      {
+        "episode_id": "LVP070",
+        "n_dr_steps": 373,
+        "n_dr_steps_inside_F3": 90,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.24128686327077747
+      },
+      {
+        "episode_id": "LVP071",
+        "n_dr_steps": 219,
+        "n_dr_steps_inside_F3": 63,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2876712328767123
+      },
+      {
+        "episode_id": "LVP072",
+        "n_dr_steps": 232,
+        "n_dr_steps_inside_F3": 48,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.20689655172413793
+      },
+      {
+        "episode_id": "LVP073",
+        "n_dr_steps": 118,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP074",
+        "n_dr_steps": 227,
+        "n_dr_steps_inside_F3": 108,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.47577092511013214
+      },
+      {
+        "episode_id": "LVP075",
+        "n_dr_steps": 146,
+        "n_dr_steps_inside_F3": 40,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.273972602739726
+      },
+      {
+        "episode_id": "LVP076",
+        "n_dr_steps": 119,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.025210084033613446
+      },
+      {
+        "episode_id": "LVP077",
+        "n_dr_steps": 334,
+        "n_dr_steps_inside_F3": 22,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0658682634730539
+      },
+      {
+        "episode_id": "LVP078",
+        "n_dr_steps": 141,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.02127659574468085
+      },
+      {
+        "episode_id": "LVP079",
+        "n_dr_steps": 125,
+        "n_dr_steps_inside_F3": 37,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.296
+      },
+      {
+        "episode_id": "LVP080",
+        "n_dr_steps": 125,
+        "n_dr_steps_inside_F3": 9,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.072
+      },
+      {
+        "episode_id": "LVP081",
+        "n_dr_steps": 195,
+        "n_dr_steps_inside_F3": 76,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.38974358974358975
+      },
+      {
+        "episode_id": "LVP082",
+        "n_dr_steps": 127,
+        "n_dr_steps_inside_F3": 11,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.08661417322834646
+      },
+      {
+        "episode_id": "LVP083",
+        "n_dr_steps": 110,
+        "n_dr_steps_inside_F3": 27,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.24545454545454545
+      },
+      {
+        "episode_id": "LVP084",
+        "n_dr_steps": 198,
+        "n_dr_steps_inside_F3": 55,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.2777777777777778
+      },
+      {
+        "episode_id": "LVP085",
+        "n_dr_steps": 181,
+        "n_dr_steps_inside_F3": 6,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.03314917127071823
+      },
+      {
+        "episode_id": "LVP086",
+        "n_dr_steps": 199,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP087",
+        "n_dr_steps": 180,
+        "n_dr_steps_inside_F3": 89,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.49444444444444446
+      },
+      {
+        "episode_id": "LVP088",
+        "n_dr_steps": 197,
+        "n_dr_steps_inside_F3": 41,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.20812182741116753
+      },
+      {
+        "episode_id": "LVP089",
+        "n_dr_steps": 152,
+        "n_dr_steps_inside_F3": 3,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.019736842105263157
+      },
+      {
+        "episode_id": "LVP090",
+        "n_dr_steps": 234,
+        "n_dr_steps_inside_F3": 22,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.09401709401709402
+      },
+      {
+        "episode_id": "LVP091",
+        "n_dr_steps": 126,
+        "n_dr_steps_inside_F3": 19,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.15079365079365079
+      },
+      {
+        "episode_id": "LVP092",
+        "n_dr_steps": 279,
+        "n_dr_steps_inside_F3": 64,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.22939068100358423
+      },
+      {
+        "episode_id": "LVP093",
+        "n_dr_steps": 218,
+        "n_dr_steps_inside_F3": 21,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0963302752293578
+      },
+      {
+        "episode_id": "LVP094",
+        "n_dr_steps": 143,
+        "n_dr_steps_inside_F3": 84,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.5874125874125874
+      },
+      {
+        "episode_id": "LVP095",
+        "n_dr_steps": 225,
+        "n_dr_steps_inside_F3": 81,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.36
+      },
+      {
+        "episode_id": "LVP096",
+        "n_dr_steps": 170,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP097",
+        "n_dr_steps": 120,
+        "n_dr_steps_inside_F3": 0,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.0
+      },
+      {
+        "episode_id": "LVP098",
+        "n_dr_steps": 116,
+        "n_dr_steps_inside_F3": 24,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.20689655172413793
+      },
+      {
+        "episode_id": "LVP099",
+        "n_dr_steps": 199,
+        "n_dr_steps_inside_F3": 78,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.39195979899497485
+      },
+      {
+        "episode_id": "LVP100",
+        "n_dr_steps": 100,
+        "n_dr_steps_inside_F3": 31,
+        "dr_fully_covered": false,
+        "dr_overlap_fraction": 0.31
+      }
+    ]
+  },
+  "outage_table": [
+    {
+      "policy_id": "C3",
+      "arm": "C3",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.7391846181235535,
+      "outage_energy_ratio": 0.950390298858317,
+      "outage_switches": 68550.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.8095238095238095,
+      "outage_ach_F2(30 min)": 0.7081218274111675,
+      "outage_ach_F3(2 h)": 0.6414253897550112
+    },
+    {
+      "policy_id": "C7",
+      "arm": "C7",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.735089905643582,
+      "outage_energy_ratio": 0.9505691206430067,
+      "outage_switches": 81650.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686,
+      "outage_ach_F1(5 min)": 0.7936507936507936,
+      "outage_ach_F2(30 min)": 0.7106598984771574,
+      "outage_ach_F3(2 h)": 0.643652561247216
+    },
+    {
+      "policy_id": "C3b",
+      "arm": "C3b",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.7250311554210432,
+      "outage_energy_ratio": 0.950382254214945,
+      "outage_switches": 86250.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.7817460317460317,
+      "outage_ach_F2(30 min)": 0.7030456852791879,
+      "outage_ach_F3(2 h)": 0.6247216035634744
+    },
+    {
+      "policy_id": "C4v2_s3",
+      "arm": "C4v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.6691294285205626,
+      "outage_energy_ratio": 0.9498377675559355,
+      "outage_switches": 66150.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.7103174603174603,
+      "outage_ach_F2(30 min)": 0.6675126903553299,
+      "outage_ach_F3(2 h)": 0.4955456570155902
+    },
+    {
+      "policy_id": "C4v2_s2",
+      "arm": "C4v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.6666369948371017,
+      "outage_energy_ratio": 0.9496924696513546,
+      "outage_switches": 65500.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.7103174603174603,
+      "outage_ach_F2(30 min)": 0.6649746192893401,
+      "outage_ach_F3(2 h)": 0.4821826280623608
+    },
+    {
+      "policy_id": "C4v2_s1",
+      "arm": "C4v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.6653907779953712,
+      "outage_energy_ratio": 0.9504213186443838,
+      "outage_switches": 66100.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.7063492063492064,
+      "outage_ach_F2(30 min)": 0.6649746192893401,
+      "outage_ach_F3(2 h)": 0.4844097995545657
+    },
+    {
+      "policy_id": "C4v2_s4",
+      "arm": "C4v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.66200818942496,
+      "outage_energy_ratio": 0.9505057586056248,
+      "outage_switches": 60250.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.6984126984126984,
+      "outage_ach_F2(30 min)": 0.6649746192893401,
+      "outage_ach_F3(2 h)": 0.477728285077951
+    },
+    {
+      "policy_id": "C4v2_s0",
+      "arm": "C4v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.659604771230194,
+      "outage_energy_ratio": 0.950706378293972,
+      "outage_switches": 62900.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.6984126984126984,
+      "outage_ach_F2(30 min)": 0.6598984771573604,
+      "outage_ach_F3(2 h)": 0.48329621380846327
+    },
+    {
+      "policy_id": "C4_s4",
+      "arm": "C4",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.5902617055367634,
+      "outage_energy_ratio": 0.9561306802152203,
+      "outage_switches": 66730.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.6349206349206349,
+      "outage_ach_F2(30 min)": 0.5786802030456852,
+      "outage_ach_F3(2 h)": 0.4710467706013363
+    },
+    {
+      "policy_id": "C4_s2",
+      "arm": "C4",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.5800249243368346,
+      "outage_energy_ratio": 0.9566664761555579,
+      "outage_switches": 67790.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.6111111111111112,
+      "outage_ach_F2(30 min)": 0.5685279187817259,
+      "outage_ach_F3(2 h)": 0.5211581291759465
+    },
+    {
+      "policy_id": "C4_s1",
+      "arm": "C4",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.5357842264554032,
+      "outage_energy_ratio": 0.9643560249921407,
+      "outage_switches": 50090.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.5873015873015873,
+      "outage_ach_F2(30 min)": 0.5203045685279187,
+      "outage_ach_F3(2 h)": 0.4131403118040089
+    },
+    {
+      "policy_id": "C4_s3",
+      "arm": "C4",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.4829980416592487,
+      "outage_energy_ratio": 0.9673021840328723,
+      "outage_switches": 46980.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.5119047619047619,
+      "outage_ach_F2(30 min)": 0.47715736040609136,
+      "outage_ach_F3(2 h)": 0.39420935412026725
+    },
+    {
+      "policy_id": "C4_s0",
+      "arm": "C4",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.48041659248709273,
+      "outage_energy_ratio": 0.9671646425331114,
+      "outage_switches": 29650.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.4847715736040609,
+      "outage_ach_F3(2 h)": 0.344097995545657
+    },
+    {
+      "policy_id": "C1",
+      "arm": "C1",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.40804700017803097,
+      "outage_energy_ratio": 0.9714989758393962,
+      "outage_switches": 94800.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686,
+      "outage_ach_F1(5 min)": 0.5674603174603174,
+      "outage_ach_F2(30 min)": 0.3248730964467005,
+      "outage_ach_F3(2 h)": 0.27616926503340755
+    },
+    {
+      "policy_id": "C2v2_s3",
+      "arm": "C2v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.38321167883211676,
+      "outage_energy_ratio": 0.9753614620656517,
+      "outage_switches": 73150.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.3223350253807107,
+      "outage_ach_F3(2 h)": 0.26837416481069043
+    },
+    {
+      "policy_id": "C2v2_s0",
+      "arm": "C2v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.38312266334342177,
+      "outage_energy_ratio": 0.9754678413380327,
+      "outage_switches": 71550.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.3223350253807107,
+      "outage_ach_F3(2 h)": 0.267260579064588
+    },
+    {
+      "policy_id": "C2v2_s4",
+      "arm": "C2v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.38312266334342177,
+      "outage_energy_ratio": 0.9753999058896914,
+      "outage_switches": 70750.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.3223350253807107,
+      "outage_ach_F3(2 h)": 0.267260579064588
+    },
+    {
+      "policy_id": "C2v2_s1",
+      "arm": "C2v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.3827666013886416,
+      "outage_energy_ratio": 0.975779586977074,
+      "outage_switches": 72250.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.3223350253807107,
+      "outage_ach_F3(2 h)": 0.26280623608017817
+    },
+    {
+      "policy_id": "C2v2_s2",
+      "arm": "C2v2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.3813423535695211,
+      "outage_energy_ratio": 0.975383082003081,
+      "outage_switches": 72250.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.503968253968254,
+      "outage_ach_F2(30 min)": 0.3197969543147208,
+      "outage_ach_F3(2 h)": 0.26280623608017817
+    },
+    {
+      "policy_id": "C2_s4",
+      "arm": "C2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.3372796866654798,
+      "outage_energy_ratio": 0.9770397986157908,
+      "outage_switches": 63220.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.4444444444444444,
+      "outage_ach_F2(30 min)": 0.2817258883248731,
+      "outage_ach_F3(2 h)": 0.24610244988864144
+    },
+    {
+      "policy_id": "C2_s2",
+      "arm": "C2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.32739896742033114,
+      "outage_energy_ratio": 0.9761477184708063,
+      "outage_switches": 80890.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.4126984126984127,
+      "outage_ach_F2(30 min)": 0.28426395939086296,
+      "outage_ach_F3(2 h)": 0.24721603563474387
+    },
+    {
+      "policy_id": "C2_s1",
+      "arm": "C2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.3259747196012106,
+      "outage_energy_ratio": 0.9795273746143103,
+      "outage_switches": 53850.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.4365079365079365,
+      "outage_ach_F2(30 min)": 0.26903553299492383,
+      "outage_ach_F3(2 h)": 0.22939866369710468
+    },
+    {
+      "policy_id": "C2_s0",
+      "arm": "C2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.28849919886060177,
+      "outage_energy_ratio": 0.9816622071024883,
+      "outage_switches": 40540.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856,
+      "outage_ach_F1(5 min)": 0.34523809523809523,
+      "outage_ach_F2(30 min)": 0.2639593908629442,
+      "outage_ach_F3(2 h)": 0.20601336302895323
+    },
+    {
+      "policy_id": "C2_s3",
+      "arm": "C2",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.2816450062310842,
+      "outage_energy_ratio": 0.9828041400819525,
+      "outage_switches": 51120.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.3611111111111111,
+      "outage_ach_F2(30 min)": 0.24111675126903553,
+      "outage_ach_F3(2 h)": 0.20935412026726058
+    },
+    {
+      "policy_id": "C0",
+      "arm": "C0",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": NaN,
+      "authority_transfer_delay_s": NaN,
+      "recovery_delay_s": NaN,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    },
+    {
+      "policy_id": "C5_s0",
+      "arm": "C5",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    },
+    {
+      "policy_id": "C5_s1",
+      "arm": "C5",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    },
+    {
+      "policy_id": "C5_s2",
+      "arm": "C5",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    },
+    {
+      "policy_id": "C5_s3",
+      "arm": "C5",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226858,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    },
+    {
+      "policy_id": "C5_s4",
+      "arm": "C5",
+      "n_runs": 1995,
+      "outage_eligible_steps": 11234,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_energy_ratio": 1.0,
+      "outage_switches": 0.0,
+      "outage_window_s_mean": 1075.578947368421,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686,
+      "outage_ach_F1(5 min)": 0.12301587301587301,
+      "outage_ach_F2(30 min)": 0.13705583756345177,
+      "outage_ach_F3(2 h)": 0.14365256124721604
+    }
+  ],
+  "flapping_trace": {
+    "F8__LVP002.jsonl": {
+      "n_events": 7175,
+      "n_authority_transitions": 0,
+      "n_takeovers_cloud_to_local": 0,
+      "n_recoveries_local_to_cloud": 0,
+      "epochs_seen": [
+        0
+      ],
+      "rejections_by_reason": {},
+      "timestamps_with_two_authorities": 0,
+      "first_20_transitions": [],
+      "first_takeover_s": null,
+      "first_recovery_s": null
+    },
+    "F8__LVP005.jsonl": {
+      "n_events": 7175,
+      "n_authority_transitions": 0,
+      "n_takeovers_cloud_to_local": 0,
+      "n_recoveries_local_to_cloud": 0,
+      "epochs_seen": [
+        0
+      ],
+      "rejections_by_reason": {},
+      "timestamps_with_two_authorities": 0,
+      "first_20_transitions": [],
+      "first_takeover_s": null,
+      "first_recovery_s": null
+    }
+  }
+}

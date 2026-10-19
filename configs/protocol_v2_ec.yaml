@@ -1,0 +1,174 @@
+meta:
+  name: P359 READ-Grid v2 (corrected training pipeline) -- E-C extension (evening-wide outage)
+  protocol_version: 2.0.0-frozen
+  frozen_date: '2026-10-16'
+  supersedes: 1.0.0-frozen
+  evaluation_nature: post_hoc_exploratory
+  exposure_record: docs/test_exposure_record.md
+  preregistration: docs/v2_preregistration.md
+  ec_extension: Adds ONLY the fault F3E = outage 17:00-24:00 (start_s 61200, duration_s 25200), the E-C
+    stress scenario 'the outage covers the whole evening DR window'. Every other key holds the frozen
+    protocol_v2 value. The frozen protocol is NOT modified, so its S0 hash stays valid.
+  ec_extension_base_sha256: 8639ff7e0630b2ab6b8b0e134701182d3a2df559e0b8270f74bb4b266116b0de
+feeder:
+  workdir: data/processed/ieee123_work
+  master: IEEE123Master.dss
+  rating_patch: configs/ieee123_ratings_patch.dss
+  control_mode: STATIC
+  max_control_iter: 300
+  load_model_preserved: true
+topology:
+  n_groups: 50
+  n_domains: 5
+  groups_per_domain: 10
+  mapping_rule: bus_sorted_contiguous
+flexibility:
+  flexible_fraction: 0.2
+  action_levels:
+  - 0.0
+  - 0.4
+  - 0.7
+  power_factor_preserved: true
+target:
+  delta_dr: 0.12
+  dr_trigger_fraction: 0.8
+  dr_s_ref: 1.0
+  cache_max_age_s: 300
+  static_fallback_window:
+  - 17
+  - 21
+  static_fallback_delta: 0.1
+constraints:
+  ramp_max_level_step: 1
+  dwell_time_s: 180
+  burden_cap_fraction: 0.03
+  declared_load_factor: 0.326384
+workload:
+  resolution_s: 60
+  episode_length_s: 86400
+  control_interval_s: 60
+  heartbeat_interval_s: 1
+  shape_normalisation: unit_mean_clipped_then_p95
+  shape_clip_low: 0.2
+  shape_clip_high: 2.5
+  scales:
+  - 0.8
+  - 1.0
+  - 1.2
+comms:
+  backhaul_oneway_delay_ms: 50
+  backhaul_jitter_ms: 20
+  local_oneway_delay_ms: 5
+  cloud_lease_s: 120
+  retransmit_interval_s: 7
+  model: simplified_no_queueing
+authority:
+  suspect_after_s: 3.0
+  takeover_after_s: 5.0
+  recovery_stable_s: 10.0
+  min_dwell_s: 10.0
+  tie_break: watchdog_before_packet
+  restart_resilience: excluded
+reward:
+  w_track: 1.0
+  w_burden: 0.2
+  w_switch: 0.05
+value_model:
+  gamma: 0.97
+  learning_rate: 0.05
+  fitted_q_iterations: 8
+  epsilon_start: 0.4
+  epsilon_end: 0.05
+  n_train_seeds: 5
+  terminal: no_bootstrap
+faults:
+  F0:
+    kind: connected
+  F1:
+    kind: outage
+    start_s: 66600
+    duration_s: 300
+  F2:
+    kind: outage
+    start_s: 66600
+    duration_s: 1800
+  F3:
+    kind: outage
+    start_s: 66600
+    duration_s: 7200
+  F4:
+    kind: packet_loss
+    p: 0.1
+  F5:
+    kind: burst_loss
+    p_good_to_bad: 0.02
+    p_bad_to_good: 0.2
+    p_loss_bad: 0.9
+  F6:
+    kind: delay_jitter
+    extra_delay_ms: 120
+    extra_jitter_ms: 80
+  F7:
+    kind: asymmetric
+    cloud_to_edge_loss: 0.1
+    edge_to_cloud_loss: 0.0
+  F8:
+    kind: flapping
+    down_s: 5
+    up_s: 5
+    total_s: 300
+    start_s: 66600
+  F9:
+    kind: delayed_duplicates
+    delay_s: 45
+    duplicate_p: 0.3
+    replay_window_s: 600
+    outage_start_s: 66600
+    outage_s: 300
+  F10:
+    kind: stale_cache
+    outage_start_s: 66600
+    outage_s: 1800
+  F3E:
+    kind: outage
+    start_s: 61200
+    duration_s: 25200
+deterministic_faults:
+- F0
+- F1
+- F2
+- F3
+- F8
+- F3E
+stochastic_faults:
+- F4
+- F5
+- F6
+- F7
+- F9
+- F10
+split:
+  n_train_episodes: 58
+  n_val_episodes: 21
+  n_test_episodes: 21
+  stratify_by: regime
+  test_comm_seeds: 15
+  scales_main:
+  - 1.0
+  scales_sensitivity:
+  - 0.8
+  - 1.2
+metrics:
+  ansi_lower_pu: 0.95
+  ansi_upper_pu: 1.05
+  loading_limit_pu: 1.0
+  efficiency_pf: 0.8944271909999159
+analysis:
+  bootstrap_resamples: 5000
+  bootstrap_unit: episode_cluster
+  ci_level: 0.95
+  multiplicity: holm_bonferroni
+  selection_score:
+    w_achievement: 1.0
+    w_curtail_fraction: 1.0
+    w_switch_per_group: 0.0001

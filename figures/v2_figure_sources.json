@@ -1,0 +1,50 @@
+{
+  "figures": [
+    "fig_v2_baselines.png",
+    "fig_v2_gap_closure.png",
+    "fig_v2_outage_coverage.png",
+    "fig_v2_primary_forest.png",
+    "fig_v2_training_ladder.png",
+    "fig_v2_transfer.png",
+    "fig_v2_val_arms.png"
+  ],
+  "sources": {
+    "fig_v2_val_arms.png": "runs_v2/validation_scores_v2.json",
+    "fig_v2_gap_closure.png": "analysis/tables/main_seedcollapsed_paired_comparisons.csv + runs_v2/validation_scores_v2.json",
+    "fig_v2_training_ladder.png": "runs_v2/s3_ladder.json",
+    "fig_v2_outage_coverage.png": "runs_v2/s7_ec.json + runs/workload_split.json + configs/protocol_v2.yaml (F3) + configs/protocol_v2_ec.yaml (F3E) + workload shapes",
+    "fig_v2_transfer.png": "runs_v2/s7_ea_intervals.json (post-hoc intervals)",
+    "fig_v2_baselines.png": "runs_v2/validation_scores_v2.json + runs_v2/s4_rule_tuning_table.json + runs_v2/s3_learner_tuning_table.json",
+    "fig_v2_primary_forest.png": "runs_v2/s6_results.json + runs_v2/stage_main_v2.jsonl (equal-weight recount)"
+  },
+  "checks": {
+    "val_arms: Table 2 score/achievement values reproduced": "20/20",
+    "gap_closure: archived C4-C3 rounds to -0.1332 [-0.2038, -0.0698]": "mean=-0.1332 ci=[-0.2038, -0.0698]",
+    "gap_closure: Run 2 validation differences +0.0002 / -0.0086": "C4v2-C3=+0.0002 C4v2-C3b=-0.0086",
+    "ladder: 12 rows, five seeds each": "12 rows",
+    "ladder: both logs carry every needed row": "0 missing",
+    "ladder: sandbox logs agree across programs (10 pairs x 3 seeds)": "30/30",
+    "ladder: JSON per-seed values match the logs (12 rows x 5, as multisets)": "24/24 row-metrics",
+    "ladder: L0 reference score is 0.4346": "L0=0.4346",
+    "ladder: displayed labels carry no v1 token": "0/12 labels",
+    "ladder: every row carries a configuration code": "12 codes",
+    "outage: frozen F3 window is 18:30-20:30": "window_s=[66600, 73800]",
+    "outage: DR-step trigger fraction is 0.8": "fraction=0.8",
+    "outage: no episode's DR window is fully covered": "top-level=0, per-episode=0/100",
+    "outage: s7_ec window agrees with protocol_v2.yaml F3": "F3 start=66600 dur=7200",
+    "outage: F3E extension window is 17:00-24:00": "F3E start=61200 dur=25200",
+    "outage: test-split overlap reproduced live": "712/3275 = 0.2174",
+    "transfer: six conditions, one learner seed, frozen bootstrap": "conditions=6 seeds=['C4v2_s0'] delta=0.02",
+    "transfer: 6 conditions x (3 values + resolved + n_units)": "30/30",
+    "baselines: validation achievement values reproduce": "5/5 values",
+    "baselines: both tuning tables carry 144 candidates": "rule=144 learner=144",
+    "forest: delta frozen at 0.02": "delta=0.02",
+    "forest: equal-weight recount reproduces -0.0040 [-0.0239, +0.0174]": "n=21 mean=-0.0040 [-0.0239, +0.0174] half=0.0207",
+    "forest: local classification matches stored labels (1 primary + 7 secondary)": "8/8",
+    "forest: recount classification is the D-rule downgrade": "inconclusive (insufficient power for delta)",
+    "forest: 8 stored rows reproduce the published run values": "24/24 rounded values",
+    "forest: number columns clear every interval and tag column (9 rows)": "min clearance 41px"
+  },
+  "script": "analysis/v2_figures.py",
+  "note": "regenerated from v2 artefacts; the Run 1 figures are NOT regenerated because their producing source is not recoverable (docs/v1_source_provenance.md)"
+}

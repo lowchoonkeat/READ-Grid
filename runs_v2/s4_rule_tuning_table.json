@@ -1,0 +1,2882 @@
+[
+  {
+    "th_low": 0.0,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5859453993933266,
+      "curtail_fraction": 0.028152902157125195,
+      "switches_per_group_run": 0.5613793103448276,
+      "score": 0.557736359305167
+    },
+    "val": {
+      "achievement_rate": 0.5738801628853984,
+      "curtail_fraction": 0.02993856722680368,
+      "switches_per_group_run": 0.49523809523809526,
+      "score": 0.543892071849071
+    },
+    "rank_train": 5,
+    "rank_val": 7
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3946410515672396,
+      "curtail_fraction": 0.02968864585576347,
+      "switches_per_group_run": 0.19620689655172416,
+      "score": 0.36493278502182097
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031126697464405783,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.37374072163307615
+    },
+    "rank_train": 97,
+    "rank_val": 94
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.029693284998587203,
+      "switches_per_group_run": 0.19551724137931034,
+      "score": 0.36452376590619295
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031126697464405783,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.37374072163307615
+    },
+    "rank_train": 115,
+    "rank_val": 95
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3474216380182002,
+      "curtail_fraction": 0.029694035037775294,
+      "switches_per_group_run": 0.07068965517241378,
+      "score": 0.3177205340149077
+    },
+    "val": {
+      "achievement_rate": 0.38394415357766143,
+      "curtail_fraction": 0.031130138686034457,
+      "switches_per_group_run": 0.07238095238095238,
+      "score": 0.35280677679638883
+    },
+    "rank_train": 144,
+    "rank_val": 140
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5875631951466127,
+      "curtail_fraction": 0.02808308437793948,
+      "switches_per_group_run": 0.5617241379310345,
+      "score": 0.5594239383548801
+    },
+    "val": {
+      "achievement_rate": 0.575043630017452,
+      "curtail_fraction": 0.02981411716057883,
+      "switches_per_group_run": 0.49809523809523815,
+      "score": 0.5451797033330636
+    },
+    "rank_train": 3,
+    "rank_val": 1
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3950455005055612,
+      "curtail_fraction": 0.029688304474668338,
+      "switches_per_group_run": 0.19689655172413792,
+      "score": 0.36533750637572043
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 86,
+    "rank_val": 86
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3946410515672396,
+      "curtail_fraction": 0.029688823181221003,
+      "switches_per_group_run": 0.19551724137931034,
+      "score": 0.3649326766618807
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 98,
+    "rank_val": 87
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3941354903943377,
+      "curtail_fraction": 0.029691771406132376,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.36442423622958464
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 120,
+    "rank_val": 88
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5876643073811931,
+      "curtail_fraction": 0.027963160660029344,
+      "switches_per_group_run": 0.5713793103448276,
+      "score": 0.5596440087901293
+    },
+    "val": {
+      "achievement_rate": 0.5741710296684118,
+      "curtail_fraction": 0.02969793611874281,
+      "switches_per_group_run": 0.5009523809523809,
+      "score": 0.5444229983115737
+    },
+    "rank_train": 2,
+    "rank_val": 4
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39524772497472194,
+      "curtail_fraction": 0.029689969891687134,
+      "switches_per_group_run": 0.19724137931034483,
+      "score": 0.36553803094510373
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.03111874583130729,
+      "switches_per_group_run": 0.18571428571428572,
+      "score": 0.3731675111287193
+    },
+    "rank_train": 81,
+    "rank_val": 113
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39474216380182003,
+      "curtail_fraction": 0.029689089077144883,
+      "switches_per_group_run": 0.19724137931034483,
+      "score": 0.3650333505867441
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 94,
+    "rank_val": 107
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3943377148634985,
+      "curtail_fraction": 0.029689607783697544,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36462852087290437
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 106,
+    "rank_val": 108
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5885743174924166,
+      "curtail_fraction": 0.027901569777287652,
+      "switches_per_group_run": 0.5713793103448276,
+      "score": 0.5606156097840945
+    },
+    "val": {
+      "achievement_rate": 0.5744618964514252,
+      "curtail_fraction": 0.02964988062181937,
+      "switches_per_group_run": 0.5028571428571429,
+      "score": 0.5447617301153201
+    },
+    "rank_train": 1,
+    "rank_val": 2
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39544994944388273,
+      "curtail_fraction": 0.029691617881197025,
+      "switches_per_group_run": 0.19827586206896552,
+      "score": 0.36573850397647883
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.0311171836655752,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37375099733666867
+    },
+    "rank_train": 80,
+    "rank_val": 78
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39565217391304347,
+      "curtail_fraction": 0.029690068189354973,
+      "switches_per_group_run": 0.19448275862068964,
+      "score": 0.3659426574478264
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031119137019442366,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37374913922089675
+    },
+    "rank_train": 79,
+    "rank_val": 83
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39524772497472194,
+      "curtail_fraction": 0.029690692297438696,
+      "switches_per_group_run": 0.19448275862068964,
+      "score": 0.36553758440142115
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.03111796165141111,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37375021935083275
+    },
+    "rank_train": 82,
+    "rank_val": 80
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5867542972699696,
+      "curtail_fraction": 0.02776447513230625,
+      "switches_per_group_run": 0.5713793103448276,
+      "score": 0.5589326842066289
+    },
+    "val": {
+      "achievement_rate": 0.5738801628853984,
+      "curtail_fraction": 0.02950121562810518,
+      "switches_per_group_run": 0.5028571428571429,
+      "score": 0.5443286615430076
+    },
+    "rank_train": 4,
+    "rank_val": 5
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39474216380182003,
+      "curtail_fraction": 0.02969195283939311,
+      "switches_per_group_run": 0.19827586206896552,
+      "score": 0.36503038337622
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031114081588133485,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.373463232631097
+    },
+    "rank_train": 96,
+    "rank_val": 99
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39474216380182003,
+      "curtail_fraction": 0.029691372445907614,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.36503103273522275
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031115933486037417,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37346138073319307
+    },
+    "rank_train": 95,
+    "rank_val": 101
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3949443882709808,
+      "curtail_fraction": 0.029692801221683354,
+      "switches_per_group_run": 0.19379310344827586,
+      "score": 0.3652322077389526
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031117886839904584,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37345952261742116
+    },
+    "rank_train": 87,
+    "rank_val": 104
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5805864509605663,
+      "curtail_fraction": 0.027695338052583614,
+      "switches_per_group_run": 0.5755172413793104,
+      "score": 0.5528335611838447
+    },
+    "val": {
+      "achievement_rate": 0.5616637579988365,
+      "curtail_fraction": 0.029182494407071193,
+      "switches_per_group_run": 0.5057142857142857,
+      "score": 0.5324306921631938
+    },
+    "rank_train": 24,
+    "rank_val": 51
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.0296922725233797,
+      "switches_per_group_run": 0.19689655172413792,
+      "score": 0.364524640450366
+    },
+    "val": {
+      "achievement_rate": 0.39761489237929026,
+      "curtail_fraction": 0.031124044652024476,
+      "switches_per_group_run": 0.1819047619047619,
+      "score": 0.36647265725107536
+    },
+    "rank_train": 114,
+    "rank_val": 129
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.02969312924800197,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.36482715491224343
+    },
+    "val": {
+      "achievement_rate": 0.39761489237929026,
+      "curtail_fraction": 0.031124044652024476,
+      "switches_per_group_run": 0.1819047619047619,
+      "score": 0.36647265725107536
+    },
+    "rank_train": 101,
+    "rank_val": 130
+  },
+  {
+    "th_low": 0.0,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.029692265711779037,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3648280184484664
+    },
+    "val": {
+      "achievement_rate": 0.3973240255962769,
+      "curtail_fraction": 0.03112136616070777,
+      "switches_per_group_run": 0.18,
+      "score": 0.3661846594355691
+    },
+    "rank_train": 100,
+    "rank_val": 134
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.583417593528817,
+      "curtail_fraction": 0.028103726970109228,
+      "switches_per_group_run": 0.5613793103448276,
+      "score": 0.5552577286276733
+    },
+    "val": {
+      "achievement_rate": 0.5730075625363583,
+      "curtail_fraction": 0.029905753419417525,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.5430528567359885
+    },
+    "rank_train": 12,
+    "rank_val": 15
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.02968964720298411,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.36452730025352015
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031126697464405783,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.37374072163307615
+    },
+    "rank_train": 110,
+    "rank_val": 96
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39383215369059654,
+      "curtail_fraction": 0.029694286345807844,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36411828113789213
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031126697464405783,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.37374072163307615
+    },
+    "rank_train": 132,
+    "rank_val": 97
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.347623862487361,
+      "curtail_fraction": 0.029695620848662105,
+      "switches_per_group_run": 0.07103448275862069,
+      "score": 0.317921138190423
+    },
+    "val": {
+      "achievement_rate": 0.38394415357766143,
+      "curtail_fraction": 0.031130138686034457,
+      "switches_per_group_run": 0.07238095238095238,
+      "score": 0.35280677679638883
+    },
+    "rank_train": 140,
+    "rank_val": 141
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5846309403437816,
+      "curtail_fraction": 0.028033758517864632,
+      "switches_per_group_run": 0.5610344827586207,
+      "score": 0.5565410783776411
+    },
+    "val": {
+      "achievement_rate": 0.5732984293193717,
+      "curtail_fraction": 0.029734308981735673,
+      "switches_per_group_run": 0.49238095238095236,
+      "score": 0.543514882242398
+    },
+    "rank_train": 7,
+    "rank_val": 9
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3946410515672396,
+      "curtail_fraction": 0.02968930582188898,
+      "switches_per_group_run": 0.19724137931034483,
+      "score": 0.36493202160741955
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 99,
+    "rank_val": 89
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.029689824528441645,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36452719189357985
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 111,
+    "rank_val": 90
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3937310414560162,
+      "curtail_fraction": 0.029692772753353018,
+      "switches_per_group_run": 0.19517241379310346,
+      "score": 0.3640187514612838
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 135,
+    "rank_val": 91
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5841253791708797,
+      "curtail_fraction": 0.02790979277082577,
+      "switches_per_group_run": 0.569655172413793,
+      "score": 0.5561586208828126
+    },
+    "val": {
+      "achievement_rate": 0.5724258289703316,
+      "curtail_fraction": 0.029618127939899652,
+      "switches_per_group_run": 0.49523809523809526,
+      "score": 0.5427581772209081
+    },
+    "rank_train": 9,
+    "rank_val": 17
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3948432760364004,
+      "curtail_fraction": 0.02969097123890778,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.36513254617680296
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.03111874583130729,
+      "switches_per_group_run": 0.18571428571428572,
+      "score": 0.3731675111287193
+    },
+    "rank_train": 89,
+    "rank_val": 114
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3943377148634985,
+      "curtail_fraction": 0.029690090424365524,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.3646278658184433
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 107,
+    "rank_val": 109
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39393326592517697,
+      "curtail_fraction": 0.029690609130918186,
+      "switches_per_group_run": 0.19620689655172416,
+      "score": 0.3642230361046036
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 128,
+    "rank_val": 110
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5849342770475228,
+      "curtail_fraction": 0.02784717287426713,
+      "switches_per_group_run": 0.5710344827586207,
+      "score": 0.5570300007249799
+    },
+    "val": {
+      "achievement_rate": 0.5724258289703316,
+      "curtail_fraction": 0.029554197315074485,
+      "switches_per_group_run": 0.4971428571428571,
+      "score": 0.5428219173695428
+    },
+    "rank_train": 6,
+    "rank_val": 16
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3949443882709808,
+      "curtail_fraction": 0.029693369933018892,
+      "switches_per_group_run": 0.19827586206896552,
+      "score": 0.365231190751755
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.0311171836655752,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37375099733666867
+    },
+    "rank_train": 88,
+    "rank_val": 79
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39524772497472194,
+      "curtail_fraction": 0.029691069536575614,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3655371726795256
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031119137019442366,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37374913922089675
+    },
+    "rank_train": 83,
+    "rank_val": 84
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3948432760364004,
+      "curtail_fraction": 0.029691693644659338,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3651320996331204
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.03111796165141111,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37375021935083275
+    },
+    "rank_train": 90,
+    "rank_val": 81
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5827098078867543,
+      "curtail_fraction": 0.0277073720904906,
+      "switches_per_group_run": 0.5703448275862069,
+      "score": 0.5549454013135051
+    },
+    "val": {
+      "achievement_rate": 0.5715532286212914,
+      "curtail_fraction": 0.029398087236644065,
+      "switches_per_group_run": 0.4971428571428571,
+      "score": 0.5421054270989331
+    },
+    "rank_train": 14,
+    "rank_val": 20
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.029693704891214978,
+      "switches_per_group_run": 0.19827586206896552,
+      "score": 0.3645230701514962
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031114081588133485,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.373463232631097
+    },
+    "rank_train": 119,
+    "rank_val": 100
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.02969312449772948,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.36452371951049894
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031115933486037417,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37346138073319307
+    },
+    "rank_train": 116,
+    "rank_val": 102
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.029693802568903995,
+      "switches_per_group_run": 0.19413793103448276,
+      "score": 0.36482672297065183
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031117886839904584,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37345952261742116
+    },
+    "rank_train": 102,
+    "rank_val": 105
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5765419615773508,
+      "curtail_fraction": 0.027640043638921447,
+      "switches_per_group_run": 0.5751724137931035,
+      "score": 0.5488444006970501
+    },
+    "val": {
+      "achievement_rate": 0.5593368237347295,
+      "curtail_fraction": 0.02907936601561007,
+      "switches_per_group_run": 0.5,
+      "score": 0.5302074577191194
+    },
+    "rank_train": 48,
+    "rank_val": 59
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3937310414560162,
+      "curtail_fraction": 0.029694024575201563,
+      "switches_per_group_run": 0.19689655172413792,
+      "score": 0.36401732722564223
+    },
+    "val": {
+      "achievement_rate": 0.39761489237929026,
+      "curtail_fraction": 0.031124044652024476,
+      "switches_per_group_run": 0.1819047619047619,
+      "score": 0.36647265725107536
+    },
+    "rank_train": 139,
+    "rank_val": 131
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694881299823832,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643198416875197
+    },
+    "val": {
+      "achievement_rate": 0.39761489237929026,
+      "curtail_fraction": 0.031124044652024476,
+      "switches_per_group_run": 0.1819047619047619,
+      "score": 0.36647265725107536
+    },
+    "rank_train": 125,
+    "rank_val": 132
+  },
+  {
+    "th_low": 0.05,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694017763600904,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643207052237426
+    },
+    "val": {
+      "achievement_rate": 0.3973240255962769,
+      "curtail_fraction": 0.03112136616070777,
+      "switches_per_group_run": 0.18,
+      "score": 0.3661846594355691
+    },
+    "rank_train": 121,
+    "rank_val": 135
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5804853387259858,
+      "curtail_fraction": 0.028088268678712114,
+      "switches_per_group_run": 0.5637931034482759,
+      "score": 0.5523406907369289
+    },
+    "val": {
+      "achievement_rate": 0.5732984293193717,
+      "curtail_fraction": 0.02988364227406958,
+      "switches_per_group_run": 0.4866666666666667,
+      "score": 0.5433661203786354
+    },
+    "rank_train": 27,
+    "rank_val": 10
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5806875631951466,
+      "curtail_fraction": 0.028110960321556452,
+      "switches_per_group_run": 0.5510344827586207,
+      "score": 0.5525214994253143
+    },
+    "val": {
+      "achievement_rate": 0.5732984293193717,
+      "curtail_fraction": 0.029900507378493143,
+      "switches_per_group_run": 0.4847619047619047,
+      "score": 0.5433494457504023
+    },
+    "rank_train": 26,
+    "rank_val": 11
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39383215369059654,
+      "curtail_fraction": 0.029694286345807844,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36411828113789213
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031126697464405783,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.37374072163307615
+    },
+    "rank_train": 133,
+    "rank_val": 98
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.347623862487361,
+      "curtail_fraction": 0.029695620848662105,
+      "switches_per_group_run": 0.07103448275862069,
+      "score": 0.317921138190423
+    },
+    "val": {
+      "achievement_rate": 0.38394415357766143,
+      "curtail_fraction": 0.031130138686034457,
+      "switches_per_group_run": 0.07238095238095238,
+      "score": 0.35280677679638883
+    },
+    "rank_train": 141,
+    "rank_val": 142
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5816986855409505,
+      "curtail_fraction": 0.02801988889246388,
+      "switches_per_group_run": 0.563103448275862,
+      "score": 0.5536224863036591
+    },
+    "val": {
+      "achievement_rate": 0.5735892961023851,
+      "curtail_fraction": 0.02971219783638773,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.543828145885045
+    },
+    "rank_train": 20,
+    "rank_val": 8
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5820020222446916,
+      "curtail_fraction": 0.028049491826084027,
+      "switches_per_group_run": 0.5562068965517241,
+      "score": 0.5538969097289523
+    },
+    "val": {
+      "achievement_rate": 0.5744618964514252,
+      "curtail_fraction": 0.029815736592450206,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5445977789065941
+    },
+    "rank_train": 17,
+    "rank_val": 3
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.029689824528441645,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36452719189357985
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 112,
+    "rank_val": 92
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3937310414560162,
+      "curtail_fraction": 0.029692772753353018,
+      "switches_per_group_run": 0.19517241379310346,
+      "score": 0.3640187514612838
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031121888869874374,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3737459111799885
+    },
+    "rank_train": 136,
+    "rank_val": 93
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5809908998988877,
+      "curtail_fraction": 0.027894937479095234,
+      "switches_per_group_run": 0.5706896551724138,
+      "score": 0.5530388934542753
+    },
+    "val": {
+      "achievement_rate": 0.5727166957533449,
+      "curtail_fraction": 0.02960081704635919,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.5430669263260334
+    },
+    "rank_train": 22,
+    "rank_val": 14
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.58422649140546,
+      "curtail_fraction": 0.027967384497620065,
+      "switches_per_group_run": 0.5562068965517241,
+      "score": 0.5562034862181848
+    },
+    "val": {
+      "achievement_rate": 0.5730075625363583,
+      "curtail_fraction": 0.029630349384119847,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.5433282607712862
+    },
+    "rank_train": 8,
+    "rank_val": 12
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3943377148634985,
+      "curtail_fraction": 0.029690090424365524,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.3646278658184433
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 108,
+    "rank_val": 111
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39393326592517697,
+      "curtail_fraction": 0.029690609130918186,
+      "switches_per_group_run": 0.19620689655172416,
+      "score": 0.3642230361046036
+    },
+    "val": {
+      "achievement_rate": 0.40430482838859805,
+      "curtail_fraction": 0.031117570463276033,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.37316859125865537
+    },
+    "rank_train": 129,
+    "rank_val": 112
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5813953488372093,
+      "curtail_fraction": 0.027833538855176802,
+      "switches_per_group_run": 0.5741379310344827,
+      "score": 0.5535043961889291
+    },
+    "val": {
+      "achievement_rate": 0.5727166957533449,
+      "curtail_fraction": 0.029515892276870296,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.5431518510955222
+    },
+    "rank_train": 21,
+    "rank_val": 13
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5840242669362993,
+      "curtail_fraction": 0.02785589671953982,
+      "switches_per_group_run": 0.563103448275862,
+      "score": 0.5561120598719319
+    },
+    "val": {
+      "achievement_rate": 0.5738801628853984,
+      "curtail_fraction": 0.029578595804320616,
+      "switches_per_group_run": 0.48571428571428565,
+      "score": 0.5442529956525064
+    },
+    "rank_train": 10,
+    "rank_val": 6
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39524772497472194,
+      "curtail_fraction": 0.029691069536575614,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3655371726795256
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.031119137019442366,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37374913922089675
+    },
+    "rank_train": 84,
+    "rank_val": 85
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3948432760364004,
+      "curtail_fraction": 0.029691693644659338,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3651320996331204
+    },
+    "val": {
+      "achievement_rate": 0.4048865619546248,
+      "curtail_fraction": 0.03111796165141111,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37375021935083275
+    },
+    "rank_train": 91,
+    "rank_val": 82
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5790697674418605,
+      "curtail_fraction": 0.027696401478724736,
+      "switches_per_group_run": 0.5737931034482758,
+      "score": 0.5513159866527909
+    },
+    "val": {
+      "achievement_rate": 0.5718440954043048,
+      "curtail_fraction": 0.029359782198439884,
+      "switches_per_group_run": 0.48952380952380947,
+      "score": 0.5424353608249125
+    },
+    "rank_train": 29,
+    "rank_val": 19
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5836198179979778,
+      "curtail_fraction": 0.02774035626551443,
+      "switches_per_group_run": 0.5658620689655173,
+      "score": 0.5558228755255669
+    },
+    "val": {
+      "achievement_rate": 0.5721349621873182,
+      "curtail_fraction": 0.02940389009843535,
+      "switches_per_group_run": 0.4876190476190476,
+      "score": 0.5426823101841209
+    },
+    "rank_train": 11,
+    "rank_val": 18
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.02969312449772948,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.36452371951049894
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031115933486037417,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37346138073319307
+    },
+    "rank_train": 117,
+    "rank_val": 103
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.029693802568903995,
+      "switches_per_group_run": 0.19413793103448276,
+      "score": 0.36482672297065183
+    },
+    "val": {
+      "achievement_rate": 0.4045956951716114,
+      "curtail_fraction": 0.031117886839904584,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37345952261742116
+    },
+    "rank_train": 103,
+    "rank_val": 106
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5722952477249748,
+      "curtail_fraction": 0.027592843462635814,
+      "switches_per_group_run": 0.5779310344827586,
+      "score": 0.5446446111588907
+    },
+    "val": {
+      "achievement_rate": 0.5596276905177429,
+      "curtail_fraction": 0.029026267957323666,
+      "switches_per_group_run": 0.49238095238095236,
+      "score": 0.5305521844651812
+    },
+    "rank_train": 66,
+    "rank_val": 58
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5778564206268959,
+      "curtail_fraction": 0.02765459321867227,
+      "switches_per_group_run": 0.5662068965517242,
+      "score": 0.5501452067185685
+    },
+    "val": {
+      "achievement_rate": 0.5636998254799301,
+      "curtail_fraction": 0.02913695554607186,
+      "switches_per_group_run": 0.4876190476190476,
+      "score": 0.5345141080290964
+    },
+    "rank_train": 38,
+    "rank_val": 48
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694881299823832,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643198416875197
+    },
+    "val": {
+      "achievement_rate": 0.39761489237929026,
+      "curtail_fraction": 0.031124044652024476,
+      "switches_per_group_run": 0.1819047619047619,
+      "score": 0.36647265725107536
+    },
+    "rank_train": 126,
+    "rank_val": 133
+  },
+  {
+    "th_low": 0.1,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694017763600904,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643207052237426
+    },
+    "val": {
+      "achievement_rate": 0.3973240255962769,
+      "curtail_fraction": 0.03112136616070777,
+      "switches_per_group_run": 0.18,
+      "score": 0.3661846594355691
+    },
+    "rank_train": 122,
+    "rank_val": 136
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5776541961577351,
+      "curtail_fraction": 0.02806591715516389,
+      "switches_per_group_run": 0.5627586206896552,
+      "score": 0.5495320031405022
+    },
+    "val": {
+      "achievement_rate": 0.5698080279232112,
+      "curtail_fraction": 0.029812753258822267,
+      "switches_per_group_run": 0.4809523809523809,
+      "score": 0.5399471794262937
+    },
+    "rank_train": 42,
+    "rank_val": 24
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5792719919110212,
+      "curtail_fraction": 0.02808433497478189,
+      "switches_per_group_run": 0.5499999999999999,
+      "score": 0.5511326569362393
+    },
+    "val": {
+      "achievement_rate": 0.5692262943571844,
+      "curtail_fraction": 0.029814675954802094,
+      "switches_per_group_run": 0.48,
+      "score": 0.5393636184023822
+    },
+    "rank_train": 32,
+    "rank_val": 27
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39383215369059654,
+      "curtail_fraction": 0.02969434908103748,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.3641182184026625
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.03112569922229082,
+      "switches_per_group_run": 0.19142857142857142,
+      "score": 0.3728691195261509
+    },
+    "rank_train": 134,
+    "rank_val": 121
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.347623862487361,
+      "curtail_fraction": 0.029695620848662105,
+      "switches_per_group_run": 0.07103448275862069,
+      "score": 0.317921138190423
+    },
+    "val": {
+      "achievement_rate": 0.3830715532286213,
+      "curtail_fraction": 0.031129140443919488,
+      "switches_per_group_run": 0.07238095238095238,
+      "score": 0.35193517468946367
+    },
+    "rank_train": 142,
+    "rank_val": 143
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5785642062689585,
+      "curtail_fraction": 0.02800000833547253,
+      "switches_per_group_run": 0.5637931034482759,
+      "score": 0.5505078186231411
+    },
+    "val": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.029641308821140414,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5404092049327032
+    },
+    "rank_train": 36,
+    "rank_val": 22
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.580788675429727,
+      "curtail_fraction": 0.028021400829545972,
+      "switches_per_group_run": 0.5568965517241379,
+      "score": 0.5527115849450086
+    },
+    "val": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029737429385135218,
+      "switches_per_group_run": 0.4780952380952381,
+      "score": 0.5408953893633065
+    },
+    "rank_train": 25,
+    "rank_val": 21
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.029689824528441645,
+      "switches_per_group_run": 0.19586206896551722,
+      "score": 0.36452719189357985
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031120890627759412,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3728743090730633
+    },
+    "rank_train": 113,
+    "rank_val": 118
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3937310414560162,
+      "curtail_fraction": 0.029692772753353018,
+      "switches_per_group_run": 0.19517241379310346,
+      "score": 0.3640187514612838
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031120890627759412,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3728743090730633
+    },
+    "rank_train": 137,
+    "rank_val": 119
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5775530839231547,
+      "curtail_fraction": 0.027856199394989376,
+      "switches_per_group_run": 0.5703448275862069,
+      "score": 0.5496398500454067
+    },
+    "val": {
+      "achievement_rate": 0.5692262943571844,
+      "curtail_fraction": 0.029529928031111877,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5396479853736916
+    },
+    "rank_train": 41,
+    "rank_val": 25
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5824064711830131,
+      "curtail_fraction": 0.02794298597052636,
+      "switches_per_group_run": 0.5562068965517241,
+      "score": 0.5544078645228316
+    },
+    "val": {
+      "achievement_rate": 0.5692262943571844,
+      "curtail_fraction": 0.029552042176804866,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5396258712279987
+    },
+    "rank_train": 15,
+    "rank_val": 26
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3943377148634985,
+      "curtail_fraction": 0.029690090424365524,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.3646278658184433
+    },
+    "val": {
+      "achievement_rate": 0.40343222803955786,
+      "curtail_fraction": 0.03111657222116107,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.3722969891517301
+    },
+    "rank_train": 109,
+    "rank_val": 125
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39393326592517697,
+      "curtail_fraction": 0.029690609130918186,
+      "switches_per_group_run": 0.19620689655172416,
+      "score": 0.3642230361046036
+    },
+    "val": {
+      "achievement_rate": 0.40343222803955786,
+      "curtail_fraction": 0.03111657222116107,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.3722969891517301
+    },
+    "rank_train": 130,
+    "rank_val": 126
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5778564206268959,
+      "curtail_fraction": 0.02778629569632408,
+      "switches_per_group_run": 0.5748275862068966,
+      "score": 0.5500126421719511
+    },
+    "val": {
+      "achievement_rate": 0.5683536940081443,
+      "curtail_fraction": 0.029439274456639988,
+      "switches_per_group_run": 0.48571428571428565,
+      "score": 0.5388658481229329
+    },
+    "rank_train": 39,
+    "rank_val": 28
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5819009100101112,
+      "curtail_fraction": 0.027825418217912824,
+      "switches_per_group_run": 0.5634482758620689,
+      "score": 0.5540191469646122
+    },
+    "val": {
+      "achievement_rate": 0.5698080279232112,
+      "curtail_fraction": 0.02949276438062956,
+      "switches_per_group_run": 0.48,
+      "score": 0.5402672635425816
+    },
+    "rank_train": 16,
+    "rank_val": 23
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39524772497472194,
+      "curtail_fraction": 0.029691069536575614,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3655371726795256
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031118138777327404,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37287753711397154
+    },
+    "rank_train": 85,
+    "rank_val": 117
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3948432760364004,
+      "curtail_fraction": 0.029691693644659338,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3651320996331204
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031116963409296147,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37287861724390753
+    },
+    "rank_train": 92,
+    "rank_val": 115
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5757330637007078,
+      "curtail_fraction": 0.02764269984214059,
+      "switches_per_group_run": 0.5727586206896551,
+      "score": 0.5480330879964982
+    },
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.02927581306063609,
+      "switches_per_group_run": 0.48857142857142855,
+      "score": 0.5375746898895841
+    },
+    "rank_train": 54,
+    "rank_val": 34
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5814964610717896,
+      "curtail_fraction": 0.02770753694150144,
+      "switches_per_group_run": 0.5648275862068965,
+      "score": 0.5537324413716675
+    },
+    "val": {
+      "achievement_rate": 0.5674810936591042,
+      "curtail_fraction": 0.02929612979407209,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5381367733888416
+    },
+    "rank_train": 18,
+    "rank_val": 31
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3942366026289181,
+      "curtail_fraction": 0.02969312449772948,
+      "switches_per_group_run": 0.19758620689655174,
+      "score": 0.36452371951049894
+    },
+    "val": {
+      "achievement_rate": 0.40372309482257124,
+      "curtail_fraction": 0.031114935243922455,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37258977862626785
+    },
+    "rank_train": 118,
+    "rank_val": 122
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.029693802568903995,
+      "switches_per_group_run": 0.19413793103448276,
+      "score": 0.36482672297065183
+    },
+    "val": {
+      "achievement_rate": 0.40372309482257124,
+      "curtail_fraction": 0.031116888597789622,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37258792051049594
+    },
+    "rank_train": 104,
+    "rank_val": 123
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5685540950455005,
+      "curtail_fraction": 0.02751002453671977,
+      "switches_per_group_run": 0.5751724137931035,
+      "score": 0.5409865532674014
+    },
+    "val": {
+      "achievement_rate": 0.5549738219895288,
+      "curtail_fraction": 0.02894242337822605,
+      "switches_per_group_run": 0.49238095238095236,
+      "score": 0.5259821605160647
+    },
+    "rank_train": 73,
+    "rank_val": 71
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5757330637007078,
+      "curtail_fraction": 0.027604627068599254,
+      "switches_per_group_run": 0.5675862068965517,
+      "score": 0.5480716780114189
+    },
+    "val": {
+      "achievement_rate": 0.5587550901687027,
+      "curtail_fraction": 0.029027897676905598,
+      "switches_per_group_run": 0.4847619047619047,
+      "score": 0.5296787163013209
+    },
+    "rank_train": 53,
+    "rank_val": 62
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694881299823832,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643198416875197
+    },
+    "val": {
+      "achievement_rate": 0.3961605584642234,
+      "curtail_fraction": 0.031120678354144032,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.3650215943957937
+    },
+    "rank_train": 127,
+    "rank_val": 139
+  },
+  {
+    "th_low": 0.15,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694017763600904,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643207052237426
+    },
+    "val": {
+      "achievement_rate": 0.39645142524723676,
+      "curtail_fraction": 0.03112036791859281,
+      "switches_per_group_run": 0.18,
+      "score": 0.36531305732864394
+    },
+    "rank_train": 123,
+    "rank_val": 137
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5759352881698686,
+      "curtail_fraction": 0.028045264320546014,
+      "switches_per_group_run": 0.5610344827586207,
+      "score": 0.5478339204010467
+    },
+    "val": {
+      "achievement_rate": 0.566608493310064,
+      "curtail_fraction": 0.02973458943533614,
+      "switches_per_group_run": 0.47714285714285715,
+      "score": 0.5368261895890136
+    },
+    "rank_train": 56,
+    "rank_val": 39
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5775530839231547,
+      "curtail_fraction": 0.028083461113208984,
+      "switches_per_group_run": 0.5493103448275862,
+      "score": 0.549414691775463
+    },
+    "val": {
+      "achievement_rate": 0.566608493310064,
+      "curtail_fraction": 0.029751720013551735,
+      "switches_per_group_run": 0.47619047619047616,
+      "score": 0.5368091542488932
+    },
+    "rank_train": 43,
+    "rank_val": 41
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.578159757330637,
+      "curtail_fraction": 0.02811483088980841,
+      "switches_per_group_run": 0.5417241379310345,
+      "score": 0.5499907540270355
+    },
+    "val": {
+      "achievement_rate": 0.5671902268760908,
+      "curtail_fraction": 0.02978057697757189,
+      "switches_per_group_run": 0.47619047619047616,
+      "score": 0.5373620308508998
+    },
+    "rank_train": 40,
+    "rank_val": 36
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.34752275025278057,
+      "curtail_fraction": 0.029695431279715946,
+      "switches_per_group_run": 0.07103448275862069,
+      "score": 0.31782021552478873
+    },
+    "val": {
+      "achievement_rate": 0.3830715532286213,
+      "curtail_fraction": 0.031129140443919488,
+      "switches_per_group_run": 0.07238095238095238,
+      "score": 0.35193517468946367
+    },
+    "rank_train": 143,
+    "rank_val": 144
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5767441860465117,
+      "curtail_fraction": 0.027972232713010945,
+      "switches_per_group_run": 0.5620689655172414,
+      "score": 0.548715746436949
+    },
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.02955014366006236,
+      "switches_per_group_run": 0.47904761904761906,
+      "score": 0.5373013116711103
+    },
+    "rank_train": 49,
+    "rank_val": 37
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.578665318503539,
+      "curtail_fraction": 0.028015423791516128,
+      "switches_per_group_run": 0.5575862068965518,
+      "score": 0.5505941360913332
+    },
+    "val": {
+      "achievement_rate": 0.5680628272251309,
+      "curtail_fraction": 0.029674473443884866,
+      "switches_per_group_run": 0.4742857142857143,
+      "score": 0.5383409252098175
+    },
+    "rank_train": 35,
+    "rank_val": 29
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5791708796764409,
+      "curtail_fraction": 0.028049275796962685,
+      "switches_per_group_run": 0.5437931034482758,
+      "score": 0.5510672245691334
+    },
+    "val": {
+      "achievement_rate": 0.5680628272251309,
+      "curtail_fraction": 0.02969968945983409,
+      "switches_per_group_run": 0.47333333333333333,
+      "score": 0.5383158044319636
+    },
+    "rank_train": 33,
+    "rank_val": 30
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3937310414560162,
+      "curtail_fraction": 0.029692772753353018,
+      "switches_per_group_run": 0.19517241379310346,
+      "score": 0.3640187514612838
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031120890627759412,
+      "switches_per_group_run": 0.18761904761904763,
+      "score": 0.3728743090730633
+    },
+    "rank_train": 138,
+    "rank_val": 120
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.574721941354904,
+      "curtail_fraction": 0.027806372756828335,
+      "switches_per_group_run": 0.569655172413793,
+      "score": 0.5468586030808343
+    },
+    "val": {
+      "achievement_rate": 0.5660267597440373,
+      "curtail_fraction": 0.02943180749283832,
+      "switches_per_group_run": 0.47904761904761906,
+      "score": 0.5365470474892942
+    },
+    "rank_train": 60,
+    "rank_val": 44
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5801820020222447,
+      "curtail_fraction": 0.027927668399482214,
+      "switches_per_group_run": 0.5548275862068965,
+      "score": 0.5521988508641418
+    },
+    "val": {
+      "achievement_rate": 0.5663176265270506,
+      "curtail_fraction": 0.029461417134751415,
+      "switches_per_group_run": 0.4780952380952381,
+      "score": 0.5368083998684897
+    },
+    "rank_train": 28,
+    "rank_val": 42
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5809908998988877,
+      "curtail_fraction": 0.027962492749512766,
+      "switches_per_group_run": 0.5465517241379311,
+      "score": 0.5529737519769612
+    },
+    "val": {
+      "achievement_rate": 0.5677719604421175,
+      "curtail_fraction": 0.029601544742323214,
+      "switches_per_group_run": 0.4742857142857143,
+      "score": 0.5381229871283657
+    },
+    "rank_train": 23,
+    "rank_val": 32
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39393326592517697,
+      "curtail_fraction": 0.029690609130918186,
+      "switches_per_group_run": 0.19620689655172416,
+      "score": 0.3642230361046036
+    },
+    "val": {
+      "achievement_rate": 0.40343222803955786,
+      "curtail_fraction": 0.03111657222116107,
+      "switches_per_group_run": 0.18666666666666668,
+      "score": 0.3722969891517301
+    },
+    "rank_train": 131,
+    "rank_val": 127
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5748230535894844,
+      "curtail_fraction": 0.02773709317434125,
+      "switches_per_group_run": 0.5727586206896551,
+      "score": 0.5470286845530742
+    },
+    "val": {
+      "achievement_rate": 0.5648632926119838,
+      "curtail_fraction": 0.0293337007125373,
+      "switches_per_group_run": 0.4809523809523809,
+      "score": 0.5354814966613513
+    },
+    "rank_train": 59,
+    "rank_val": 46
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5791708796764409,
+      "curtail_fraction": 0.02780687763404774,
+      "switches_per_group_run": 0.5624137931034482,
+      "score": 0.5513077606630827
+    },
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.02940213933857611,
+      "switches_per_group_run": 0.4742857142857143,
+      "score": 0.5374497921830726
+    },
+    "rank_train": 30,
+    "rank_val": 35
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5831142568250758,
+      "curtail_fraction": 0.027885185288947834,
+      "switches_per_group_run": 0.5462068965517242,
+      "score": 0.5551744508464728
+    },
+    "val": {
+      "achievement_rate": 0.5674810936591042,
+      "curtail_fraction": 0.02942543265854551,
+      "switches_per_group_run": 0.4742857142857143,
+      "score": 0.5380082324291301
+    },
+    "rank_train": 13,
+    "rank_val": 33
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.3948432760364004,
+      "curtail_fraction": 0.029691693644659338,
+      "switches_per_group_run": 0.19482758620689655,
+      "score": 0.3651320996331204
+    },
+    "val": {
+      "achievement_rate": 0.4040139616055846,
+      "curtail_fraction": 0.031116963409296147,
+      "switches_per_group_run": 0.1838095238095238,
+      "score": 0.37287861724390753
+    },
+    "rank_train": 93,
+    "rank_val": 116
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5728008088978767,
+      "curtail_fraction": 0.027589986470730854,
+      "switches_per_group_run": 0.5720689655172414,
+      "score": 0.545153615530594
+    },
+    "val": {
+      "achievement_rate": 0.5631180919139034,
+      "curtail_fraction": 0.029162622011722872,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5339070889497995
+    },
+    "rank_train": 64,
+    "rank_val": 49
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5784630940343781,
+      "curtail_fraction": 0.027694436954953727,
+      "switches_per_group_run": 0.5637931034482759,
+      "score": 0.5507122777690795
+    },
+    "val": {
+      "achievement_rate": 0.564281559045957,
+      "curtail_fraction": 0.029198051546189513,
+      "switches_per_group_run": 0.47619047619047616,
+      "score": 0.5350358884521484
+    },
+    "rank_train": 34,
+    "rank_val": 47
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5814964610717896,
+      "curtail_fraction": 0.027716393264392652,
+      "switches_per_group_run": 0.5537931034482758,
+      "score": 0.5537246884970521
+    },
+    "val": {
+      "achievement_rate": 0.5660267597440373,
+      "curtail_fraction": 0.029284083407370685,
+      "switches_per_group_run": 0.4723809523809524,
+      "score": 0.5366954382414285
+    },
+    "rank_train": 19,
+    "rank_val": 43
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39453993933265924,
+      "curtail_fraction": 0.029693802568903995,
+      "switches_per_group_run": 0.19413793103448276,
+      "score": 0.36482672297065183
+    },
+    "val": {
+      "achievement_rate": 0.40372309482257124,
+      "curtail_fraction": 0.031116888597789622,
+      "switches_per_group_run": 0.18285714285714286,
+      "score": 0.37258792051049594
+    },
+    "rank_train": 105,
+    "rank_val": 124
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.565520728008089,
+      "curtail_fraction": 0.027460474858924264,
+      "switches_per_group_run": 0.5786206896551724,
+      "score": 0.5380023910801992
+    },
+    "val": {
+      "achievement_rate": 0.5509016870273414,
+      "curtail_fraction": 0.02883398840109366,
+      "switches_per_group_run": 0.4876190476190476,
+      "score": 0.5220189367214859
+    },
+    "rank_train": 75,
+    "rank_val": 73
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5724974721941355,
+      "curtail_fraction": 0.027559248696527164,
+      "switches_per_group_run": 0.5662068965517242,
+      "score": 0.5448816028079532
+    },
+    "val": {
+      "achievement_rate": 0.5555555555555556,
+      "curtail_fraction": 0.02892981942902302,
+      "switches_per_group_run": 0.47904761904761906,
+      "score": 0.5265778313646278
+    },
+    "rank_train": 65,
+    "rank_val": 69
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5766430738119313,
+      "curtail_fraction": 0.027646471264365726,
+      "switches_per_group_run": 0.5579310344827586,
+      "score": 0.5489408094441173
+    },
+    "val": {
+      "achievement_rate": 0.5564281559045957,
+      "curtail_fraction": 0.02895217369618424,
+      "switches_per_group_run": 0.47714285714285715,
+      "score": 0.5274282679226973
+    },
+    "rank_train": 46,
+    "rank_val": 67
+  },
+  {
+    "th_low": 0.2,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.39403437815975734,
+      "curtail_fraction": 0.029694017763600904,
+      "switches_per_group_run": 0.19655172413793104,
+      "score": 0.3643207052237426
+    },
+    "val": {
+      "achievement_rate": 0.39645142524723676,
+      "curtail_fraction": 0.03112036791859281,
+      "switches_per_group_run": 0.18,
+      "score": 0.36531305732864394
+    },
+    "rank_train": 124,
+    "rank_val": 138
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.2,
+    "hyst": 0.0,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5759352881698686,
+      "curtail_fraction": 0.028045264320546014,
+      "switches_per_group_run": 0.5610344827586207,
+      "score": 0.5478339204010467
+    },
+    "val": {
+      "achievement_rate": 0.566608493310064,
+      "curtail_fraction": 0.02973458943533614,
+      "switches_per_group_run": 0.47714285714285715,
+      "score": 0.5368261895890136
+    },
+    "rank_train": 57,
+    "rank_val": 40
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.2,
+    "hyst": 0.1,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5770475227502527,
+      "curtail_fraction": 0.028082912883753367,
+      "switches_per_group_run": 0.5520689655172414,
+      "score": 0.5489094029699476
+    },
+    "val": {
+      "achievement_rate": 0.5660267597440373,
+      "curtail_fraction": 0.029736512131315965,
+      "switches_per_group_run": 0.47619047619047616,
+      "score": 0.5362426285651022
+    },
+    "rank_train": 47,
+    "rank_val": 45
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.2,
+    "hyst": 0.2,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.576845298281092,
+      "curtail_fraction": 0.028113670374016225,
+      "switches_per_group_run": 0.5437931034482758,
+      "score": 0.548677248596731
+    },
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.029764701849670165,
+      "switches_per_group_run": 0.47619047619047616,
+      "score": 0.5370870391957882
+    },
+    "rank_train": 50,
+    "rank_val": 38
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.2,
+    "hyst": 0.3,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.39848331648129426,
+      "curtail_fraction": 0.02969071551640955,
+      "switches_per_group_run": 0.12551724137931036,
+      "score": 0.36878004924074675
+    },
+    "val": {
+      "achievement_rate": 0.40255962769051773,
+      "curtail_fraction": 0.031134665644722562,
+      "switches_per_group_run": 0.11714285714285715,
+      "score": 0.3714132477600809
+    },
+    "rank_train": 78,
+    "rank_val": 128
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5719919110212336,
+      "curtail_fraction": 0.027876546607483055,
+      "switches_per_group_run": 0.5603448275862069,
+      "score": 0.5440593299309919
+    },
+    "val": {
+      "achievement_rate": 0.5575916230366492,
+      "curtail_fraction": 0.029367975486853277,
+      "switches_per_group_run": 0.4723809523809524,
+      "score": 0.5281764094545578
+    },
+    "rank_train": 68,
+    "rank_val": 65
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.3,
+    "hyst": 0.1,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5732052578361981,
+      "curtail_fraction": 0.02796511006535586,
+      "switches_per_group_run": 0.5558620689655173,
+      "score": 0.5451845615639458
+    },
+    "val": {
+      "achievement_rate": 0.5613728912158231,
+      "curtail_fraction": 0.02946927842954297,
+      "switches_per_group_run": 0.46,
+      "score": 0.5318576127862802
+    },
+    "rank_train": 63,
+    "rank_val": 54
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.3,
+    "hyst": 0.2,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.575530839231547,
+      "curtail_fraction": 0.028007348351425026,
+      "switches_per_group_run": 0.5431034482758621,
+      "score": 0.5474691805352944
+    },
+    "val": {
+      "achievement_rate": 0.5613728912158231,
+      "curtail_fraction": 0.029486409007758566,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5318405774461598
+    },
+    "rank_train": 58,
+    "rank_val": 55
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.3,
+    "hyst": 0.3,
+    "degenerate": true,
+    "train": {
+      "achievement_rate": 0.5762386248736097,
+      "curtail_fraction": 0.028055329222641465,
+      "switches_per_group_run": 0.5355172413793103,
+      "score": 0.5481297439268303
+    },
+    "val": {
+      "achievement_rate": 0.5616637579988365,
+      "curtail_fraction": 0.029502284135660292,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5321155691012714
+    },
+    "rank_train": 52,
+    "rank_val": 52
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.4,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5693629929221435,
+      "curtail_fraction": 0.027671437861740675,
+      "switches_per_group_run": 0.566551724137931,
+      "score": 0.5416348998879891
+    },
+    "val": {
+      "achievement_rate": 0.5570098894706225,
+      "curtail_fraction": 0.02925518655297533,
+      "switches_per_group_run": 0.4723809523809524,
+      "score": 0.527707464822409
+    },
+    "rank_train": 71,
+    "rank_val": 66
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.4,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5740141557128412,
+      "curtail_fraction": 0.027832449359272798,
+      "switches_per_group_run": 0.5548275862068965,
+      "score": 0.5461262235949478
+    },
+    "val": {
+      "achievement_rate": 0.5590459569517161,
+      "curtail_fraction": 0.02927772069249251,
+      "switches_per_group_run": 0.46761904761904766,
+      "score": 0.5297214743544617
+    },
+    "rank_train": 62,
+    "rank_val": 61
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.4,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5763397371081901,
+      "curtail_fraction": 0.027900759091290132,
+      "switches_per_group_run": 0.5479310344827586,
+      "score": 0.5483841849134518
+    },
+    "val": {
+      "achievement_rate": 0.5613728912158231,
+      "curtail_fraction": 0.02939381152359379,
+      "switches_per_group_run": 0.46,
+      "score": 0.5319330796922294
+    },
+    "rank_train": 51,
+    "rank_val": 53
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.4,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5772497472194136,
+      "curtail_fraction": 0.02794395974945976,
+      "switches_per_group_run": 0.5362068965517242,
+      "score": 0.5492521667802986
+    },
+    "val": {
+      "achievement_rate": 0.5610820244328097,
+      "curtail_fraction": 0.029411609347475342,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5316245103234296
+    },
+    "rank_train": 45,
+    "rank_val": 56
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5689585439838221,
+      "curtail_fraction": 0.027604668794466103,
+      "switches_per_group_run": 0.5706896551724138,
+      "score": 0.5412968062238387
+    },
+    "val": {
+      "achievement_rate": 0.5555555555555556,
+      "curtail_fraction": 0.029149410279376235,
+      "switches_per_group_run": 0.4742857142857143,
+      "score": 0.5263587167047508
+    },
+    "rank_train": 72,
+    "rank_val": 70
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.5,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5719919110212336,
+      "curtail_fraction": 0.027666417776356395,
+      "switches_per_group_run": 0.5627586206896552,
+      "score": 0.5442692173828083
+    },
+    "val": {
+      "achievement_rate": 0.5590459569517161,
+      "curtail_fraction": 0.029220238307710276,
+      "switches_per_group_run": 0.4657142857142857,
+      "score": 0.5297791472154344
+    },
+    "rank_train": 67,
+    "rank_val": 60
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.5,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5771486349848332,
+      "curtail_fraction": 0.02780167679259057,
+      "switches_per_group_run": 0.5475862068965518,
+      "score": 0.5492921995715528
+    },
+    "val": {
+      "achievement_rate": 0.5599185573007562,
+      "curtail_fraction": 0.029225938392537315,
+      "switches_per_group_run": 0.4628571428571429,
+      "score": 0.5306463331939333
+    },
+    "rank_train": 44,
+    "rank_val": 57
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.5,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5783619817997978,
+      "curtail_fraction": 0.02786300528021777,
+      "switches_per_group_run": 0.5417241379310345,
+      "score": 0.5504448041057869
+    },
+    "val": {
+      "achievement_rate": 0.5622454915648633,
+      "curtail_fraction": 0.02933981215007918,
+      "switches_per_group_run": 0.4561904761904762,
+      "score": 0.532860060367165
+    },
+    "rank_train": 37,
+    "rank_val": 50
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.6,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5665318503538929,
+      "curtail_fraction": 0.027429515393823222,
+      "switches_per_group_run": 0.5710344827586207,
+      "score": 0.5390452315117938
+    },
+    "val": {
+      "achievement_rate": 0.5538103548574753,
+      "curtail_fraction": 0.028978331578561806,
+      "switches_per_group_run": 0.47714285714285715,
+      "score": 0.5247843089931993
+    },
+    "rank_train": 74,
+    "rank_val": 72
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.6,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5707785642062689,
+      "curtail_fraction": 0.0275375676116077,
+      "switches_per_group_run": 0.5641379310344827,
+      "score": 0.5431845828015578
+    },
+    "val": {
+      "achievement_rate": 0.5561372891215823,
+      "curtail_fraction": 0.029008533210513155,
+      "switches_per_group_run": 0.46761904761904766,
+      "score": 0.5270819940063073
+    },
+    "rank_train": 69,
+    "rank_val": 68
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.6,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.575530839231547,
+      "curtail_fraction": 0.027630370479994795,
+      "switches_per_group_run": 0.553448275862069,
+      "score": 0.547845123923966
+    },
+    "val": {
+      "achievement_rate": 0.5584642233856894,
+      "curtail_fraction": 0.02908458914136249,
+      "switches_per_group_run": 0.46095238095238095,
+      "score": 0.5293335390062316
+    },
+    "rank_train": 55,
+    "rank_val": 64
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.6,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5790697674418605,
+      "curtail_fraction": 0.027730724249329358,
+      "switches_per_group_run": 0.5393103448275862,
+      "score": 0.5512851121580483
+    },
+    "val": {
+      "achievement_rate": 0.5587550901687027,
+      "curtail_fraction": 0.029100464269264218,
+      "switches_per_group_run": 0.46095238095238095,
+      "score": 0.5296085306613432
+    },
+    "rank_train": 31,
+    "rank_val": 63
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.75,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5597573306370071,
+      "curtail_fraction": 0.027316850557729377,
+      "switches_per_group_run": 0.5748275862068966,
+      "score": 0.532382997320657
+    },
+    "val": {
+      "achievement_rate": 0.5378126817917394,
+      "curtail_fraction": 0.02854646614613792,
+      "switches_per_group_run": 0.48,
+      "score": 0.5092182156456014
+    },
+    "rank_train": 77,
+    "rank_val": 77
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.75,
+    "hyst": 0.1,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5652173913043478,
+      "curtail_fraction": 0.027414011713185138,
+      "switches_per_group_run": 0.5686206896551723,
+      "score": 0.5377465175221972
+    },
+    "val": {
+      "achievement_rate": 0.5450843513670739,
+      "curtail_fraction": 0.0286781229400193,
+      "switches_per_group_run": 0.4704761904761905,
+      "score": 0.516359180808007
+    },
+    "rank_train": 76,
+    "rank_val": 76
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.75,
+    "hyst": 0.2,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5706774519716886,
+      "curtail_fraction": 0.02752193637004837,
+      "switches_per_group_run": 0.5582758620689655,
+      "score": 0.5430996880154333
+    },
+    "val": {
+      "achievement_rate": 0.5477021524141943,
+      "curtail_fraction": 0.028696540150956767,
+      "switches_per_group_run": 0.46380952380952384,
+      "score": 0.5189592313108565
+    },
+    "rank_train": 70,
+    "rank_val": 75
+  },
+  {
+    "th_low": 0.3,
+    "th_high": 0.75,
+    "hyst": 0.3,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5744186046511628,
+      "curtail_fraction": 0.027602833183479218,
+      "switches_per_group_run": 0.5496551724137931,
+      "score": 0.5467608059504422
+    },
+    "val": {
+      "achievement_rate": 0.5488656195462478,
+      "curtail_fraction": 0.028772731897000147,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5200469828873429
+    },
+    "rank_train": 61,
+    "rank_val": 74
+  }
+]

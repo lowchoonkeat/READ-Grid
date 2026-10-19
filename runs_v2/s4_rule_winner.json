@@ -1,0 +1,44 @@
+{
+  "selection_rule": "val score desc, th_low asc, th_high asc, hyst asc",
+  "n_candidates": 144,
+  "winner": {
+    "th_low": 0.0,
+    "th_high": 0.3,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5875631951466127,
+      "curtail_fraction": 0.02808308437793948,
+      "switches_per_group_run": 0.5617241379310345,
+      "score": 0.5594239383548801
+    },
+    "val": {
+      "achievement_rate": 0.575043630017452,
+      "curtail_fraction": 0.02981411716057883,
+      "switches_per_group_run": 0.49809523809523815,
+      "score": 0.5451797033330636
+    },
+    "rank_train": 3,
+    "rank_val": 1
+  },
+  "train_selected_winner": {
+    "th_low": 0.0,
+    "th_high": 0.5,
+    "hyst": 0.0,
+    "degenerate": false,
+    "train": {
+      "achievement_rate": 0.5885743174924166,
+      "curtail_fraction": 0.027901569777287652,
+      "switches_per_group_run": 0.5713793103448276,
+      "score": 0.5606156097840945
+    },
+    "val": {
+      "achievement_rate": 0.5744618964514252,
+      "curtail_fraction": 0.02964988062181937,
+      "switches_per_group_run": 0.5028571428571429,
+      "score": 0.5447617301153201
+    },
+    "rank_train": 1,
+    "rank_val": 2
+  }
+}

@@ -1,0 +1,58 @@
+! =============================================================================
+! IEEE 123-bus rating patch - P359 / READ-Grid rebuild
+! =============================================================================
+! Purpose: replace the OpenDSS *software-default* thermal ratings
+! (NormAmps = 400 A, EmergAmps = 600 A) that the shipped feeder inherits,
+! with source-defined 50 degC ampacities.
+!
+! Provenance of each value (recorded per line code):
+!   LC 1-8   (336.4 kcmil 26/7 ACSR, overhead)     530 A   source_defined
+!   LC 9-11  (1/0 ACSR, overhead lateral)          230 A   source_defined
+!   LC 12    (1/0 AA, 15 kV underground)           175 A   source_defined
+!
+! Values are taken from Kersting's IEEE 123-bus specification as reported in
+! the third-party audit. They are *referenced*, not recomputed from conductor
+! geometry in this project. Where a result depends on them, the provenance is
+! stated. See docs/audit_resolution.md issue A1.
+!
+! EmergAmps: no separate emergency rating is available in the source. It is set
+! equal to NormAmps as a conservative documented ASSUMPTION (origin =
+! new_assumption) so that the software default (600 A) is not silently retained.
+!
+! The eight zero-length switch segments (sw1..sw8) carry no line code and are
+! treated as UNRATED; they are excluded from the loading metrics by name in
+! src/readgrid/feeder.py.
+!
+! NOTE: exactly ONE OpenDSS command per line. Two commands separated by spaces
+! on the same line are parsed as one command plus an unknown parameter.
+! =============================================================================
+
+! ---- 336.4 kcmil 26/7 ACSR (three-phase main) : 530 A @ 50 degC ----
+Linecode.1.NormAmps=530
+Linecode.1.EmergAmps=530
+Linecode.2.NormAmps=530
+Linecode.2.EmergAmps=530
+Linecode.3.NormAmps=530
+Linecode.3.EmergAmps=530
+Linecode.4.NormAmps=530
+Linecode.4.EmergAmps=530
+Linecode.5.NormAmps=530
+Linecode.5.EmergAmps=530
+Linecode.6.NormAmps=530
+Linecode.6.EmergAmps=530
+Linecode.7.NormAmps=530
+Linecode.7.EmergAmps=530
+Linecode.8.NormAmps=530
+Linecode.8.EmergAmps=530
+
+! ---- 1/0 ACSR (single-phase overhead lateral) : 230 A @ 50 degC ----
+Linecode.9.NormAmps=230
+Linecode.9.EmergAmps=230
+Linecode.10.NormAmps=230
+Linecode.10.EmergAmps=230
+Linecode.11.NormAmps=230
+Linecode.11.EmergAmps=230
+
+! ---- 1/0 AA, 15 kV underground : 175 A @ 50 degC ----
+Linecode.12.NormAmps=175
+Linecode.12.EmergAmps=175

@@ -1,0 +1,85 @@
+# P359 / READ-Grid v2 — FROZEN learned arm (C4v2)
+#
+# Produced by the pre-registered S3 sweep, not chosen by hand.
+# See docs/v2_preregistration.md ("tuning budget", "selection rule") and
+# docs/v2_stage_S3_report.md.
+#
+# This file is kept SEPARATE from configs/protocol_v2.yaml on purpose: the
+# protocol was hashed at S0 and must stay byte-identical to the pre-registered
+# artefact. The values below are a *consequence* of the pre-registered selection
+# rule, applied once, and are recorded here with their own hash. They are handed
+# to the simulator as dotted-path protocol overrides, exactly the mechanism the
+# frozen protocol already provides.
+
+meta:
+  name: P359 v2 frozen learned arm (C4v2)
+  protocol: configs/protocol_v2.yaml
+  protocol_version: "2.0.0-frozen"
+  selected_by: "144-candidate pre-registered sweep, frozen analysis.selection_score on VAL"
+  selected_date: "2026-10-16"
+  n_candidates: 144
+  selection_rule: "val score desc, iters asc, price asc, seed asc, variant name asc"
+  evaluation_nature: post_hoc_exploratory
+  winner:
+    variant: binned_ach
+    price: 0.60
+    iterations: 16
+    seed: 0
+  winner_val:
+    score: 0.5466
+    achievement_rate: 0.5736
+    curtail_fraction: 0.0270
+    switches_per_group_run: 0.40952
+  winner_train:
+    score: 0.5499
+    achievement_rate: 0.5753
+  runner_up:
+    variant: binned_ach
+    price: 0.45
+    iterations: 12
+    seed: 0
+    val_score: 0.5466
+  train_selected_winner:
+    variant: raw_hinge
+    price: 0.30
+    iterations: 12
+    seed: 2
+    train_score: 0.5562
+    val_score: 0.5423
+  diagnostic_unmasked_greedy:
+    val_score: 0.5435
+    val_achievement_rate: 0.5727
+
+# The final model is retrained with this many seeds on the frozen training split.
+n_final_train_seeds: 5
+
+# Dotted-path overrides applied to the frozen protocol. Every key here is either
+# a new v2 switch (absent from the v1 protocol) or a value the pre-registered
+# sweep selected.
+protocol_override:
+  reward.mode: achievement
+  reward.w_achievement: 1.0
+  reward.w_curtail: 0.60
+  reward.w_switch: 0.02
+  value_model.gamma: 0.99
+  value_model.fitted_q_iterations: 16
+  value_model.epsilon_start: 0.50
+  value_model.epsilon_end: 0.05
+  value_model.ridge: 1.0
+  value_model.feature_variant: v2_binned
+  value_model.dwell_feature: false
+  value_model.coverage: true
+  value_model.replay: true
+  value_model.mask_admissible: true
+  value_model.explore_admissible: true
+  value_model.collect_representative_group: true
+
+# Deployment flags for the frozen arm. `mask_admissible` is the decision-time
+# companion of the masked Bellman target; `state_dim` must match the feature
+# layout above (49 for v2_binned).
+deployment:
+  vm: action_dependent
+  state_dim: 49
+  mask_admissible: true
+  guard: guarded
+  cache_enforced: true

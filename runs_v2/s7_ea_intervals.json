@@ -1,0 +1,100 @@
+{
+  "stage": "ea_intervals",
+  "source": "runs_v2/stage_ea_transfer.jsonl",
+  "nature": "post-hoc; not part of the pre-registered analysis",
+  "learner_seeds": [
+    "C4v2_s0"
+  ],
+  "bootstrap": {
+    "n_resamples": 5000,
+    "ci_level": 0.95,
+    "unit": "episode cluster",
+    "seed_key": "('ea_score', condition)"
+  },
+  "conditions": [
+    {
+      "condition": "nominal",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": -0.008167915748013727,
+      "ci_low": -0.02828506773338578,
+      "ci_high": 0.012641081708580628,
+      "ci_half_width": 0.020463074720983205,
+      "boot_p": 0.4416,
+      "n_units": 21,
+      "c4v2_mean": 0.5542806364659709,
+      "c3b_retuned_mean": 0.5624485522139845,
+      "resolved": false
+    },
+    {
+      "condition": "delta_0.08",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": 0.021193970642614506,
+      "ci_low": -0.010394414554816366,
+      "ci_high": 0.04823617863626341,
+      "ci_half_width": 0.029315296595539886,
+      "boot_p": 0.1784,
+      "n_units": 21,
+      "c4v2_mean": 0.8762247092856067,
+      "c3b_retuned_mean": 0.8550307386429923,
+      "resolved": false
+    },
+    {
+      "condition": "delta_0.16",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": 0.0400163902224129,
+      "ci_low": 0.026614767115057447,
+      "ci_high": 0.05484103120335148,
+      "ci_half_width": 0.014113132044147016,
+      "boot_p": 0.0002,
+      "n_units": 21,
+      "c4v2_mean": 0.18370438794534366,
+      "c3b_retuned_mean": 0.14368799772293078,
+      "resolved": true
+    },
+    {
+      "condition": "budget_0.02",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": -0.011646667606130697,
+      "ci_low": -0.022512588348646875,
+      "ci_high": -0.0005945739975242066,
+      "ci_half_width": 0.010959007175561334,
+      "boot_p": 0.0388,
+      "n_units": 21,
+      "c4v2_mean": 0.42833298011188586,
+      "c3b_retuned_mean": 0.4399796477180166,
+      "resolved": true
+    },
+    {
+      "condition": "budget_0.04",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": 0.013851727702735753,
+      "ci_low": -0.004984159863377267,
+      "ci_high": 0.03252874842619296,
+      "ci_half_width": 0.018756454144785113,
+      "boot_p": 0.1356,
+      "n_units": 21,
+      "c4v2_mean": 0.6471222142177154,
+      "c3b_retuned_mean": 0.6332704865149795,
+      "resolved": false
+    },
+    {
+      "condition": "budget_0.06",
+      "contrast": "C4v2_s0 - C3b_retuned",
+      "metric": "frozen selection score (per episode)",
+      "mean_diff": 0.03282789330458831,
+      "ci_low": 0.019351121857246942,
+      "ci_high": 0.04510248818340123,
+      "ci_half_width": 0.012875683163077143,
+      "boot_p": 0.0004,
+      "n_units": 21,
+      "c4v2_mean": 0.7085391847091073,
+      "c3b_retuned_mean": 0.6757112914045188,
+      "resolved": true
+    }
+  ]
+}

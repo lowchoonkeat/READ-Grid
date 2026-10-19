@@ -1,0 +1,180 @@
+{
+  "tol": 0.01,
+  "n_f0_runs": 630,
+  "rows": [
+    {
+      "policy_id": "C3",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5660267597440373,
+        "curtail_fraction": 0.02928408340736962,
+        "switches_per_group_run": 23.61904761904762,
+        "score": 0.5343807715747628
+      },
+      "sandbox": {
+        "score": 0.5366954382414285,
+        "score_corrected": 0.5343807715747618,
+        "achievement_rate": 0.5660267597440373,
+        "source": "sandbox rule (0.20,0.60,0.20)"
+      },
+      "d_score_raw": -0.002314666666665688,
+      "d_score_corrected": 9.992007221626409e-16,
+      "d_achievement": 0.0,
+      "over_tol": false,
+      "sandbox_source": "sandbox rule (0.20,0.60,0.20)"
+    },
+    {
+      "policy_id": "C3b",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.575043630017452,
+        "curtail_fraction": 0.0298141171605778,
+        "switches_per_group_run": 24.904761904761905,
+        "score": 0.542739036666398
+      },
+      "sandbox": {
+        "score": 0.5451797033330636,
+        "score_corrected": 0.542739036666397,
+        "achievement_rate": 0.575043630017452,
+        "source": "sandbox rule (0.00,0.30,0.00)"
+      },
+      "d_score_raw": -0.0024406666666656474,
+      "d_score_corrected": 9.992007221626409e-16,
+      "d_achievement": 0.0,
+      "over_tol": false,
+      "sandbox_source": "sandbox rule (0.00,0.30,0.00)"
+    },
+    {
+      "policy_id": "C4v2_s0",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5732984293193717,
+        "curtail_fraction": 0.029585504357304816,
+        "switches_per_group_run": 25.761904761904763,
+        "score": 0.5411367344858764
+      },
+      "sandbox": {
+        "score": 0.5465979539308813,
+        "score_corrected": 0.5445912872642146,
+        "achievement_rate": 0.5735892961023851,
+        "source": "sandbox frozen 5-seed retrain, seed 0"
+      },
+      "d_score_raw": -0.005461219445004883,
+      "d_score_corrected": -0.0034545527783381713,
+      "d_achievement": -0.0002908667830133771,
+      "over_tol": false,
+      "sandbox_source": "sandbox frozen 5-seed retrain, seed 0"
+    },
+    {
+      "policy_id": "C4v2_s1",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5724258289703316,
+        "curtail_fraction": 0.029565439453978104,
+        "switches_per_group_run": 25.857142857142858,
+        "score": 0.5402746752306392
+      },
+      "sandbox": {
+        "score": 0.5416744472895798,
+        "score_corrected": 0.5396864472895798,
+        "achievement_rate": 0.568935427574171,
+        "source": "sandbox frozen 5-seed retrain, seed 1"
+      },
+      "d_score_raw": -0.001399772058940596,
+      "d_score_corrected": 0.0005882279410593938,
+      "d_achievement": 0.003490401396160525,
+      "over_tol": false,
+      "sandbox_source": "sandbox frozen 5-seed retrain, seed 1"
+    },
+    {
+      "policy_id": "C4v2_s2",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5715532286212914,
+        "curtail_fraction": 0.029576369064434622,
+        "switches_per_group_run": 25.952380952380953,
+        "score": 0.5393816214616187
+      },
+      "sandbox": {
+        "score": 0.5397778593341015,
+        "score_corrected": 0.5378785260007681,
+        "achievement_rate": 0.566608493310064,
+        "source": "sandbox frozen 5-seed retrain, seed 2"
+      },
+      "d_score_raw": -0.0003962378724827742,
+      "d_score_corrected": 0.0015030954608505898,
+      "d_achievement": 0.004944735311227411,
+      "over_tol": false,
+      "sandbox_source": "sandbox frozen 5-seed retrain, seed 2"
+    },
+    {
+      "policy_id": "C4v2_s3",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5732984293193717,
+        "curtail_fraction": 0.02957169975740997,
+        "switches_per_group_run": 25.904761904761905,
+        "score": 0.5411362533714856
+      },
+      "sandbox": {
+        "score": 0.5404888959720471,
+        "score_corrected": 0.5385942293053804,
+        "achievement_rate": 0.5671902268760908,
+        "source": "sandbox frozen 5-seed retrain, seed 3"
+      },
+      "d_score_raw": 0.0006473573994385529,
+      "d_score_corrected": 0.002542024066105264,
+      "d_achievement": 0.006108202443280919,
+      "over_tol": false,
+      "sandbox_source": "sandbox frozen 5-seed retrain, seed 3"
+    },
+    {
+      "policy_id": "C4v2_s4",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5709714950552647,
+        "curtail_fraction": 0.029031390699500934,
+        "switches_per_group_run": 25.857142857142858,
+        "score": 0.5393543900700495
+      },
+      "sandbox": {
+        "score": 0.5411000418573034,
+        "score_corrected": 0.5391960418573034,
+        "achievement_rate": 0.5677719604421175,
+        "source": "sandbox frozen 5-seed retrain, seed 4"
+      },
+      "d_score_raw": -0.0017456517872539434,
+      "d_score_corrected": 0.00015834821274607336,
+      "d_achievement": 0.003199534613147148,
+      "over_tol": false,
+      "sandbox_source": "sandbox frozen 5-seed retrain, seed 4"
+    },
+    {
+      "policy_id": "C7",
+      "full": {
+        "n_runs": 21,
+        "achievement_rate": 0.5738801628853984,
+        "curtail_fraction": 0.029519908093198387,
+        "switches_per_group_run": 25.142857142857142,
+        "score": 0.5418459690779144
+      },
+      "sandbox": {
+        "score": 0.5373053975501011,
+        "score_corrected": 0.5346127308834344,
+        "achievement_rate": 0.5674810936591042,
+        "source": "sandbox C7 (no parameters)"
+      },
+      "d_score_raw": 0.004540571527813286,
+      "d_score_corrected": 0.007233238194479963,
+      "d_achievement": 0.006399069226294296,
+      "over_tol": false,
+      "sandbox_source": "sandbox C7 (no parameters)"
+    }
+  ],
+  "worst_abs_d_score_raw": 0.005461219445004883,
+  "worst_abs_d_score_corrected": 0.007233238194479963,
+  "gate_pass": true,
+  "gate_pass_raw": true,
+  "n_over_tol": 0,
+  "d22_note": "sandbox scores are 1e-4*49*sw too high because the sandbox divided a single group's switch count by n_groups; the gate uses the corrected values, and both are reported"
+}

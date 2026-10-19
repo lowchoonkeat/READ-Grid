@@ -1,0 +1,995 @@
+{
+  "stage_file": "C:\\Users\\Chi\\Downloads\\P359\\runs_v2\\stage_main_v2.jsonl",
+  "protocol_sha256": "8639ff7e0630b2ab6b8b0e134701182d3a2df559e0b8270f74bb4b266116b0de",
+  "n_rows": 59850,
+  "n_episodes": 21,
+  "n_faults": 11,
+  "arms": {
+    "C0": {
+      "seeds": [],
+      "n_episodes": 21
+    },
+    "C1": {
+      "seeds": [],
+      "n_episodes": 21
+    },
+    "C3": {
+      "seeds": [],
+      "n_episodes": 21
+    },
+    "C3b": {
+      "seeds": [],
+      "n_episodes": 21
+    },
+    "C7": {
+      "seeds": [],
+      "n_episodes": 21
+    },
+    "C2": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_episodes": 21
+    },
+    "C4": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_episodes": 21
+    },
+    "C5": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_episodes": 21
+    },
+    "C2v2": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_episodes": 21
+    },
+    "C4v2": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_episodes": 21
+    }
+  },
+  "headline": {
+    "C0": {
+      "n_runs": 1995,
+      "achievement_rate": 0.13312977099236642,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.13312977099236642,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_eligible_steps": 11234,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 1.0,
+      "curtail_energy_kwh": 0.0,
+      "n_switches": 0.0,
+      "n_authority_switches": 0.0,
+      "vmin_pu": 0.9730690738478833,
+      "max_line_loading_pu": 1.354410535833411,
+      "voltage_violation_s": 313500.0,
+      "line_violation_s": 16911900.0,
+      "mean_exceedance": 0.7075593276328104,
+      "burden_used_fraction": 0.0,
+      "frac_time_local_authority": 1.0,
+      "policy_inference_ms_mean": 8.187526015156397,
+      "policy_inference_ms_p95": 14.093319974381302,
+      "mean_command_latency_ms": NaN,
+      "heartbeat_detect_delay_s": NaN,
+      "authority_transfer_delay_s": NaN,
+      "recovery_delay_s": NaN
+    },
+    "C1": {
+      "n_runs": 1995,
+      "achievement_rate": 0.5811265568501406,
+      "curtail_fraction": 0.027325463672300446,
+      "switches_per_group_run": 26.213533834586467,
+      "score": 0.5511797397943814,
+      "outage_achievement_rate": 0.40804700017803097,
+      "outage_eligible_steps": 11234,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9726745363276985,
+      "curtail_energy_kwh": 1509815.4065477105,
+      "n_switches": 2614800.0,
+      "n_authority_switches": 7560.0,
+      "vmin_pu": 0.9730690738481358,
+      "max_line_loading_pu": 1.3544105358338983,
+      "voltage_violation_s": 189600.0,
+      "line_violation_s": 15128400.0,
+      "mean_exceedance": 0.24165732085852087,
+      "burden_used_fraction": 0.9227714913045432,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 42.32685759267033,
+      "policy_inference_ms_p95": 68.45133004590025,
+      "mean_command_latency_ms": 7179.280295473592,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686
+    },
+    "C3": {
+      "n_runs": 1995,
+      "achievement_rate": 0.58278505423865,
+      "curtail_fraction": 0.02707091930253356,
+      "switches_per_group_run": 24.26516290726817,
+      "score": 0.5532876186453897,
+      "outage_achievement_rate": 0.7391846181235535,
+      "outage_eligible_steps": 11234,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9729290806974652,
+      "curtail_energy_kwh": 1495751.0519320706,
+      "n_switches": 2420450.0,
+      "n_authority_switches": 7560.0,
+      "vmin_pu": 0.9742676182017084,
+      "max_line_loading_pu": 1.3544105358345024,
+      "voltage_violation_s": 182880.0,
+      "line_violation_s": 15677520.0,
+      "mean_exceedance": 0.23033825374823422,
+      "burden_used_fraction": 0.9141756156586694,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 513.971625863743,
+      "policy_inference_ms_p95": 728.6672699710834,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856
+    },
+    "C3b": {
+      "n_runs": 1995,
+      "achievement_rate": 0.5872752109280835,
+      "curtail_fraction": 0.027556137774565153,
+      "switches_per_group_run": 26.086215538847117,
+      "score": 0.5571104515996337,
+      "outage_achievement_rate": 0.7250311554210432,
+      "outage_eligible_steps": 11234,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9724438622254338,
+      "curtail_energy_kwh": 1522560.8559083324,
+      "n_switches": 2602100.0,
+      "n_authority_switches": 7560.0,
+      "vmin_pu": 0.9742676182018057,
+      "max_line_loading_pu": 1.3544105358344416,
+      "voltage_violation_s": 188160.0,
+      "line_violation_s": 15121320.0,
+      "mean_exceedance": 0.23816304948246358,
+      "burden_used_fraction": 0.9305612762430479,
+      "frac_time_local_authority": 0.005233918128654972,
+      "policy_inference_ms_mean": 512.0350876188481,
+      "policy_inference_ms_p95": 698.4241399915845,
+      "mean_command_latency_ms": 7179.280295473592,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856
+    },
+    "C7": {
+      "n_runs": 1995,
+      "achievement_rate": 0.5927585375652873,
+      "curtail_fraction": 0.027309013361648243,
+      "switches_per_group_run": 26.021052631578947,
+      "score": 0.5628474189404812,
+      "outage_achievement_rate": 0.735089905643582,
+      "outage_eligible_steps": 11234,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9726909866383504,
+      "curtail_energy_kwh": 1508906.4765927407,
+      "n_switches": 2595600.0,
+      "n_authority_switches": 7560.0,
+      "vmin_pu": 0.9742676182018457,
+      "max_line_loading_pu": 1.3544105358337497,
+      "voltage_violation_s": 187860.0,
+      "line_violation_s": 15562440.0,
+      "mean_exceedance": 0.22924321696740307,
+      "burden_used_fraction": 0.9222159699829304,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 549.869371579032,
+      "policy_inference_ms_p95": 1300.3453499870375,
+      "mean_command_latency_ms": 7179.280295473592,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.385385022686
+    },
+    "C2": {
+      "n_runs": 9975,
+      "achievement_rate": 0.4651005222981117,
+      "curtail_fraction": 0.028666893716173408,
+      "switches_per_group_run": 22.85325313283208,
+      "score": 0.4341483032686551,
+      "outage_achievement_rate": 0.3121595157557415,
+      "outage_eligible_steps": 56170,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9713331062838262,
+      "curtail_energy_kwh": 7919667.587272933,
+      "n_switches": 11398060.0,
+      "n_authority_switches": 37800.0,
+      "vmin_pu": 0.9722924541777929,
+      "max_line_loading_pu": 1.3544105358339407,
+      "voltage_violation_s": 764400.0,
+      "line_violation_s": 77690460.0,
+      "mean_exceedance": 0.34690963639633565,
+      "burden_used_fraction": 0.968071121602114,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 110.55697648228332,
+      "policy_inference_ms_p95": 134.47821993468088,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856
+    },
+    "C4": {
+      "n_runs": 9975,
+      "achievement_rate": 0.4686032944957814,
+      "curtail_fraction": 0.028818197292002863,
+      "switches_per_group_run": 22.59292230576441,
+      "score": 0.43752580497320215,
+      "outage_achievement_rate": 0.5338970980950686,
+      "outage_eligible_steps": 56170,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9711818027079967,
+      "curtail_energy_kwh": 7961467.512901394,
+      "n_switches": 11268220.0,
+      "n_authority_switches": 37800.0,
+      "vmin_pu": 0.9722924541778494,
+      "max_line_loading_pu": 1.3544105358343586,
+      "voltage_violation_s": 759300.0,
+      "line_violation_s": 77668800.0,
+      "mean_exceedance": 0.34520947988854983,
+      "burden_used_fraction": 0.9731805912155941,
+      "frac_time_local_authority": 0.00523391812865497,
+      "policy_inference_ms_mean": 1102.8314104257688,
+      "policy_inference_ms_p95": 1250.1754499640808,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.36133296835053,
+      "authority_transfer_delay_s": 56.36133296835053,
+      "recovery_delay_s": 1378.385385022686
+    },
+    "C5": {
+      "n_runs": 9975,
+      "achievement_rate": 0.1447733226195259,
+      "curtail_fraction": 0.00592119236246497,
+      "switches_per_group_run": 1.7921804511278197,
+      "score": 0.13867291221194816,
+      "outage_achievement_rate": 0.13254406266690405,
+      "outage_eligible_steps": 56170,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9940788076375352,
+      "curtail_energy_kwh": 1635819.9006600105,
+      "n_switches": 893850.0,
+      "n_authority_switches": 37800.0,
+      "vmin_pu": 0.9730690738488772,
+      "max_line_loading_pu": 1.3544105358333438,
+      "voltage_violation_s": 1454100.0,
+      "line_violation_s": 84480120.0,
+      "mean_exceedance": 0.697782901671202,
+      "burden_used_fraction": 0.19995662551743482,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 1239.1390063760562,
+      "policy_inference_ms_p95": 1377.1993800160997,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856
+    },
+    "C2v2": {
+      "n_runs": 9975,
+      "achievement_rate": 0.5775884290879871,
+      "curtail_fraction": 0.02698190261830663,
+      "switches_per_group_run": 27.588070175438595,
+      "score": 0.5478477194521366,
+      "outage_achievement_rate": 0.3827131920954246,
+      "outage_eligible_steps": 56170,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9730180973816923,
+      "curtail_energy_kwh": 7454163.039945918,
+      "n_switches": 13759550.0,
+      "n_authority_switches": 37800.0,
+      "vmin_pu": 0.9730690738492261,
+      "max_line_loading_pu": 1.35441053583219,
+      "voltage_violation_s": 1064460.0,
+      "line_violation_s": 74425500.0,
+      "mean_exceedance": 0.2836197101528183,
+      "burden_used_fraction": 0.911169552909278,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 161.5963893646026,
+      "policy_inference_ms_p95": 199.42389996140247,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.36133296835053,
+      "authority_transfer_delay_s": 56.36133296835053,
+      "recovery_delay_s": 1378.385385022686
+    },
+    "C4v2": {
+      "n_runs": 9975,
+      "achievement_rate": 0.5822412213740458,
+      "curtail_fraction": 0.027235400509616155,
+      "switches_per_group_run": 27.339448621553885,
+      "score": 0.5522718760022742,
+      "outage_achievement_rate": 0.6645540324016379,
+      "outage_eligible_steps": 56170,
+      "outage_window_s_mean": 1075.578947368421,
+      "energy_ratio": 0.9727645994903825,
+      "curtail_energy_kwh": 7524195.707353947,
+      "n_switches": 13635550.0,
+      "n_authority_switches": 37800.0,
+      "vmin_pu": 0.9738172102379898,
+      "max_line_loading_pu": 1.3544105358324254,
+      "voltage_violation_s": 1057680.0,
+      "line_violation_s": 74382840.0,
+      "mean_exceedance": 0.28173598324540594,
+      "burden_used_fraction": 0.9197300893382856,
+      "frac_time_local_authority": 0.005233918128654971,
+      "policy_inference_ms_mean": 1389.2132096543558,
+      "policy_inference_ms_p95": 3923.2890700013495,
+      "mean_command_latency_ms": 7179.280295473591,
+      "heartbeat_detect_delay_s": 56.361332968350524,
+      "authority_transfer_delay_s": 56.361332968350524,
+      "recovery_delay_s": 1378.3853850226856
+    }
+  },
+  "primary_contrast": [
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -0.0016624053790185887,
+      "ci_low": -0.021829123783326985,
+      "ci_high": 0.020000151912838736,
+      "boot_p": 0.8524,
+      "sig_at_ci": false,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C3b (primary)",
+      "a": "C4v2",
+      "b": "C3b",
+      "classification": {
+        "label": "inconclusive (insufficient power for delta)",
+        "ci_half_width": 0.02091463784808286,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": false,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": -0.021829123783326985,
+        "ci_high": 0.020000151912838736
+      }
+    }
+  ],
+  "secondary_contrasts": [
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.11520140627152975,
+      "ci_low": 0.07257644543667366,
+      "ci_high": 0.16191604856130662,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C4 (v2 learner vs v1 learner)",
+      "a": "C4v2",
+      "b": "C4",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.04466980156231648,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.07257644543667366,
+        "ci_high": 0.16191604856130662
+      },
+      "holm_adjusted_p": 0.002
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.005827921935941772,
+      "ci_low": -0.015299588770115637,
+      "ci_high": 0.028721351523092072,
+      "boot_p": 0.6388,
+      "sig_at_ci": false,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C1 (learner vs cloud-only rule)",
+      "a": "C4v2",
+      "b": "C1",
+      "classification": {
+        "label": "inconclusive (insufficient power for delta)",
+        "ci_half_width": 0.022010470146603855,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": -0.015299588770115637,
+        "ci_high": 0.028721351523092072
+      },
+      "holm_adjusted_p": 0.9432
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.005660695413810305,
+      "ci_low": 0.000922776037457334,
+      "ci_high": 0.012090637474976592,
+      "boot_p": 0.0028,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C2v2 (value of the local fallback)",
+      "a": "C4v2",
+      "b": "C2v2",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.005583930718759629,
+        "delta": 0.02,
+        "power_ok": true,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": true,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.000922776037457334,
+        "ci_high": 0.012090637474976592
+      },
+      "holm_adjusted_p": 0.014
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.4483177774412625,
+      "ci_low": 0.36636529047873645,
+      "ci_high": 0.5253560899921199,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C5 (binned vs concatenated)",
+      "a": "C4v2",
+      "b": "C5",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.07949539975669173,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.36636529047873645,
+        "ci_high": 0.5253560899921199
+      },
+      "holm_adjusted_p": 0.002
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.45970927671158224,
+      "ci_low": 0.37713009854288826,
+      "ci_high": 0.5404846009642675,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C4v2 vs C0 (vs uncontrolled)",
+      "a": "C4v2",
+      "b": "C0",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.08167725121068964,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.37713009854288826,
+        "ci_high": 0.5404846009642675
+      },
+      "holm_adjusted_p": 0.002
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.00582490022519217,
+      "ci_low": -0.007008696542414226,
+      "ci_high": 0.017351227499309493,
+      "boot_p": 0.364,
+      "sig_at_ci": false,
+      "metric": "achievement_rate",
+      "label": "C3b vs C3 (rule++ vs v1 rule)",
+      "a": "C3b",
+      "b": "C3",
+      "classification": {
+        "label": "equivalent",
+        "ci_half_width": 0.01217996202086186,
+        "delta": 0.02,
+        "power_ok": true,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": true,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": -0.007008696542414226,
+        "ci_high": 0.017351227499309493
+      },
+      "holm_adjusted_p": 0.9432
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.00749032731496036,
+      "ci_low": 0.0027500285090950516,
+      "ci_high": 0.013590735837287506,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C3b vs C1 (rule++ vs cloud-only rule)",
+      "a": "C3b",
+      "b": "C1",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.005420353664096227,
+        "delta": 0.02,
+        "power_ok": true,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": true,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.0027500285090950516,
+        "ci_high": 0.013590735837287506
+      },
+      "holm_adjusted_p": 0.002
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.004903881618459547,
+      "ci_low": -0.0022740043341477455,
+      "ci_high": 0.01624505589175457,
+      "boot_p": 0.3144,
+      "sig_at_ci": false,
+      "metric": "achievement_rate",
+      "label": "C7 vs C3b (parameter-free vs tuned rule)",
+      "a": "C7",
+      "b": "C3b",
+      "classification": {
+        "label": "equivalent",
+        "ci_half_width": 0.009259530112951157,
+        "delta": 0.02,
+        "power_ok": true,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": true,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": -0.0022740043341477455,
+        "ci_high": 0.01624505589175457
+      },
+      "holm_adjusted_p": 0.9432
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -0.11103891142535614,
+      "ci_low": -0.1643926428302993,
+      "ci_high": -0.061970617965900705,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C4 vs C3 (v1 learner vs v1 rule)",
+      "a": "C4",
+      "b": "C3",
+      "classification": {
+        "label": "inferior beyond margin",
+        "ci_half_width": 0.051211012432199304,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": false,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": true,
+          "5_inferior_beyond_margin (U < -delta)": true
+        },
+        "ci_low": -0.1643926428302993,
+        "ci_high": -0.061970617965900705
+      },
+      "holm_adjusted_p": 0.002
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -0.005660695413810305,
+      "ci_low": -0.01193794441476476,
+      "ci_high": -0.0008472673857574928,
+      "boot_p": 0.0036,
+      "sig_at_ci": true,
+      "metric": "achievement_rate",
+      "label": "C2v2 vs C4v2 (cloud-only v2)",
+      "a": "C2v2",
+      "b": "C4v2",
+      "classification": {
+        "label": "equivalent",
+        "ci_half_width": 0.005545338514503634,
+        "delta": 0.02,
+        "power_ok": true,
+        "conditions": {
+          "1_superior (L > 0)": false,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": true,
+          "4_inferior (U < 0)": true,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": -0.01193794441476476,
+        "ci_high": -0.0008472673857574928
+      },
+      "holm_adjusted_p": 0.0144
+    }
+  ],
+  "h3_outage_window": [
+    {
+      "n_units": 21,
+      "n_defined": 19,
+      "mean_diff": 0.22014709256977225,
+      "ci_low": 0.10978318935664483,
+      "ci_high": 0.33793747408946867,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "outage_achievement_rate",
+      "label": "C3 - C1 (rule: local fallback value)",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.11407714236641192,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.10978318935664483,
+        "ci_high": 0.33793747408946867
+      }
+    },
+    {
+      "n_units": 21,
+      "n_defined": 19,
+      "mean_diff": 0.20274727579559518,
+      "ci_low": 0.09590101923728228,
+      "ci_high": 0.3176972439660448,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "outage_achievement_rate",
+      "label": "C4v2 - C2v2 (learner: local fallback value)",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.11089811236438127,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.09590101923728228,
+        "ci_high": 0.3176972439660448
+      }
+    },
+    {
+      "n_units": 21,
+      "n_defined": 19,
+      "mean_diff": 0.21546063940799295,
+      "ci_low": 0.1155822706201342,
+      "ci_high": 0.32643247496374184,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "outage_achievement_rate",
+      "label": "C3b - C1 (rule++: local fallback value)",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.10542510217180381,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.1155822706201342,
+        "ci_high": 0.32643247496374184
+      }
+    },
+    {
+      "n_units": 21,
+      "n_defined": 19,
+      "mean_diff": 0.14699838210193591,
+      "ci_low": 0.04887045633988436,
+      "ci_high": 0.25784774966227597,
+      "boot_p": 0.0002,
+      "sig_at_ci": true,
+      "metric": "outage_achievement_rate",
+      "label": "C4 - C2 (v1 learner: local fallback value)",
+      "classification": {
+        "label": "superior",
+        "ci_half_width": 0.10448864666119581,
+        "delta": 0.02,
+        "power_ok": false,
+        "conditions": {
+          "1_superior (L > 0)": true,
+          "2_non_inferior (L > -delta)": true,
+          "3_equivalent (L > -delta and U < +delta)": false,
+          "4_inferior (U < 0)": false,
+          "5_inferior_beyond_margin (U < -delta)": false
+        },
+        "ci_low": 0.04887045633988436,
+        "ci_high": 0.25784774966227597
+      }
+    }
+  ],
+  "dp_bracket": {
+    "source": "runs_v2/sandbox_logs/dp_reference.txt + dp_hires.txt (VAL, 21 episodes)",
+    "units": "pooled achievement rate = sum_i achieved_i / sum_i eligible_i",
+    "bracket": [
+      {
+        "nb": 150,
+        "ceil_feasible": 0.5375,
+        "floor_optimistic": 0.8583
+      },
+      {
+        "nb": 300,
+        "ceil_feasible": 0.6419,
+        "floor_optimistic": 0.8389
+      },
+      {
+        "nb": 600,
+        "ceil_feasible": 0.6524,
+        "floor_optimistic": 0.756
+      },
+      {
+        "nb": 1200,
+        "ceil_feasible": 0.6603,
+        "floor_optimistic": 0.7103
+      },
+      {
+        "nb": 2400,
+        "ceil_feasible": 0.6658,
+        "floor_optimistic": 0.6896
+      },
+      {
+        "nb": 4800,
+        "ceil_feasible": 0.6672,
+        "floor_optimistic": 0.6789
+      }
+    ],
+    "note": "ceil is the value of a policy that is FEASIBLE in the real budget (0/21 replay mismatches); floor is the optimistic discretisation. Neither is a proven upper bound, and neither is a policy that could be deployed: both see the whole day in advance."
+  },
+  "dp_bracket_crosscheck": {
+    "nb": 600,
+    "ceil": 0.652414194299011,
+    "floor": 0.7559627690517743,
+    "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+  },
+  "secondary_metrics_c4v2_vs_c3b": [
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.05645278958191143,
+      "ci_low": 0.0024799176145278105,
+      "ci_high": 0.131794164119393,
+      "boot_p": 0.032,
+      "sig_at_ci": true,
+      "metric": "mean_exceedance",
+      "holm_adjusted_p": 0.32
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -843.891163692511,
+      "ci_low": -7004.099231168575,
+      "ci_high": 3833.2920923691813,
+      "boot_p": 0.798,
+      "sig_at_ci": false,
+      "metric": "curtail_energy_kwh",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 5952.857142857143,
+      "ci_low": -6465.72619047619,
+      "ci_high": 18031.249999999996,
+      "boot_p": 0.342,
+      "sig_at_ci": false,
+      "metric": "n_switches",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.0003871225496939534,
+      "ci_low": -0.0015781538080312549,
+      "ci_high": 0.0029224948329609705,
+      "boot_p": 0.8004,
+      "sig_at_ci": false,
+      "metric": "energy_ratio",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -0.00019735133010590462,
+      "ci_low": -0.00048689385700859215,
+      "ci_high": 4.133539910615433e-05,
+      "boot_p": 0.118,
+      "sig_at_ci": false,
+      "metric": "vmin_pu",
+      "holm_adjusted_p": 0.826
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -3.870769854812701e-05,
+      "ci_low": -0.00011320618781921661,
+      "ci_high": 6.101421602149094e-07,
+      "boot_p": 0.0852,
+      "sig_at_ci": false,
+      "metric": "max_line_loading_pu",
+      "holm_adjusted_p": 0.6816
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": 0.0,
+      "ci_low": -1.6521175961683876e-19,
+      "ci_high": 1.6521175961683876e-19,
+      "boot_p": 1.0,
+      "sig_at_ci": false,
+      "metric": "frac_time_local_authority",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 19,
+      "mean_diff": -0.027493674917915444,
+      "ci_low": -0.10809434588677347,
+      "ci_high": 0.05057389171212912,
+      "boot_p": 0.4784,
+      "sig_at_ci": false,
+      "metric": "outage_achievement_rate",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -0.0009062125745962636,
+      "ci_low": -0.009335289776222723,
+      "ci_high": 0.008066485812328444,
+      "boot_p": 0.8108,
+      "sig_at_ci": false,
+      "metric": "outage_energy_ratio",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "n_units": 21,
+      "n_defined": 21,
+      "mean_diff": -1050.952380952381,
+      "ci_low": -2183.357142857143,
+      "ci_high": 0.035714285713766,
+      "boot_p": 0.0508,
+      "sig_at_ci": false,
+      "metric": "outage_switches",
+      "holm_adjusted_p": 0.4572
+    }
+  ],
+  "edge_inference_cost": {
+    "note": "MACs per single decision; the cloud controller and the local fallback each run once per decision interval (60 s).",
+    "C4v2": {
+      "cloud_macs": 147,
+      "local_macs": 147,
+      "total_macs": 294,
+      "params": 294,
+      "repr": "49-dim binned"
+    },
+    "C2v2": {
+      "cloud_macs": 147,
+      "local_macs": 0,
+      "total_macs": 147,
+      "params": 147,
+      "repr": "49-dim binned"
+    },
+    "C4": {
+      "cloud_macs": 24,
+      "local_macs": 24,
+      "total_macs": 48,
+      "params": 48,
+      "repr": "8-dim raw"
+    },
+    "C2": {
+      "cloud_macs": 24,
+      "local_macs": 0,
+      "total_macs": 24,
+      "params": 24,
+      "repr": "8-dim raw"
+    },
+    "C5": {
+      "cloud_macs": 72,
+      "local_macs": 72,
+      "total_macs": 144,
+      "params": 144,
+      "repr": "8x3 concatenated"
+    },
+    "C3/C3b": {
+      "cloud_macs": 0,
+      "local_macs": 0,
+      "total_macs": 0,
+      "params": 3,
+      "repr": "3 thresholds + hysteresis"
+    },
+    "C7": {
+      "cloud_macs": 3,
+      "local_macs": 3,
+      "total_macs": 6,
+      "params": 0,
+      "repr": "no parameters"
+    },
+    "C0/C1": {
+      "cloud_macs": 0,
+      "local_macs": 0,
+      "total_macs": 0,
+      "params": 0,
+      "repr": "no controller"
+    }
+  },
+  "delta_frozen": 0.02,
+  "evaluation_nature": "post_hoc_exploratory (see docs/test_exposure_record.md)"
+}

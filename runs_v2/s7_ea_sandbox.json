@@ -1,0 +1,398 @@
+{
+  "nominal": {
+    "delta_dr": 0.12,
+    "budget_fraction": 0.03,
+    "cap": 0.88,
+    "budget_kwh": 0.23499648,
+    "retuned_rule": {
+      "th_low": 0.0,
+      "th_high": 0.3,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.575043630017452,
+        "curtail_fraction": 0.02981411716057883,
+        "switches_per_group_run": 0.49809523809523815,
+        "score": 0.5451797033330636
+      },
+      "train": {
+        "achievement_rate": 0.5875631951466127,
+        "curtail_fraction": 0.02808308437793948,
+        "switches_per_group_run": 0.5617241379310345,
+        "score": 0.5594239383548801
+      },
+      "rank_of_frozen": 1
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.575043630017452,
+        "curtail_fraction": 0.02981411716057883,
+        "switches_per_group_run": 0.49809523809523815,
+        "score": 0.5451797033330636
+      },
+      "train": {
+        "achievement_rate": 0.5875631951466127,
+        "curtail_fraction": 0.02808308437793948,
+        "switches_per_group_run": 0.5617241379310345,
+        "score": 0.5594239383548801
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.5812942366026289,
+        "curtail_fraction": 0.02818016610018489,
+        "switches_per_group_run": 0.6072413793103448,
+        "score": 0.553053346364513
+      },
+      "val": {
+        "achievement_rate": 0.5674810936591042,
+        "curtail_fraction": 0.030120743728050573,
+        "switches_per_group_run": 0.5495238095238095,
+        "score": 0.5373053975501011
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.652414194299011,
+      "floor": 0.7559627690517743,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 198.8
+  },
+  "delta_0.08": {
+    "delta_dr": 0.08,
+    "budget_fraction": 0.03,
+    "cap": 0.92,
+    "budget_kwh": 0.23499648,
+    "retuned_rule": {
+      "th_low": 0.0,
+      "th_high": 0.6,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.8502036067481094,
+        "curtail_fraction": 0.02299034293291557,
+        "switches_per_group_run": 0.37523809523809526,
+        "score": 0.82717574000567
+      },
+      "train": {
+        "achievement_rate": 0.839231547017189,
+        "curtail_fraction": 0.021935940415449114,
+        "switches_per_group_run": 0.46,
+        "score": 0.81724960660174
+      },
+      "rank_of_frozen": 30
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.7146596858638743,
+        "curtail_fraction": 0.028978331578561806,
+        "switches_per_group_run": 0.47714285714285715,
+        "score": 0.6856336399995983
+      },
+      "train": {
+        "achievement_rate": 0.731041456016178,
+        "curtail_fraction": 0.027404232404644537,
+        "switches_per_group_run": 0.5700000000000001,
+        "score": 0.7035802236115335
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.837108190091001,
+        "curtail_fraction": 0.022377040768836755,
+        "switches_per_group_run": 0.4844827586206897,
+        "score": 0.8146827010463022
+      },
+      "val": {
+        "achievement_rate": 0.8481675392670157,
+        "curtail_fraction": 0.023610870855910952,
+        "switches_per_group_run": 0.4114285714285715,
+        "score": 0.8245155255539619
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.872891215823153,
+      "floor": 0.9339732402559627,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 162.0
+  },
+  "delta_0.16": {
+    "delta_dr": 0.16,
+    "budget_fraction": 0.03,
+    "cap": 0.84,
+    "budget_kwh": 0.23499648,
+    "retuned_rule": {
+      "th_low": 0.1,
+      "th_high": 0.6,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.13757998836532867,
+        "curtail_fraction": 0.02998766826494311,
+        "switches_per_group_run": 0.48952380952380947,
+        "score": 0.10754336771943317
+      },
+      "train": {
+        "achievement_rate": 0.1770475227502528,
+        "curtail_fraction": 0.02828384481784161,
+        "switches_per_group_run": 0.5606896551724139,
+        "score": 0.14870760896689394
+      },
+      "rank_of_frozen": 14
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.1358347876672484,
+        "curtail_fraction": 0.030095609237503155,
+        "switches_per_group_run": 0.4866666666666667,
+        "score": 0.10569051176307859
+      },
+      "train": {
+        "achievement_rate": 0.19009100101112233,
+        "curtail_fraction": 0.02848099498674852,
+        "switches_per_group_run": 0.5558620689655173,
+        "score": 0.16155441981747726
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.18806875631951467,
+        "curtail_fraction": 0.028656399701133435,
+        "switches_per_group_run": 0.5996551724137931,
+        "score": 0.15935239110113986
+      },
+      "val": {
+        "achievement_rate": 0.13350785340314136,
+        "curtail_fraction": 0.030412219045522257,
+        "switches_per_group_run": 0.5485714285714286,
+        "score": 0.10304077721476196
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.2268760907504363,
+      "floor": 0.2268760907504363,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 139.4
+  },
+  "budget_0.02": {
+    "delta_dr": 0.12,
+    "budget_fraction": 0.02,
+    "cap": 0.88,
+    "budget_kwh": 0.15666432,
+    "retuned_rule": {
+      "th_low": 0.1,
+      "th_high": 0.6,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.4179755671902269,
+        "curtail_fraction": 0.020634246705371184,
+        "switches_per_group_run": 0.38,
+        "score": 0.3973033204848557
+      },
+      "train": {
+        "achievement_rate": 0.45267947421638016,
+        "curtail_fraction": 0.019724662872942958,
+        "switches_per_group_run": 0.4213793103448276,
+        "score": 0.43291267341240275
+      },
+      "rank_of_frozen": 13
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.4162303664921466,
+        "curtail_fraction": 0.020661581445244374,
+        "switches_per_group_run": 0.3857142857142857,
+        "score": 0.3955302136183308
+      },
+      "train": {
+        "achievement_rate": 0.45601617795753285,
+        "curtail_fraction": 0.019727543161051582,
+        "switches_per_group_run": 0.4086206896551724,
+        "score": 0.43624777272751575
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.4492416582406471,
+        "curtail_fraction": 0.019786417920131427,
+        "switches_per_group_run": 0.46482758620689657,
+        "score": 0.429408757561895
+      },
+      "val": {
+        "achievement_rate": 0.4098312972658522,
+        "curtail_fraction": 0.020755455316823553,
+        "switches_per_group_run": 0.44476190476190475,
+        "score": 0.38903136575855246
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.502326934264107,
+      "floor": 0.5523560209424084,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 140.1
+  },
+  "budget_0.04": {
+    "delta_dr": 0.12,
+    "budget_fraction": 0.04,
+    "cap": 0.88,
+    "budget_kwh": 0.31332864,
+    "retuned_rule": {
+      "th_low": 0.0,
+      "th_high": 0.2,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.6579406631762653,
+        "curtail_fraction": 0.03467329231739399,
+        "switches_per_group_run": 0.5619047619047619,
+        "score": 0.6232111803826809
+      },
+      "train": {
+        "achievement_rate": 0.6671385237613752,
+        "curtail_fraction": 0.03265120548422912,
+        "switches_per_group_run": 0.6175862068965517,
+        "score": 0.6344255596564563
+      },
+      "rank_of_frozen": 2
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.6576497963932519,
+        "curtail_fraction": 0.03439326280837042,
+        "switches_per_group_run": 0.5657142857142857,
+        "score": 0.6231999621563101
+      },
+      "train": {
+        "achievement_rate": 0.6675429726996966,
+        "curtail_fraction": 0.032494680342822005,
+        "switches_per_group_run": 0.616551724137931,
+        "score": 0.6349866371844609
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.6621840242669363,
+        "curtail_fraction": 0.03264168677160905,
+        "switches_per_group_run": 0.6689655172413793,
+        "score": 0.6294754409436032
+      },
+      "val": {
+        "achievement_rate": 0.6503781268179174,
+        "curtail_fraction": 0.034742865294564385,
+        "switches_per_group_run": 0.6152380952380953,
+        "score": 0.6155737377138292
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.7417102966841187,
+      "floor": 0.8368237347294939,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 141.8
+  },
+  "budget_0.06": {
+    "delta_dr": 0.12,
+    "budget_fraction": 0.06,
+    "cap": 0.88,
+    "budget_kwh": 0.46999296,
+    "retuned_rule": {
+      "th_low": 0.0,
+      "th_high": 0.2,
+      "hyst": 0.0,
+      "degenerate": false,
+      "val": {
+        "achievement_rate": 0.7344386271087842,
+        "curtail_fraction": 0.03881336516249506,
+        "switches_per_group_run": 0.5847619047619047,
+        "score": 0.6955667857558129
+      },
+      "train": {
+        "achievement_rate": 0.7320525783619818,
+        "curtail_fraction": 0.036131913119742225,
+        "switches_per_group_run": 0.6451724137931035,
+        "score": 0.6958561480008603
+      },
+      "rank_of_frozen": 6
+    },
+    "frozen_rule": {
+      "params": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "val": {
+        "achievement_rate": 0.7318208260616638,
+        "curtail_fraction": 0.038367987780434605,
+        "switches_per_group_run": 0.5885714285714285,
+        "score": 0.693393981138372
+      },
+      "train": {
+        "achievement_rate": 0.7313447927199191,
+        "curtail_fraction": 0.035892235838961416,
+        "switches_per_group_run": 0.6455172413793103,
+        "score": 0.6953880051568199
+      }
+    },
+    "c7": {
+      "train": {
+        "achievement_rate": 0.7254802831142568,
+        "curtail_fraction": 0.03607688674005258,
+        "switches_per_group_run": 0.6931034482758621,
+        "score": 0.6893340860293766
+      },
+      "val": {
+        "achievement_rate": 0.7271669575334497,
+        "curtail_fraction": 0.038883315693897066,
+        "switches_per_group_run": 0.6342857142857143,
+        "score": 0.6882202132681241
+      }
+    },
+    "dp": {
+      "nb": 600,
+      "ceil": 0.8932518906340896,
+      "floor": 0.9424083769633508,
+      "normalization": "sum_i dp_i / sum_i elig_i, elig_VA=3438"
+    },
+    "n_grid": 144,
+    "wall_s": 163.8
+  }
+}

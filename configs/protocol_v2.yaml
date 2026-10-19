@@ -1,0 +1,205 @@
+# =============================================================================
+# P359 / READ-Grid rebuild - FROZEN EXPERIMENT PROTOCOL
+# =============================================================================
+# Every numeric value here is a *new study assumption* unless explicitly tagged
+# `origin: source_defined` or `origin: verified_external`. The original source
+# code is unavailable, so no value is presented as a recovered original setting.
+#
+# This file is frozen before the held-out evaluation. Changes after a pilot are
+# recorded in docs/experiment_protocol.md section "Protocol change log".
+# =============================================================================
+
+meta:
+  name: P359 READ-Grid v2 (corrected training pipeline)
+  protocol_version: "2.0.0-frozen"
+  frozen_date: "2026-10-16"
+  supersedes: "1.0.0-frozen"
+  # Decision A2 (see P359_V2_DEEPSEEK_EXECUTION_PLAN.md section 2.1): the old
+  # 21-episode test split has already been observed in v1 and cannot be
+  # un-exposed. All v2 evaluation on it is therefore post-hoc / exploratory.
+  evaluation_nature: post_hoc_exploratory
+  exposure_record: docs/test_exposure_record.md
+  preregistration: docs/v2_preregistration.md
+
+# ---------------------------------------------------------------- feeder -----
+feeder:
+  workdir: data/processed/ieee123_work
+  master: IEEE123Master.dss
+  rating_patch: configs/ieee123_ratings_patch.dss
+  control_mode: STATIC
+  max_control_iter: 300
+  load_model_preserved: true      # do not change Load.model / conn / kV
+
+# -------------------------------------------------------------- topology -----
+topology:
+  n_groups: 50                    # logical metering / control groups
+  n_domains: 5                    # edge controllers
+  groups_per_domain: 10
+  mapping_rule: bus_sorted_contiguous   # deterministic, documented in mapping.py
+
+# ----------------------------------------------------------- flexibility -----
+# origin: new_assumption (Phase 3 of the task prompt)
+flexibility:
+  flexible_fraction: 0.20         # fraction of each group's baseline demand that is controllable
+  action_levels: [0.0, 0.40, 0.70]  # curtailment applied to the flexible portion
+  # group multiplier m = 1 - flexible_fraction * level  ->  {1.00, 0.92, 0.86}
+  power_factor_preserved: true    # Q scales with P at the group's baseline power factor
+
+# ---------------------------------------------------------------- target -----
+# The DR target is a *relative reduction* of the reconstructed uncontrolled demand.
+# Everything a controller can learn about the DR programme (which minutes are
+# opportunities, the reduction required, and the daily energy budget) is a
+# **day-ahead declared signal**: it is derived from published dataset constants,
+# identical for every policy and every episode, and available from t = 0. It is
+# NOT read from the realised episode, so no controller receives future workload
+# information. See docs/experiment_protocol.md, "Day-ahead declared signals".
+target:
+  delta_dr: 0.12                  # required reduction inside a DR window
+  dr_trigger_fraction: 0.80       # a minute is a DR opportunity if the normalised
+                                  # daily multiplier is >= this value (top ~25% of the day)
+  dr_s_ref: 1.0                   # declared demand level at which the DR cap is set:
+                                  # cap_g = (1 - delta_dr) * nominal_kw_g * dr_s_ref.
+                                  # 1.0 == the group's documented nominal baseline demand.
+  cache_max_age_s: 300            # A7: cached schedule older than this is discarded
+  static_fallback_window: [17, 21]  # local static DR window (hours) when cache is stale
+  static_fallback_delta: 0.10     # local static reduction when cache is stale
+
+# ------------------------------------------------------------ constraints -----
+# origin: new_assumption (Phase 3: ramp, dwell, cumulative burden)
+constraints:
+  ramp_max_level_step: 1          # at most one action level per 60 s control step
+  dwell_time_s: 180               # hold an accepted level for at least this long
+  burden_cap_fraction: 0.03       # daily curtailed energy <= 3% of the group's
+                                  # *declared* nominal daily energy
+                                  # (nominal_kw * 24 h * declared_load_factor).
+                                  # Chosen so the cap BINDS: curtailing maximally in
+                                  # every DR window would cost ~4.3% of the declared
+                                  # daily energy, so the controller must allocate
+                                  # its budget across the day.
+  declared_load_factor: 0.326384  # mean of the normalised daily shape over the whole
+                                  # published profile family (100 profiles,
+                                  # data/processed/workload_episodes_meta.json).
+                                  # A documented property of the public dataset, not a
+                                  # property of the realised episode. Used only to size
+                                  # the declared daily energy budget.
+
+# ------------------------------------------------------------- workload ------
+workload:
+  resolution_s: 60
+  episode_length_s: 86400
+  control_interval_s: 60
+  heartbeat_interval_s: 1
+  shape_normalisation: unit_mean_clipped_then_p95
+  # "workload scale 1.0" == the 95th-percentile daily demand equals the documented
+  # IEEE 123-bus baseline load (3490 kW / 1920 kVAr).
+  shape_clip_low: 0.20
+  shape_clip_high: 2.50
+  scales: [0.8, 1.0, 1.2]
+
+# ------------------------------------------------------------------ comm -----
+# origin: new_assumption (Phase 8)
+comms:
+  backhaul_oneway_delay_ms: 50
+  backhaul_jitter_ms: 20
+  local_oneway_delay_ms: 5
+  cloud_lease_s: 120              # command expiry = creation_time + lease (A9)
+  retransmit_interval_s: 7        # NOT a divisor of the 10 s flapping period (A9)
+  model: simplified_no_queueing   # message size / bandwidth / queueing not modelled
+
+# ------------------------------------------------------------- authority -----
+# origin: new_assumption (Phase 6)
+authority:
+  suspect_after_s: 3.0
+  takeover_after_s: 5.0
+  recovery_stable_s: 10.0
+  min_dwell_s: 10.0
+  tie_break: watchdog_before_packet   # A8: at equal timestamps, expiry is processed first
+  restart_resilience: excluded        # B9
+
+# ------------------------------------------------------------------ reward ----
+# Learning reward: locally observable terms only. Physical/device constraints are
+# NOT part of the reward (Phase 5); they are enforced by the arbiter and reported
+# as metrics.
+reward:
+  w_track: 1.0
+  w_burden: 0.20
+  w_switch: 0.05
+
+# ------------------------------------------------------------- value model ---
+value_model:
+  gamma: 0.97
+  learning_rate: 0.05             # online TD step (only used if online mode enabled)
+  fitted_q_iterations: 8          # batch fitted-Q sweeps
+  epsilon_start: 0.40
+  epsilon_end: 0.05
+  n_train_seeds: 5
+  terminal: no_bootstrap          # no bootstrap at the final step of an episode
+
+# ----------------------------------------------------------------- faults -----
+# All outage-type faults start at 18:30 (66600 s). That clock time was chosen
+# BEFORE the held-out evaluation as the single start time that maximises
+# coverage of the declared DR opportunities on the held-out episodes
+# (43% of test episodes for a 5 min outage, 67% for 30 min, 90% for 120 min;
+# an outage that misses every DR window cannot discriminate between a cloud
+# policy and an edge fallback). The choice is a protocol decision recorded in
+# docs/experiment_protocol.md and is not adjusted per policy.
+faults:
+  F0:  {kind: connected}
+  F1:  {kind: outage, start_s: 66600, duration_s: 300}
+  F2:  {kind: outage, start_s: 66600, duration_s: 1800}
+  F3:  {kind: outage, start_s: 66600, duration_s: 7200}
+  F4:  {kind: packet_loss, p: 0.10}
+  F5:  {kind: burst_loss, p_good_to_bad: 0.02, p_bad_to_good: 0.20, p_loss_bad: 0.90}
+  F6:  {kind: delay_jitter, extra_delay_ms: 120, extra_jitter_ms: 80}
+  F7:  {kind: asymmetric, cloud_to_edge_loss: 0.10, edge_to_cloud_loss: 0.00}
+  F8:  {kind: flapping, down_s: 5, up_s: 5, total_s: 300, start_s: 66600}
+  F9:  {kind: delayed_duplicates, delay_s: 45, duplicate_p: 0.30, replay_window_s: 600,
+        outage_start_s: 66600, outage_s: 300}
+  F10: {kind: stale_cache, outage_start_s: 66600, outage_s: 1800}
+
+deterministic_faults: [F0, F1, F2, F3, F8]
+stochastic_faults: [F4, F5, F6, F7, F9, F10]
+
+# ------------------------------------------------------------------ split -----
+# 58/21/21 uses all 100 published episodes with an exact per-regime fit
+# (34/33/33 episodes in the low/mid/high regime terciles).
+split:
+  n_train_episodes: 58
+  n_val_episodes: 21
+  n_test_episodes: 21
+  stratify_by: regime
+  # Held-out communication seeds for the six stochastic faults, paired across
+  # policies. The task prompt proposes 30; the main grid uses 15 for compute
+  # budget (change log P16). The number of INDEPENDENT units is the 21 held-out
+  # episodes, which is unchanged -- the seed count only controls the
+  # within-episode Monte-Carlo replication of the paired difference.
+  test_comm_seeds: 15
+  scales_main: [1.0]
+  scales_sensitivity: [0.8, 1.2]
+
+# ---------------------------------------------------------------- metrics -----
+metrics:
+  ansi_lower_pu: 0.95
+  ansi_upper_pu: 1.05
+  loading_limit_pu: 1.00
+  efficiency_pf: 0.8944271909999159   # baseline load power factor (atan(0.5))
+
+# --------------------------------------------------------------- analysis -----
+analysis:
+  bootstrap_resamples: 5000
+  bootstrap_unit: episode_cluster
+  ci_level: 0.95
+  multiplicity: holm_bonferroni
+  # Validation selection objective, frozen BEFORE the held-out evaluation and
+  # applied identically to every candidate (rule configurations and learned
+  # checkpoints). Higher is better:
+  #   score = w_achievement * achievement_rate
+  #         - w_curtail_fraction * (curtail_energy / baseline_energy)
+  #         - w_switch_per_group * (switches / n_groups / n_runs)
+  # Achievement is the fraction of eligible DR steps meeting the external cap.
+  # The two penalties are the cumulative service-burden proxy and the switching
+  # count, so a candidate cannot win by curtailing without limit.
+  selection_score:
+    w_achievement: 1.0
+    w_curtail_fraction: 1.0
+    w_switch_per_group: 0.0001

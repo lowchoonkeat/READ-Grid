@@ -1,0 +1,4322 @@
+[
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5735892961023851,
+      "curtail_fraction": 0.02695038979055145,
+      "switches_per_group_run": 0.4095238095238095,
+      "score": 0.5465979539308813,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5727166957533449,
+      "curtail_fraction": 0.02915324452348124,
+      "switches_per_group_run": 0.5180952380952382,
+      "score": 0.5435116417060541,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5753286147623863,
+      "curtail_fraction": 0.025366709179373528,
+      "switches_per_group_run": 0.4458620689655172,
+      "score": 0.5499173193761162,
+      "n_episodes": 58
+    },
+    "wall_s": 21.2,
+    "rank_val": 1,
+    "rank_train": 12
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5741710296684118,
+      "curtail_fraction": 0.02756799348363641,
+      "switches_per_group_run": 0.4114285714285715,
+      "score": 0.5465618933276326,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5692262943571844,
+      "curtail_fraction": 0.0296606268675876,
+      "switches_per_group_run": 0.5333333333333333,
+      "score": 0.5395123341562634,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5741152679474216,
+      "curtail_fraction": 0.025727878066852575,
+      "switches_per_group_run": 0.4551724137931034,
+      "score": 0.5483418726391897,
+      "n_episodes": 58
+    },
+    "wall_s": 15.1,
+    "rank_val": 2,
+    "rank_train": 16
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5735892961023851,
+      "curtail_fraction": 0.027336334463004392,
+      "switches_per_group_run": 0.40761904761904766,
+      "score": 0.5462121997346188,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5715532286212914,
+      "curtail_fraction": 0.02928110976613504,
+      "switches_per_group_run": 0.5323809523809524,
+      "score": 0.5422188807599183,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5752275025278059,
+      "curtail_fraction": 0.025428730417669982,
+      "switches_per_group_run": 0.4510344827586207,
+      "score": 0.5497536686618599,
+      "n_episodes": 58
+    },
+    "wall_s": 27.8,
+    "rank_val": 3,
+    "rank_train": 14
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5718440954043048,
+      "curtail_fraction": 0.029529543535168,
+      "switches_per_group_run": 0.48571428571428565,
+      "score": 0.5422659804405654,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5718440954043048,
+      "curtail_fraction": 0.029529543535168,
+      "switches_per_group_run": 0.48571428571428565,
+      "score": 0.5422659804405654,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5841253791708797,
+      "curtail_fraction": 0.02786420377132746,
+      "switches_per_group_run": 0.5541379310344827,
+      "score": 0.5562057616064487,
+      "n_episodes": 58
+    },
+    "wall_s": 12.5,
+    "rank_val": 4,
+    "rank_train": 1
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.568935427574171,
+      "curtail_fraction": 0.02722040885601983,
+      "switches_per_group_run": 0.4057142857142857,
+      "score": 0.5416744472895798,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5686445607911577,
+      "curtail_fraction": 0.029569057583795775,
+      "switches_per_group_run": 0.5276190476190477,
+      "score": 0.5390227413026,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5740141557128412,
+      "curtail_fraction": 0.025339395447333636,
+      "switches_per_group_run": 0.44,
+      "score": 0.5486307602655075,
+      "n_episodes": 58
+    },
+    "wall_s": 21.0,
+    "rank_val": 5,
+    "rank_train": 15
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5715532286212914,
+      "curtail_fraction": 0.030288290141150476,
+      "switches_per_group_run": 0.5238095238095238,
+      "score": 0.54121255752776,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5698080279232112,
+      "curtail_fraction": 0.030206422947871098,
+      "switches_per_group_run": 0.5333333333333333,
+      "score": 0.5395482716420067,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5717896865520729,
+      "curtail_fraction": 0.028075199600410827,
+      "switches_per_group_run": 0.5544827586206896,
+      "score": 0.5436590386757999,
+      "n_episodes": 58
+    },
+    "wall_s": 27.1,
+    "rank_val": 6,
+    "rank_train": 26
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029525292562432075,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.5408161832125201,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029525292562432075,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.5408161832125201,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.582103134479272,
+      "curtail_fraction": 0.02787473345395919,
+      "switches_per_group_run": 0.5558620689655173,
+      "score": 0.5541728148184163,
+      "n_episodes": 58
+    },
+    "wall_s": 12.7,
+    "rank_val": 7,
+    "rank_train": 5
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029546284665215704,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.5407951911097365,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029546284665215704,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.5407951911097365,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5824064711830131,
+      "curtail_fraction": 0.02788715738605381,
+      "switches_per_group_run": 0.5565517241379311,
+      "score": 0.5544636586245455,
+      "n_episodes": 58
+    },
+    "wall_s": 12.5,
+    "rank_val": 8,
+    "rank_train": 4
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029594875009904792,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5407465055269522,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029594875009904792,
+      "switches_per_group_run": 0.4838095238095238,
+      "score": 0.5407465055269522,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5831142568250758,
+      "curtail_fraction": 0.027966976080143438,
+      "switches_per_group_run": 0.5499999999999999,
+      "score": 0.5550922807449323,
+      "n_episodes": 58
+    },
+    "wall_s": 16.6,
+    "rank_val": 9,
+    "rank_train": 2
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.571262361838278,
+      "curtail_fraction": 0.03051661860438213,
+      "switches_per_group_run": 0.5123809523809524,
+      "score": 0.5406945051386578,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.571262361838278,
+      "curtail_fraction": 0.03051661860438213,
+      "switches_per_group_run": 0.5123809523809524,
+      "score": 0.5406945051386578,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.573407482305359,
+      "curtail_fraction": 0.028418004143721504,
+      "switches_per_group_run": 0.5551724137931034,
+      "score": 0.5449339609202581,
+      "n_episodes": 58
+    },
+    "wall_s": 20.8,
+    "rank_val": 10,
+    "rank_train": 21
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5671902268760908,
+      "curtail_fraction": 0.026466433232608222,
+      "switches_per_group_run": 0.3866666666666666,
+      "score": 0.5406851269768159,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5718440954043048,
+      "curtail_fraction": 0.029009583108723216,
+      "switches_per_group_run": 0.5161904761904762,
+      "score": 0.5427828932479625,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5752275025278059,
+      "curtail_fraction": 0.025277632900653175,
+      "switches_per_group_run": 0.4479310344827586,
+      "score": 0.5499050765237044,
+      "n_episodes": 58
+    },
+    "wall_s": 27.0,
+    "rank_val": 11,
+    "rank_train": 13
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.029607239227928697,
+      "switches_per_group_run": 0.4847619047619047,
+      "score": 0.5404431792878196,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.029607239227928697,
+      "switches_per_group_run": 0.4847619047619047,
+      "score": 0.5404431792878196,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5827098078867543,
+      "curtail_fraction": 0.02793488278162636,
+      "switches_per_group_run": 0.5548275862068965,
+      "score": 0.5547194423465073,
+      "n_episodes": 58
+    },
+    "wall_s": 16.9,
+    "rank_val": 12,
+    "rank_train": 3
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.026668027345593148,
+      "switches_per_group_run": 0.3904761904761904,
+      "score": 0.5401922851284366,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5732984293193717,
+      "curtail_fraction": 0.029278417247686605,
+      "switches_per_group_run": 0.5352380952380953,
+      "score": 0.5439664882621612,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5754297269969666,
+      "curtail_fraction": 0.025176042641206358,
+      "switches_per_group_run": 0.446551724137931,
+      "score": 0.5502090291833465,
+      "n_episodes": 58
+    },
+    "wall_s": 15.6,
+    "rank_val": 13,
+    "rank_train": 10
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.030320882367746875,
+      "switches_per_group_run": 0.5228571428571429,
+      "score": 0.5400165934072053,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.03031362267449543,
+      "switches_per_group_run": 0.5228571428571429,
+      "score": 0.5400238531004568,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5729019211324571,
+      "curtail_fraction": 0.028001668760122233,
+      "switches_per_group_run": 0.5517241379310345,
+      "score": 0.5448450799585417,
+      "n_episodes": 58
+    },
+    "wall_s": 15.5,
+    "rank_val": 14,
+    "rank_train": 22
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.566608493310064,
+      "curtail_fraction": 0.026791872071200585,
+      "switches_per_group_run": 0.38761904761904764,
+      "score": 0.5397778593341015,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5715532286212914,
+      "curtail_fraction": 0.029749728268989604,
+      "switches_per_group_run": 0.5171428571428571,
+      "score": 0.5417517860665876,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.576845298281092,
+      "curtail_fraction": 0.02534389939856682,
+      "switches_per_group_run": 0.4420689655172414,
+      "score": 0.5514571919859734,
+      "n_episodes": 58
+    },
+    "wall_s": 21.5,
+    "rank_val": 15,
+    "rank_train": 7
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.030346093126995932,
+      "switches_per_group_run": 0.5342857142857144,
+      "score": 0.5396993730078,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.030346093126995932,
+      "switches_per_group_run": 0.5342857142857144,
+      "score": 0.5396993730078,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5716885743174924,
+      "curtail_fraction": 0.027900523207479138,
+      "switches_per_group_run": 0.553103448275862,
+      "score": 0.5437327407651856,
+      "n_episodes": 58
+    },
+    "wall_s": 21.1,
+    "rank_val": 16,
+    "rank_train": 25
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5663176265270506,
+      "curtail_fraction": 0.026667519182570477,
+      "switches_per_group_run": 0.38857142857142857,
+      "score": 0.539611250201623,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5718440954043048,
+      "curtail_fraction": 0.029004101884325124,
+      "switches_per_group_run": 0.5171428571428571,
+      "score": 0.5427882792342654,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5756319514661274,
+      "curtail_fraction": 0.02513280922485041,
+      "switches_per_group_run": 0.43827586206896557,
+      "score": 0.5504553146550701,
+      "n_episodes": 58
+    },
+    "wall_s": 15.5,
+    "rank_val": 17,
+    "rank_train": 9
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5700988947062245,
+      "curtail_fraction": 0.030521865572663908,
+      "switches_per_group_run": 0.5380952380952382,
+      "score": 0.5395232196097511,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.030522684655809346,
+      "switches_per_group_run": 0.5380952380952382,
+      "score": 0.5398132673096191,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5725985844287159,
+      "curtail_fraction": 0.028042552346932228,
+      "switches_per_group_run": 0.5617241379310345,
+      "score": 0.5444998596679906,
+      "n_episodes": 58
+    },
+    "wall_s": 27.1,
+    "rank_val": 18,
+    "rank_train": 23
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5663176265270506,
+      "curtail_fraction": 0.02678466131052473,
+      "switches_per_group_run": 0.3857142857142857,
+      "score": 0.5394943937879545,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5698080279232112,
+      "curtail_fraction": 0.029713243777396085,
+      "switches_per_group_run": 0.5133333333333333,
+      "score": 0.5400434508124818,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5753286147623863,
+      "curtail_fraction": 0.025349410875130804,
+      "switches_per_group_run": 0.44724137931034486,
+      "score": 0.5499344797493245,
+      "n_episodes": 58
+    },
+    "wall_s": 26.7,
+    "rank_val": 19,
+    "rank_train": 11
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5695171611401978,
+      "curtail_fraction": 0.030109258712360552,
+      "switches_per_group_run": 0.5266666666666667,
+      "score": 0.5393552357611705,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5692262943571844,
+      "curtail_fraction": 0.030054504187178522,
+      "switches_per_group_run": 0.5304761904761905,
+      "score": 0.5391187425509584,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5730030333670374,
+      "curtail_fraction": 0.02799932762332114,
+      "switches_per_group_run": 0.5558620689655173,
+      "score": 0.5449481195368198,
+      "n_episodes": 58
+    },
+    "wall_s": 26.6,
+    "rank_val": 20,
+    "rank_train": 20
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5660267597440373,
+      "curtail_fraction": 0.026683634536329805,
+      "switches_per_group_run": 0.3866666666666666,
+      "score": 0.5393044585410408,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5715532286212914,
+      "curtail_fraction": 0.02928110976613504,
+      "switches_per_group_run": 0.5323809523809524,
+      "score": 0.5422188807599183,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5765419615773508,
+      "curtail_fraction": 0.02532459038623736,
+      "switches_per_group_run": 0.44137931034482764,
+      "score": 0.5511732332600789,
+      "n_episodes": 58
+    },
+    "wall_s": 15.2,
+    "rank_val": 21,
+    "rank_train": 8
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5677719604421175,
+      "curtail_fraction": 0.0296264545848078,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.538097220143024,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5677719604421175,
+      "curtail_fraction": 0.0296264545848078,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.538097220143024,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5805864509605663,
+      "curtail_fraction": 0.027993808760377516,
+      "switches_per_group_run": 0.5513793103448276,
+      "score": 0.5525375042691543,
+      "n_episodes": 58
+    },
+    "wall_s": 16.7,
+    "rank_val": 22,
+    "rank_train": 6
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5680628272251309,
+      "curtail_fraction": 0.030346963628200305,
+      "switches_per_group_run": 0.5361904761904762,
+      "score": 0.5376622445493116,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5683536940081443,
+      "curtail_fraction": 0.030347782711345753,
+      "switches_per_group_run": 0.5361904761904762,
+      "score": 0.5379522922491795,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5704752275025278,
+      "curtail_fraction": 0.02807683049969921,
+      "switches_per_group_run": 0.5599999999999999,
+      "score": 0.5423423970028286,
+      "n_episodes": 58
+    },
+    "wall_s": 20.7,
+    "rank_val": 23,
+    "rank_train": 27
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5674810936591042,
+      "curtail_fraction": 0.029807623117612696,
+      "switches_per_group_run": 0.5295238095238095,
+      "score": 0.5376205181605391,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5683536940081443,
+      "curtail_fraction": 0.029862141202502735,
+      "switches_per_group_run": 0.5314285714285715,
+      "score": 0.5384384099484987,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5724974721941355,
+      "curtail_fraction": 0.028042611269837134,
+      "switches_per_group_run": 0.5544827586206896,
+      "score": 0.5443994126484363,
+      "n_episodes": 58
+    },
+    "wall_s": 15.4,
+    "rank_val": 24,
+    "rank_train": 24
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.03002900105970036,
+      "switches_per_group_run": 0.4904761904761905,
+      "score": 0.5368213114143293,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5668993600930774,
+      "curtail_fraction": 0.03002900105970036,
+      "switches_per_group_run": 0.4904761904761905,
+      "score": 0.5368213114143293,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5761375126390293,
+      "curtail_fraction": 0.028237609151725237,
+      "switches_per_group_run": 0.5462068965517242,
+      "score": 0.5478452827976489,
+      "n_episodes": 58
+    },
+    "wall_s": 21.0,
+    "rank_val": 25,
+    "rank_train": 17
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5651541593949971,
+      "curtail_fraction": 0.030573961806848064,
+      "switches_per_group_run": 0.5276190476190477,
+      "score": 0.5345274356833872,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5651541593949971,
+      "curtail_fraction": 0.030585997451732665,
+      "switches_per_group_run": 0.5333333333333333,
+      "score": 0.5345148286099312,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5626895854398383,
+      "curtail_fraction": 0.028558193956801387,
+      "switches_per_group_run": 0.5541379310344827,
+      "score": 0.5340759776899334,
+      "n_episodes": 58
+    },
+    "wall_s": 26.8,
+    "rank_val": 26,
+    "rank_train": 33
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5636998254799301,
+      "curtail_fraction": 0.029830055165467464,
+      "switches_per_group_run": 0.4933333333333333,
+      "score": 0.5338204369811294,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5636998254799301,
+      "curtail_fraction": 0.029830055165467464,
+      "switches_per_group_run": 0.4933333333333333,
+      "score": 0.5338204369811294,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5758341759352882,
+      "curtail_fraction": 0.02815327734200789,
+      "switches_per_group_run": 0.5472413793103448,
+      "score": 0.5476261744553492,
+      "n_episodes": 58
+    },
+    "wall_s": 21.6,
+    "rank_val": 27,
+    "rank_train": 18
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.564281559045957,
+      "curtail_fraction": 0.030611441257364955,
+      "switches_per_group_run": 0.5352380952380953,
+      "score": 0.5336165939790682,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.564281559045957,
+      "curtail_fraction": 0.030607006578703553,
+      "switches_per_group_run": 0.5457142857142857,
+      "score": 0.533619981038682,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5658240647118301,
+      "curtail_fraction": 0.028669542621065892,
+      "switches_per_group_run": 0.5589655172413793,
+      "score": 0.5370986255390401,
+      "n_episodes": 58
+    },
+    "wall_s": 15.2,
+    "rank_val": 28,
+    "rank_train": 32
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5631180919139034,
+      "curtail_fraction": 0.03056858961405755,
+      "switches_per_group_run": 0.5285714285714286,
+      "score": 0.5324966451569887,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5631180919139034,
+      "curtail_fraction": 0.03056858961405755,
+      "switches_per_group_run": 0.5285714285714286,
+      "score": 0.5324966451569887,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5621840242669363,
+      "curtail_fraction": 0.02887706265628047,
+      "switches_per_group_run": 0.5568965517241379,
+      "score": 0.5332512719554834,
+      "n_episodes": 58
+    },
+    "wall_s": 26.6,
+    "rank_val": 29,
+    "rank_train": 36
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5622454915648633,
+      "curtail_fraction": 0.030631702915239326,
+      "switches_per_group_run": 0.5285714285714286,
+      "score": 0.5315609315067668,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.56282722513089,
+      "curtail_fraction": 0.03063584520283339,
+      "switches_per_group_run": 0.5466666666666666,
+      "score": 0.53213671326139,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5660262891809908,
+      "curtail_fraction": 0.028702280180243133,
+      "switches_per_group_run": 0.5593103448275861,
+      "score": 0.537268077966265,
+      "n_episodes": 58
+    },
+    "wall_s": 15.5,
+    "rank_val": 30,
+    "rank_train": 30
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5622454915648633,
+      "curtail_fraction": 0.030632820288333272,
+      "switches_per_group_run": 0.54,
+      "score": 0.53155867127653,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.56282722513089,
+      "curtail_fraction": 0.03062513694185018,
+      "switches_per_group_run": 0.5533333333333333,
+      "score": 0.5321467548557065,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5659251769464105,
+      "curtail_fraction": 0.028649756834776385,
+      "switches_per_group_run": 0.566551724137931,
+      "score": 0.5372187649392203,
+      "n_episodes": 58
+    },
+    "wall_s": 15.6,
+    "rank_val": 31,
+    "rank_train": 31
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5616637579988365,
+      "curtail_fraction": 0.030527314101277306,
+      "switches_per_group_run": 0.5266666666666667,
+      "score": 0.5310837772308925,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.560500290866783,
+      "curtail_fraction": 0.030521926580070077,
+      "switches_per_group_run": 0.5285714285714286,
+      "score": 0.5299255071438558,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5667340748230536,
+      "curtail_fraction": 0.028847447244506014,
+      "switches_per_group_run": 0.5603448275862069,
+      "score": 0.537830593095789,
+      "n_episodes": 58
+    },
+    "wall_s": 21.4,
+    "rank_val": 32,
+    "rank_train": 28
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.02982911577962176,
+      "switches_per_group_run": 0.4961904761904762,
+      "score": 0.5309124228225556,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029836236166478226,
+      "switches_per_group_run": 0.49809523809523815,
+      "score": 0.5309051119595086,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5740141557128412,
+      "curtail_fraction": 0.028164747261445185,
+      "switches_per_group_run": 0.5437931034482758,
+      "score": 0.5457950291410513,
+      "n_episodes": 58
+    },
+    "wall_s": 21.6,
+    "rank_val": 33,
+    "rank_train": 19
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5602094240837696,
+      "curtail_fraction": 0.030599293046963575,
+      "switches_per_group_run": 0.5190476190476191,
+      "score": 0.5295582262749012,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5599185573007562,
+      "curtail_fraction": 0.030598344363808868,
+      "switches_per_group_run": 0.5247619047619048,
+      "score": 0.5292677367464712,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5662285136501517,
+      "curtail_fraction": 0.028695738466141957,
+      "switches_per_group_run": 0.5596551724137931,
+      "score": 0.5374768096667684,
+      "n_episodes": 58
+    },
+    "wall_s": 20.5,
+    "rank_val": 34,
+    "rank_train": 29
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5573007562536358,
+      "curtail_fraction": 0.030013324674606087,
+      "switches_per_group_run": 0.44476190476190475,
+      "score": 0.5272429553885536,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5683536940081443,
+      "curtail_fraction": 0.029854578339107686,
+      "switches_per_group_run": 0.48,
+      "score": 0.5384511156690366,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.556319514661274,
+      "curtail_fraction": 0.02835710736215643,
+      "switches_per_group_run": 0.4979310344827586,
+      "score": 0.5279126141956693,
+      "n_episodes": 58
+    },
+    "wall_s": 11.9,
+    "rank_val": 35,
+    "rank_train": 53
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5567190226876091,
+      "curtail_fraction": 0.02986914755759146,
+      "switches_per_group_run": 0.45142857142857146,
+      "score": 0.5268047322728747,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029883096954427153,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5407493408416337,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.560768452982811,
+      "curtail_fraction": 0.0283839188115783,
+      "switches_per_group_run": 0.5144827586206897,
+      "score": 0.5323330858953705,
+      "n_episodes": 58
+    },
+    "wall_s": 15.6,
+    "rank_val": 36,
+    "rank_train": 40
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5567190226876091,
+      "curtail_fraction": 0.029902526340263042,
+      "switches_per_group_run": 0.45047619047619053,
+      "score": 0.5267714487282984,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029887261713696597,
+      "switches_per_group_run": 0.4828571428571429,
+      "score": 0.540745080844269,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5595551061678463,
+      "curtail_fraction": 0.028300296678465606,
+      "switches_per_group_run": 0.5062068965517241,
+      "score": 0.5312041887997255,
+      "n_episodes": 58
+    },
+    "wall_s": 20.2,
+    "rank_val": 37,
+    "rank_train": 44
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5564281559045957,
+      "curtail_fraction": 0.029870878826873795,
+      "switches_per_group_run": 0.44761904761904764,
+      "score": 0.52651251517296,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029883096954427153,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5407493408416337,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5605662285136501,
+      "curtail_fraction": 0.028370175047345285,
+      "switches_per_group_run": 0.5055172413793103,
+      "score": 0.5321455017421669,
+      "n_episodes": 58
+    },
+    "wall_s": 19.9,
+    "rank_val": 38,
+    "rank_train": 41
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5564281559045957,
+      "curtail_fraction": 0.02996900043249052,
+      "switches_per_group_run": 0.4438095238095238,
+      "score": 0.5264147745197243,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029883096954427153,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5407493408416337,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.557633973710819,
+      "curtail_fraction": 0.028339653764036035,
+      "switches_per_group_run": 0.4996551724137931,
+      "score": 0.5292443544295417,
+      "n_episodes": 58
+    },
+    "wall_s": 15.9,
+    "rank_val": 39,
+    "rank_train": 51
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5564281559045957,
+      "curtail_fraction": 0.02999503584846989,
+      "switches_per_group_run": 0.44190476190476186,
+      "score": 0.5263889295799353,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5698080279232112,
+      "curtail_fraction": 0.029933058803141645,
+      "switches_per_group_run": 0.48571428571428565,
+      "score": 0.5398263976914981,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5569261880687563,
+      "curtail_fraction": 0.02835487738764917,
+      "switches_per_group_run": 0.5037931034482759,
+      "score": 0.5285209313707623,
+      "n_episodes": 58
+    },
+    "wall_s": 12.0,
+    "rank_val": 40,
+    "rank_train": 52
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5564281559045957,
+      "curtail_fraction": 0.03004625635250332,
+      "switches_per_group_run": 0.44095238095238093,
+      "score": 0.5263378043139971,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5683536940081443,
+      "curtail_fraction": 0.029906108512660335,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5383993950192936,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5553083923154701,
+      "curtail_fraction": 0.028357482469778955,
+      "switches_per_group_run": 0.49689655172413794,
+      "score": 0.5269012201905188,
+      "n_episodes": 58
+    },
+    "wall_s": 11.8,
+    "rank_val": 41,
+    "rank_train": 54
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5570098894706225,
+      "curtail_fraction": 0.03071630961204209,
+      "switches_per_group_run": 0.49809523809523815,
+      "score": 0.5262437703347709,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5578824898196626,
+      "curtail_fraction": 0.030711020678531785,
+      "switches_per_group_run": 0.5019047619047619,
+      "score": 0.5271212786649403,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5588473205257837,
+      "curtail_fraction": 0.028735827246860364,
+      "switches_per_group_run": 0.5448275862068965,
+      "score": 0.5300570105203025,
+      "n_episodes": 58
+    },
+    "wall_s": 26.3,
+    "rank_val": 42,
+    "rank_train": 47
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5570098894706225,
+      "curtail_fraction": 0.03104411243953931,
+      "switches_per_group_run": 0.5085714285714286,
+      "score": 0.525914919888226,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5570098894706225,
+      "curtail_fraction": 0.03104411243953931,
+      "switches_per_group_run": 0.5085714285714286,
+      "score": 0.525914919888226,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5613751263902932,
+      "curtail_fraction": 0.02878928949976679,
+      "switches_per_group_run": 0.553103448275862,
+      "score": 0.5325305265456988,
+      "n_episodes": 58
+    },
+    "wall_s": 21.1,
+    "rank_val": 43,
+    "rank_train": 38
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5546829552065154,
+      "curtail_fraction": 0.029977754225949622,
+      "switches_per_group_run": 0.4438095238095238,
+      "score": 0.5246608200281849,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5706806282722513,
+      "curtail_fraction": 0.029883096954427153,
+      "switches_per_group_run": 0.4819047619047619,
+      "score": 0.5407493408416337,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5586450960566228,
+      "curtail_fraction": 0.02834372688686532,
+      "switches_per_group_run": 0.5027586206896552,
+      "score": 0.5302510933076885,
+      "n_episodes": 58
+    },
+    "wall_s": 20.0,
+    "rank_val": 44,
+    "rank_train": 45
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5546829552065154,
+      "curtail_fraction": 0.030001725122499132,
+      "switches_per_group_run": 0.4457142857142857,
+      "score": 0.524636658655445,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5703897614892379,
+      "curtail_fraction": 0.029933970206196366,
+      "switches_per_group_run": 0.4847619047619047,
+      "score": 0.5404073150925653,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5586450960566228,
+      "curtail_fraction": 0.02835210507958394,
+      "switches_per_group_run": 0.5041379310344827,
+      "score": 0.5302425771839354,
+      "n_episodes": 58
+    },
+    "wall_s": 16.2,
+    "rank_val": 45,
+    "rank_train": 46
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5520651541593949,
+      "curtail_fraction": 0.029419054445529197,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5226014330471991,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029497746738468143,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5312475061494234,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5609706774519717,
+      "curtail_fraction": 0.027767252416572682,
+      "switches_per_group_run": 0.5320689655172414,
+      "score": 0.5331502181388473,
+      "n_episodes": 58
+    },
+    "wall_s": 20.1,
+    "rank_val": 46,
+    "rank_train": 37
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5511925538103548,
+      "curtail_fraction": 0.029364667271194366,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5217832198724938,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5610820244328097,
+      "curtail_fraction": 0.0294939429883943,
+      "switches_per_group_run": 0.46,
+      "score": 0.5315420814444155,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5618806875631951,
+      "curtail_fraction": 0.027761045802235984,
+      "switches_per_group_run": 0.5337931034482759,
+      "score": 0.5340662624506142,
+      "n_episodes": 58
+    },
+    "wall_s": 20.2,
+    "rank_val": 47,
+    "rank_train": 34
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5511925538103548,
+      "curtail_fraction": 0.029381711402535288,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5217661757411528,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029497746738468143,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5312475061494234,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5618806875631951,
+      "curtail_fraction": 0.027812806558015074,
+      "switches_per_group_run": 0.5303448275862069,
+      "score": 0.5340148465224214,
+      "n_episodes": 58
+    },
+    "wall_s": 19.9,
+    "rank_val": 48,
+    "rank_train": 35
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.02918697540548715,
+      "switches_per_group_run": 0.4428571428571429,
+      "score": 0.520506958775515,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5584642233856894,
+      "curtail_fraction": 0.029301194729047308,
+      "switches_per_group_run": 0.45809523809523806,
+      "score": 0.5291172191328325,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5571284125379171,
+      "curtail_fraction": 0.027627592351468222,
+      "switches_per_group_run": 0.5272413793103448,
+      "score": 0.5294480960485178,
+      "n_episodes": 58
+    },
+    "wall_s": 12.3,
+    "rank_val": 49,
+    "rank_train": 50
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.029250392630665974,
+      "switches_per_group_run": 0.4428571428571429,
+      "score": 0.5204435415503362,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5584642233856894,
+      "curtail_fraction": 0.029301194729047308,
+      "switches_per_group_run": 0.45809523809523806,
+      "score": 0.5291172191328325,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5572295247724974,
+      "curtail_fraction": 0.027644981111148003,
+      "switches_per_group_run": 0.5224137931034483,
+      "score": 0.5295323022820391,
+      "n_episodes": 58
+    },
+    "wall_s": 12.1,
+    "rank_val": 50,
+    "rank_train": 49
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.029339715428981717,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5203538377996395,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5590459569517161,
+      "curtail_fraction": 0.029403363713431156,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5295966884763802,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5572295247724974,
+      "curtail_fraction": 0.02762800656014124,
+      "switches_per_group_run": 0.5241379310344827,
+      "score": 0.5295491044192527,
+      "n_episodes": 58
+    },
+    "wall_s": 12.3,
+    "rank_val": 51,
+    "rank_train": 48
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.029339715428981717,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5203538377996395,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029497746738468143,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5312475061494234,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5603640040444894,
+      "curtail_fraction": 0.02778154989424879,
+      "switches_per_group_run": 0.5262068965517241,
+      "score": 0.5325298334605855,
+      "n_episodes": 58
+    },
+    "wall_s": 16.2,
+    "rank_val": 52,
+    "rank_train": 39
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.02934878747591651,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5203447657527047,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029497746738468143,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5312475061494234,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5597573306370071,
+      "curtail_fraction": 0.027789937113942693,
+      "switches_per_group_run": 0.5275862068965518,
+      "score": 0.5319146349023747,
+      "n_episodes": 58
+    },
+    "wall_s": 16.0,
+    "rank_val": 53,
+    "rank_train": 43
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.02934878747591651,
+      "switches_per_group_run": 0.4466666666666667,
+      "score": 0.5203447657527047,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5610820244328097,
+      "curtail_fraction": 0.0294939429883943,
+      "switches_per_group_run": 0.46,
+      "score": 0.5315420814444155,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5597573306370071,
+      "curtail_fraction": 0.027756775911623476,
+      "switches_per_group_run": 0.5275862068965518,
+      "score": 0.5319477961046939,
+      "n_episodes": 58
+    },
+    "wall_s": 16.4,
+    "rank_val": 54,
+    "rank_train": 42
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5474112856311809,
+      "curtail_fraction": 0.029559974974190002,
+      "switches_per_group_run": 0.43523809523809526,
+      "score": 0.5178077868474671,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.555846422338569,
+      "curtail_fraction": 0.029271244164636744,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5265299400786941,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5504550050556117,
+      "curtail_fraction": 0.02825252091372606,
+      "switches_per_group_run": 0.5079310344827587,
+      "score": 0.5221516910384374,
+      "n_episodes": 58
+    },
+    "wall_s": 19.1,
+    "rank_val": 55,
+    "rank_train": 61
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5477021524141943,
+      "curtail_fraction": 0.030193095134376038,
+      "switches_per_group_run": 0.42095238095238097,
+      "score": 0.5174669620417229,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5631180919139034,
+      "curtail_fraction": 0.029812385039503137,
+      "switches_per_group_run": 0.4628571428571429,
+      "score": 0.5332594211601146,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5291203235591506,
+      "curtail_fraction": 0.028713397897215304,
+      "switches_per_group_run": 0.4341379310344827,
+      "score": 0.5003635118688319,
+      "n_episodes": 58
+    },
+    "wall_s": 15.0,
+    "rank_val": 56,
+    "rank_train": 74
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5477021524141943,
+      "curtail_fraction": 0.03019840683508674,
+      "switches_per_group_run": 0.42095238095238097,
+      "score": 0.5174616503410122,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5622454915648633,
+      "curtail_fraction": 0.029817167118681626,
+      "switches_per_group_run": 0.47333333333333333,
+      "score": 0.5323809911128483,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5303336703741153,
+      "curtail_fraction": 0.028690226293914413,
+      "switches_per_group_run": 0.43551724137931036,
+      "score": 0.501599892356063,
+      "n_episodes": 58
+    },
+    "wall_s": 15.3,
+    "rank_val": 57,
+    "rank_train": 73
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5468295520651542,
+      "curtail_fraction": 0.02962049664719721,
+      "switches_per_group_run": 0.43523809523809526,
+      "score": 0.5171655316084331,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.555846422338569,
+      "curtail_fraction": 0.029278965718969416,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5265222185243615,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5509605662285136,
+      "curtail_fraction": 0.02829480625220654,
+      "switches_per_group_run": 0.5031034482758621,
+      "score": 0.5226154496314795,
+      "n_episodes": 58
+    },
+    "wall_s": 18.8,
+    "rank_val": 58,
+    "rank_train": 60
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5465386852821408,
+      "curtail_fraction": 0.02939473980732734,
+      "switches_per_group_run": 0.4257142857142857,
+      "score": 0.517101374046242,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5549738219895288,
+      "curtail_fraction": 0.029241131053543194,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5256874528407476,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5519716885743174,
+      "curtail_fraction": 0.028114129617940836,
+      "switches_per_group_run": 0.4975862068965517,
+      "score": 0.523807800335687,
+      "n_episodes": 58
+    },
+    "wall_s": 11.5,
+    "rank_val": 59,
+    "rank_train": 57
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5474112856311809,
+      "curtail_fraction": 0.030496587140643867,
+      "switches_per_group_run": 0.4057142857142857,
+      "score": 0.5168741270619657,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5607911576497964,
+      "curtail_fraction": 0.029800461984400783,
+      "switches_per_group_run": 0.4533333333333333,
+      "score": 0.5309453623320622,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.52103134479272,
+      "curtail_fraction": 0.02881841701651487,
+      "switches_per_group_run": 0.4213793103448276,
+      "score": 0.4921707898451706,
+      "n_episodes": 58
+    },
+    "wall_s": 11.9,
+    "rank_val": 60,
+    "rank_train": 78
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5468295520651542,
+      "curtail_fraction": 0.030044147399941035,
+      "switches_per_group_run": 0.42952380952380953,
+      "score": 0.5167424522842607,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5639906922629436,
+      "curtail_fraction": 0.029763840639066223,
+      "switches_per_group_run": 0.4714285714285714,
+      "score": 0.5341797087667345,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5400404448938322,
+      "curtail_fraction": 0.028766811043722067,
+      "switches_per_group_run": 0.46482758620689657,
+      "score": 0.5112271510914894,
+      "n_episodes": 58
+    },
+    "wall_s": 19.1,
+    "rank_val": 61,
+    "rank_train": 70
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5468295520651542,
+      "curtail_fraction": 0.03006427245433239,
+      "switches_per_group_run": 0.4247619047619048,
+      "score": 0.5167228034203456,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5631180919139034,
+      "curtail_fraction": 0.029780434213657527,
+      "switches_per_group_run": 0.4685714285714286,
+      "score": 0.5332908005573888,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.538422649140546,
+      "curtail_fraction": 0.028691654404571727,
+      "switches_per_group_run": 0.4596551724137931,
+      "score": 0.5096850292187329,
+      "n_episodes": 58
+    },
+    "wall_s": 14.7,
+    "rank_val": 62,
+    "rank_train": 71
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5465386852821408,
+      "curtail_fraction": 0.03007130144761711,
+      "switches_per_group_run": 0.4247619047619048,
+      "score": 0.5164249076440475,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5639906922629436,
+      "curtail_fraction": 0.029770386087538687,
+      "switches_per_group_run": 0.4723809523809524,
+      "score": 0.5341730680801668,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5312436804853388,
+      "curtail_fraction": 0.028750951368469734,
+      "switches_per_group_run": 0.44758620689655176,
+      "score": 0.5024479704961794,
+      "n_episodes": 58
+    },
+    "wall_s": 18.5,
+    "rank_val": 63,
+    "rank_train": 72
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.545956951716114,
+      "curtail_fraction": 0.029488704727165055,
+      "switches_per_group_run": 0.4371428571428571,
+      "score": 0.5164245327032347,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.555846422338569,
+      "curtail_fraction": 0.029271244164636744,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5265299400786941,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5530839231547017,
+      "curtail_fraction": 0.028208119251681693,
+      "switches_per_group_run": 0.5137931034482759,
+      "score": 0.5248244245926752,
+      "n_episodes": 58
+    },
+    "wall_s": 18.1,
+    "rank_val": 64,
+    "rank_train": 55
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5462478184991274,
+      "curtail_fraction": 0.03006464356975687,
+      "switches_per_group_run": 0.42095238095238097,
+      "score": 0.5161410796912752,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.56282722513089,
+      "curtail_fraction": 0.029755575282271476,
+      "switches_per_group_run": 0.4590476190476191,
+      "score": 0.5330257450867137,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5288169868554095,
+      "curtail_fraction": 0.028742945725322103,
+      "switches_per_group_run": 0.44310344827586207,
+      "score": 0.5000297307852598,
+      "n_episodes": 58
+    },
+    "wall_s": 11.9,
+    "rank_val": 65,
+    "rank_train": 75
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5453752181500873,
+      "curtail_fraction": 0.029602570236174658,
+      "switches_per_group_run": 0.4266666666666667,
+      "score": 0.515729981247246,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5552646887725422,
+      "curtail_fraction": 0.029205953095692835,
+      "switches_per_group_run": 0.44761904761904764,
+      "score": 0.5260139737720875,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.551567239635996,
+      "curtail_fraction": 0.02823460194203102,
+      "switches_per_group_run": 0.496551724137931,
+      "score": 0.5232829825215511,
+      "n_episodes": 58
+    },
+    "wall_s": 14.8,
+    "rank_val": 66,
+    "rank_train": 58
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.545956951716114,
+      "curtail_fraction": 0.030192908691612442,
+      "switches_per_group_run": 0.41428571428571426,
+      "score": 0.5157226144530731,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5599185573007562,
+      "curtail_fraction": 0.029821186104473093,
+      "switches_per_group_run": 0.45142857142857146,
+      "score": 0.5300522283391403,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.525278058645096,
+      "curtail_fraction": 0.029005126968740302,
+      "switches_per_group_run": 0.4282758620689655,
+      "score": 0.49623010409014884,
+      "n_episodes": 58
+    },
+    "wall_s": 19.4,
+    "rank_val": 67,
+    "rank_train": 76
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5442117510180338,
+      "curtail_fraction": 0.029598363978103035,
+      "switches_per_group_run": 0.4238095238095238,
+      "score": 0.5145710060875498,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5549738219895288,
+      "curtail_fraction": 0.0292204351868284,
+      "switches_per_group_run": 0.45047619047619053,
+      "score": 0.5257083391836528,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.550252780586451,
+      "curtail_fraction": 0.028181055814196446,
+      "switches_per_group_run": 0.4848275862068966,
+      "score": 0.5220232420136338,
+      "n_episodes": 58
+    },
+    "wall_s": 11.5,
+    "rank_val": 68,
+    "rank_train": 63
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.3,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5447934845840605,
+      "curtail_fraction": 0.030243132385846215,
+      "switches_per_group_run": 0.41333333333333333,
+      "score": 0.514509018864881,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5596276905177429,
+      "curtail_fraction": 0.0298384211349107,
+      "switches_per_group_run": 0.45142857142857146,
+      "score": 0.5297441265256893,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5238624873609706,
+      "curtail_fraction": 0.028776951072776634,
+      "switches_per_group_run": 0.42344827586206896,
+      "score": 0.4950431914606078,
+      "n_episodes": 58
+    },
+    "wall_s": 12.0,
+    "rank_val": 69,
+    "rank_train": 77
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5439208842350204,
+      "curtail_fraction": 0.02967683596571794,
+      "switches_per_group_run": 0.4180952380952381,
+      "score": 0.514202238745493,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5549738219895288,
+      "curtail_fraction": 0.029230602995341092,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5256979808989497,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.552376137512639,
+      "curtail_fraction": 0.028233063156766228,
+      "switches_per_group_run": 0.49275862068965515,
+      "score": 0.5240937984938039,
+      "n_episodes": 58
+    },
+    "wall_s": 15.7,
+    "rank_val": 70,
+    "rank_train": 56
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5439208842350204,
+      "curtail_fraction": 0.029679337442371903,
+      "switches_per_group_run": 0.4180952380952381,
+      "score": 0.5141997372688389,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5549738219895288,
+      "curtail_fraction": 0.029241131053543194,
+      "switches_per_group_run": 0.4523809523809524,
+      "score": 0.5256874528407476,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5513650151668352,
+      "curtail_fraction": 0.028215965852447008,
+      "switches_per_group_run": 0.4910344827586207,
+      "score": 0.5230999458661123,
+      "n_episodes": 58
+    },
+    "wall_s": 15.0,
+    "rank_val": 71,
+    "rank_train": 59
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5404304828388597,
+      "curtail_fraction": 0.029289442691778512,
+      "switches_per_group_run": 0.4180952380952381,
+      "score": 0.5110992306232718,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5494473531122746,
+      "curtail_fraction": 0.028904330599642192,
+      "switches_per_group_run": 0.44476190476190475,
+      "score": 0.5204985463221562,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5503538928210313,
+      "curtail_fraction": 0.02817608151594677,
+      "switches_per_group_run": 0.49379310344827587,
+      "score": 0.5221284319947397,
+      "n_episodes": 58
+    },
+    "wall_s": 11.1,
+    "rank_val": 72,
+    "rank_train": 62
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5346131471785922,
+      "curtail_fraction": 0.028315490190365483,
+      "switches_per_group_run": 0.4228571428571429,
+      "score": 0.506255371273941,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5404304828388597,
+      "curtail_fraction": 0.02841427444806844,
+      "switches_per_group_run": 0.4371428571428571,
+      "score": 0.5119724941050771,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5472194135490395,
+      "curtail_fraction": 0.027407479883847514,
+      "switches_per_group_run": 0.49482758620689654,
+      "score": 0.5197624509065712,
+      "n_episodes": 58
+    },
+    "wall_s": 15.2,
+    "rank_val": 73,
+    "rank_train": 69
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.5343222803955788,
+      "curtail_fraction": 0.028320737640821506,
+      "switches_per_group_run": 0.4247619047619048,
+      "score": 0.5059590665642811,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5404304828388597,
+      "curtail_fraction": 0.02841427444806844,
+      "switches_per_group_run": 0.4371428571428571,
+      "score": 0.5119724941050771,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5478260869565217,
+      "curtail_fraction": 0.02737325672866845,
+      "switches_per_group_run": 0.4979310344827586,
+      "score": 0.5204030371244049,
+      "n_episodes": 58
+    },
+    "wall_s": 15.3,
+    "rank_val": 74,
+    "rank_train": 68
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.5334496800465387,
+      "curtail_fraction": 0.02825930153156245,
+      "switches_per_group_run": 0.4257142857142857,
+      "score": 0.5051478070864048,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5404304828388597,
+      "curtail_fraction": 0.02841427444806844,
+      "switches_per_group_run": 0.4371428571428571,
+      "score": 0.5119724941050771,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.548432760364004,
+      "curtail_fraction": 0.027314681244402925,
+      "switches_per_group_run": 0.5031034482758621,
+      "score": 0.5210677687747735,
+      "n_episodes": 58
+    },
+    "wall_s": 14.8,
+    "rank_val": 75,
+    "rank_train": 66
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.5331588132635253,
+      "curtail_fraction": 0.028237116885474457,
+      "switches_per_group_run": 0.43047619047619046,
+      "score": 0.5048786487590032,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5424665503199535,
+      "curtail_fraction": 0.028550855901456593,
+      "switches_per_group_run": 0.4390476190476191,
+      "score": 0.5138717896565922,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5483316481294237,
+      "curtail_fraction": 0.02732841900961726,
+      "switches_per_group_run": 0.5048275862068966,
+      "score": 0.5209527463611857,
+      "n_episodes": 58
+    },
+    "wall_s": 19.3,
+    "rank_val": 76,
+    "rank_train": 67
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.532867946480512,
+      "curtail_fraction": 0.028212189894605093,
+      "switches_per_group_run": 0.43047619047619046,
+      "score": 0.5046127089668593,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5404304828388597,
+      "curtail_fraction": 0.02841427444806844,
+      "switches_per_group_run": 0.4371428571428571,
+      "score": 0.5119724941050771,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5488372093023256,
+      "curtail_fraction": 0.027297280811692512,
+      "switches_per_group_run": 0.5058620689655172,
+      "score": 0.5214893422837366,
+      "n_episodes": 58
+    },
+    "wall_s": 19.2,
+    "rank_val": 77,
+    "rank_train": 65
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.532867946480512,
+      "curtail_fraction": 0.028222883087304813,
+      "switches_per_group_run": 0.43238095238095237,
+      "score": 0.504601825297969,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5424665503199535,
+      "curtail_fraction": 0.028550855901456593,
+      "switches_per_group_run": 0.4390476190476191,
+      "score": 0.5138717896565922,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.5488372093023256,
+      "curtail_fraction": 0.02725221535276628,
+      "switches_per_group_run": 0.506551724137931,
+      "score": 0.5215343387771456,
+      "n_episodes": 58
+    },
+    "wall_s": 18.8,
+    "rank_val": 78,
+    "rank_train": 64
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.23880162885398487,
+      "curtail_fraction": 0.006487772135675645,
+      "switches_per_group_run": 0.10952380952380951,
+      "score": 0.23230290433735684,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5514834205933682,
+      "curtail_fraction": 0.02579425203631842,
+      "switches_per_group_run": 0.46380952380952384,
+      "score": 0.5256427876046688,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.2963599595551062,
+      "curtail_fraction": 0.006699835747757853,
+      "switches_per_group_run": 0.13620689655172413,
+      "score": 0.2896465031176932,
+      "n_episodes": 58
+    },
+    "wall_s": 20.4,
+    "rank_val": 79,
+    "rank_train": 82
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.23763816172193136,
+      "curtail_fraction": 0.00638874920031342,
+      "switches_per_group_run": 0.11142857142857142,
+      "score": 0.23123826966447508,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5503199534613147,
+      "curtail_fraction": 0.025693532084339308,
+      "switches_per_group_run": 0.46476190476190476,
+      "score": 0.5245799451864992,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.29646107178968656,
+      "curtail_fraction": 0.0067332852382093935,
+      "switches_per_group_run": 0.13241379310344828,
+      "score": 0.2897145451721668,
+      "n_episodes": 58
+    },
+    "wall_s": 25.8,
+    "rank_val": 80,
+    "rank_train": 81
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.23734729493891799,
+      "curtail_fraction": 0.006384218811092787,
+      "switches_per_group_run": 0.10952380952380951,
+      "score": 0.2309521237468728,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5497382198952879,
+      "curtail_fraction": 0.025694743348088696,
+      "switches_per_group_run": 0.4619047619047619,
+      "score": 0.5239972860710087,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.29595551061678466,
+      "curtail_fraction": 0.0067424302504333206,
+      "switches_per_group_run": 0.13379310344827586,
+      "score": 0.2891997010560065,
+      "n_episodes": 58
+    },
+    "wall_s": 20.4,
+    "rank_val": 81,
+    "rank_train": 83
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.2356020942408377,
+      "curtail_fraction": 0.006220666437171126,
+      "switches_per_group_run": 0.11333333333333333,
+      "score": 0.22937009447033324,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5503199534613147,
+      "curtail_fraction": 0.025697948455595972,
+      "switches_per_group_run": 0.46761904761904766,
+      "score": 0.5245752431009568,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.30151668351870575,
+      "curtail_fraction": 0.006978987380117696,
+      "switches_per_group_run": 0.1393103448275862,
+      "score": 0.2945237651041053,
+      "n_episodes": 58
+    },
+    "wall_s": 26.5,
+    "rank_val": 82,
+    "rank_train": 79
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.2356020942408377,
+      "curtail_fraction": 0.006220666437171126,
+      "switches_per_group_run": 0.11333333333333333,
+      "score": 0.22937009447033324,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5506108202443281,
+      "curtail_fraction": 0.025728366994762834,
+      "switches_per_group_run": 0.4628571428571429,
+      "score": 0.5248361675352795,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.30151668351870575,
+      "curtail_fraction": 0.0069850123357578075,
+      "switches_per_group_run": 0.1393103448275862,
+      "score": 0.29451774014846516,
+      "n_episodes": 58
+    },
+    "wall_s": 26.4,
+    "rank_val": 83,
+    "rank_train": 80
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.16579406631762653,
+      "curtail_fraction": 0.0021597463126320215,
+      "switches_per_group_run": 0.11238095238095237,
+      "score": 0.1636230819097564,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.3769633507853403,
+      "curtail_fraction": 0.020500072888165525,
+      "switches_per_group_run": 0.7504761904761905,
+      "score": 0.35638823027812716,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.22396359959555107,
+      "curtail_fraction": 0.002672996664784438,
+      "switches_per_group_run": 0.12862068965517243,
+      "score": 0.2212777408618011,
+      "n_episodes": 58
+    },
+    "wall_s": 20.6,
+    "rank_val": 84,
+    "rank_train": 84
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.1631762652705061,
+      "curtail_fraction": 0.00203198492048857,
+      "switches_per_group_run": 0.11047619047619046,
+      "score": 0.1611332327309699,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.17248400232693425,
+      "curtail_fraction": 0.013955694041405831,
+      "switches_per_group_run": 1.0266666666666666,
+      "score": 0.15842564161886175,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.2211324570273003,
+      "curtail_fraction": 0.002550260498740928,
+      "switches_per_group_run": 0.12724137931034482,
+      "score": 0.21856947239062832,
+      "n_episodes": 58
+    },
+    "wall_s": 16.0,
+    "rank_val": 85,
+    "rank_train": 85
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.16055846422338568,
+      "curtail_fraction": 0.0018836460108404742,
+      "switches_per_group_run": 0.09904761904761905,
+      "score": 0.15866491345064043,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.170738801628854,
+      "curtail_fraction": 0.013470151046484326,
+      "switches_per_group_run": 0.9980952380952381,
+      "score": 0.15716884105856013,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20495449949443884,
+      "curtail_fraction": 0.0018388890292862121,
+      "switches_per_group_run": 0.09689655172413793,
+      "score": 0.2031059208099802,
+      "n_episodes": 58
+    },
+    "wall_s": 16.2,
+    "rank_val": 86,
+    "rank_train": 87
+  },
+  {
+    "variant": "binned_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.156195462478185,
+      "curtail_fraction": 0.0018070987145124798,
+      "switches_per_group_run": 0.10095238095238096,
+      "score": 0.1543782685255773,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.170738801628854,
+      "curtail_fraction": 0.013470151046484326,
+      "switches_per_group_run": 0.9980952380952381,
+      "score": 0.15716884105856013,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20535894843276037,
+      "curtail_fraction": 0.001843505189174588,
+      "switches_per_group_run": 0.09758620689655173,
+      "score": 0.20350568462289612,
+      "n_episodes": 58
+    },
+    "wall_s": 15.8,
+    "rank_val": 87,
+    "rank_train": 86
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.16055846422338568,
+      "curtail_fraction": 0.023035431540408657,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13748588982583418,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.16055846422338568,
+      "curtail_fraction": 0.023035431540408657,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13748588982583418,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.2210313447927199,
+      "curtail_fraction": 0.021748206090205356,
+      "switches_per_group_run": 0.43241379310344824,
+      "score": 0.1992398973232042,
+      "n_episodes": 58
+    },
+    "wall_s": 21.6,
+    "rank_val": 88,
+    "rank_train": 88
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1591041303083188,
+      "curtail_fraction": 0.022978427369582038,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13608856008159392,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1591041303083188,
+      "curtail_fraction": 0.022978427369582038,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13608856008159392,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.2204246713852376,
+      "curtail_fraction": 0.021681793959843907,
+      "switches_per_group_run": 0.42965517241379314,
+      "score": 0.19869991190815234,
+      "n_episodes": 58
+    },
+    "wall_s": 21.5,
+    "rank_val": 89,
+    "rank_train": 89
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.15881326352530542,
+      "curtail_fraction": 0.02341036836650692,
+      "switches_per_group_run": 0.3771428571428571,
+      "score": 0.13536518087308422,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.15881326352530542,
+      "curtail_fraction": 0.02341036836650692,
+      "switches_per_group_run": 0.3771428571428571,
+      "score": 0.13536518087308422,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21951466127401414,
+      "curtail_fraction": 0.02198355324371849,
+      "switches_per_group_run": 0.4317241379310345,
+      "score": 0.19748793561650257,
+      "n_episodes": 58
+    },
+    "wall_s": 17.3,
+    "rank_val": 90,
+    "rank_train": 91
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.15764979639325188,
+      "curtail_fraction": 0.023056517551526892,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13455613598458216,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.15764979639325188,
+      "curtail_fraction": 0.023056517551526892,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13455613598458216,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21840242669362994,
+      "curtail_fraction": 0.021898940326607438,
+      "switches_per_group_run": 0.4317241379310345,
+      "score": 0.1964603139532294,
+      "n_episodes": 58
+    },
+    "wall_s": 17.0,
+    "rank_val": 91,
+    "rank_train": 92
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1573589296102385,
+      "curtail_fraction": 0.0229284016721825,
+      "switches_per_group_run": 0.3676190476190476,
+      "score": 0.13439376603329412,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1573589296102385,
+      "curtail_fraction": 0.0229284016721825,
+      "switches_per_group_run": 0.3676190476190476,
+      "score": 0.13439376603329412,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21658240647118301,
+      "curtail_fraction": 0.021862643193452012,
+      "switches_per_group_run": 0.4331034482758621,
+      "score": 0.19467645293290342,
+      "n_episodes": 58
+    },
+    "wall_s": 17.2,
+    "rank_val": 92,
+    "rank_train": 93
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.15706806282722513,
+      "curtail_fraction": 0.022921539794077527,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13410938017600477,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.15706806282722513,
+      "curtail_fraction": 0.022921539794077527,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13410938017600477,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21951466127401414,
+      "curtail_fraction": 0.021612055440893663,
+      "switches_per_group_run": 0.42758620689655175,
+      "score": 0.19785984721243083,
+      "n_episodes": 58
+    },
+    "wall_s": 21.5,
+    "rank_val": 93,
+    "rank_train": 90
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.15474112856311809,
+      "curtail_fraction": 0.023268132680022174,
+      "switches_per_group_run": 0.36952380952380953,
+      "score": 0.13143604350214352,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.15474112856311809,
+      "curtail_fraction": 0.023268132680022174,
+      "switches_per_group_run": 0.36952380952380953,
+      "score": 0.13143604350214352,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21456016177957532,
+      "curtail_fraction": 0.021837134478824075,
+      "switches_per_group_run": 0.43448275862068964,
+      "score": 0.1926795790248892,
+      "n_episodes": 58
+    },
+    "wall_s": 13.3,
+    "rank_val": 94,
+    "rank_train": 94
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.15474112856311809,
+      "curtail_fraction": 0.023288614772377023,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13141537093359823,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.15474112856311809,
+      "curtail_fraction": 0.023288614772377023,
+      "switches_per_group_run": 0.37142857142857144,
+      "score": 0.13141537093359823,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21425682507583418,
+      "curtail_fraction": 0.021841683668348336,
+      "switches_per_group_run": 0.4351724137931034,
+      "score": 0.19237162416610654,
+      "n_episodes": 58
+    },
+    "wall_s": 13.1,
+    "rank_val": 95,
+    "rank_train": 96
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.45,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1544502617801047,
+      "curtail_fraction": 0.02325049258142647,
+      "switches_per_group_run": 0.3676190476190476,
+      "score": 0.13116300729391633,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1544502617801047,
+      "curtail_fraction": 0.02325049258142647,
+      "switches_per_group_run": 0.3676190476190476,
+      "score": 0.13116300729391633,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.21435793731041455,
+      "curtail_fraction": 0.021848045109488904,
+      "switches_per_group_run": 0.43586206896551727,
+      "score": 0.1924663059940291,
+      "n_episodes": 58
+    },
+    "wall_s": 12.6,
+    "rank_val": 96,
+    "rank_train": 95
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.13496218731820825,
+      "curtail_fraction": 0.0045779285336070355,
+      "switches_per_group_run": 0.09523809523809523,
+      "score": 0.1303747349750774,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5433391506689936,
+      "curtail_fraction": 0.028677124843121432,
+      "switches_per_group_run": 0.4561904761904762,
+      "score": 0.5146164067782532,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.18250758341759352,
+      "curtail_fraction": 0.004575331691682292,
+      "switches_per_group_run": 0.11344827586206897,
+      "score": 0.17792090689832502,
+      "n_episodes": 58
+    },
+    "wall_s": 19.7,
+    "rank_val": 97,
+    "rank_train": 105
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.13496218731820825,
+      "curtail_fraction": 0.0045779285336070355,
+      "switches_per_group_run": 0.09523809523809523,
+      "score": 0.1303747349750774,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5447934845840605,
+      "curtail_fraction": 0.02876403895919427,
+      "switches_per_group_run": 0.46,
+      "score": 0.5159834456248662,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1864509605662285,
+      "curtail_fraction": 0.004869163065076147,
+      "switches_per_group_run": 0.1203448275862069,
+      "score": 0.18156976301839373,
+      "n_episodes": 58
+    },
+    "wall_s": 19.7,
+    "rank_val": 98,
+    "rank_train": 98
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.13496218731820825,
+      "curtail_fraction": 0.0045779285336070355,
+      "switches_per_group_run": 0.09523809523809523,
+      "score": 0.1303747349750774,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5447934845840605,
+      "curtail_fraction": 0.02876403895919427,
+      "switches_per_group_run": 0.46,
+      "score": 0.5159834456248662,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.18564206268958544,
+      "curtail_fraction": 0.0048144353252228276,
+      "switches_per_group_run": 0.1203448275862069,
+      "score": 0.18081559288160398,
+      "n_episodes": 58
+    },
+    "wall_s": 19.4,
+    "rank_val": 99,
+    "rank_train": 102
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.1428155904595695,
+      "curtail_fraction": 0.022319096749857794,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.12046087466209267,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1428155904595695,
+      "curtail_fraction": 0.022319096749857794,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.12046087466209267,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20202224469160768,
+      "curtail_fraction": 0.02070918010743075,
+      "switches_per_group_run": 0.4179310344827586,
+      "score": 0.18127127148072866,
+      "n_episodes": 58
+    },
+    "wall_s": 21.5,
+    "rank_val": 100,
+    "rank_train": 99
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.1428155904595695,
+      "curtail_fraction": 0.022455738440957995,
+      "switches_per_group_run": 0.3580952380952381,
+      "score": 0.120324042494802,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1428155904595695,
+      "curtail_fraction": 0.022455738440957995,
+      "switches_per_group_run": 0.3580952380952381,
+      "score": 0.120324042494802,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20273003033367037,
+      "curtail_fraction": 0.020871960578738382,
+      "switches_per_group_run": 0.42068965517241375,
+      "score": 0.18181600078941476,
+      "n_episodes": 58
+    },
+    "wall_s": 21.6,
+    "rank_val": 101,
+    "rank_train": 97
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.12303664921465969,
+      "curtail_fraction": 0.0036805534521889014,
+      "switches_per_group_run": 0.0761904761904762,
+      "score": 0.11934847671485174,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5433391506689936,
+      "curtail_fraction": 0.028677124843121432,
+      "switches_per_group_run": 0.4561904761904762,
+      "score": 0.5146164067782532,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1783619817997978,
+      "curtail_fraction": 0.004261381511082583,
+      "switches_per_group_run": 0.10172413793103449,
+      "score": 0.1740904278749221,
+      "n_episodes": 58
+    },
+    "wall_s": 16.3,
+    "rank_val": 102,
+    "rank_train": 112
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.12303664921465969,
+      "curtail_fraction": 0.003727598630516631,
+      "switches_per_group_run": 0.0761904761904762,
+      "score": 0.119301431536524,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5357766143106457,
+      "curtail_fraction": 0.028138155784022838,
+      "switches_per_group_run": 0.43238095238095237,
+      "score": 0.5075952204313848,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.17967644084934278,
+      "curtail_fraction": 0.004487580524685362,
+      "switches_per_group_run": 0.09517241379310344,
+      "score": 0.1751793430832781,
+      "n_episodes": 58
+    },
+    "wall_s": 11.5,
+    "rank_val": 103,
+    "rank_train": 109
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.12303664921465969,
+      "curtail_fraction": 0.0037288559670903706,
+      "switches_per_group_run": 0.0761904761904762,
+      "score": 0.11930017419995027,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5433391506689936,
+      "curtail_fraction": 0.028677124843121432,
+      "switches_per_group_run": 0.4561904761904762,
+      "score": 0.5146164067782532,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1783619817997978,
+      "curtail_fraction": 0.0042786644266443455,
+      "switches_per_group_run": 0.10241379310344828,
+      "score": 0.17407307599384308,
+      "n_episodes": 58
+    },
+    "wall_s": 16.4,
+    "rank_val": 104,
+    "rank_train": 113
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.12303664921465969,
+      "curtail_fraction": 0.0038179399456430094,
+      "switches_per_group_run": 0.0838095238095238,
+      "score": 0.11921032831663572,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5433391506689936,
+      "curtail_fraction": 0.028677124843121432,
+      "switches_per_group_run": 0.4561904761904762,
+      "score": 0.5146164067782532,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.18068756319514662,
+      "curtail_fraction": 0.004414279125649142,
+      "switches_per_group_run": 0.10862068965517241,
+      "score": 0.17626242200053194,
+      "n_episodes": 58
+    },
+    "wall_s": 16.0,
+    "rank_val": 105,
+    "rank_train": 106
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.13932518906340896,
+      "curtail_fraction": 0.022263706568046954,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11702586344774296,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13932518906340896,
+      "curtail_fraction": 0.022263706568046954,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11702586344774296,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20202224469160768,
+      "curtail_fraction": 0.02075914454202077,
+      "switches_per_group_run": 0.4193103448275862,
+      "score": 0.18122116911510416,
+      "n_episodes": 58
+    },
+    "wall_s": 21.5,
+    "rank_val": 106,
+    "rank_train": 100
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.13845258871436883,
+      "curtail_fraction": 0.02234068436842522,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11607628529832456,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13845258871436883,
+      "curtail_fraction": 0.02234068436842522,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11607628529832456,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20141557128412538,
+      "curtail_fraction": 0.020898993078833195,
+      "switches_per_group_run": 0.42344827586206896,
+      "score": 0.180474233377706,
+      "n_episodes": 58
+    },
+    "wall_s": 16.8,
+    "rank_val": 107,
+    "rank_train": 103
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.13845258871436883,
+      "curtail_fraction": 0.02234068436842522,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11607628529832456,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13845258871436883,
+      "curtail_fraction": 0.02234068436842522,
+      "switches_per_group_run": 0.3561904761904762,
+      "score": 0.11607628529832456,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.20202224469160768,
+      "curtail_fraction": 0.020761627521063992,
+      "switches_per_group_run": 0.4193103448275862,
+      "score": 0.18121868613606093,
+      "n_episodes": 58
+    },
+    "wall_s": 17.4,
+    "rank_val": 108,
+    "rank_train": 101
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.13641652123327516,
+      "curtail_fraction": 0.022261191261697455,
+      "switches_per_group_run": 0.36,
+      "score": 0.11411932997157771,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13641652123327516,
+      "curtail_fraction": 0.022261191261697455,
+      "switches_per_group_run": 0.36,
+      "score": 0.11411932997157771,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.19949443882709808,
+      "curtail_fraction": 0.020774457709433605,
+      "switches_per_group_run": 0.42344827586206896,
+      "score": 0.17867763629007827,
+      "n_episodes": 58
+    },
+    "wall_s": 17.4,
+    "rank_val": 109,
+    "rank_train": 104
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11634671320535195,
+      "curtail_fraction": 0.0031865077907225975,
+      "switches_per_group_run": 0.06285714285714286,
+      "score": 0.11315391970034364,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5407213496218732,
+      "curtail_fraction": 0.028524476769780333,
+      "switches_per_group_run": 0.45142857142857146,
+      "score": 0.5121517299949501,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.16632962588473205,
+      "curtail_fraction": 0.003246231971127922,
+      "switches_per_group_run": 0.07655172413793104,
+      "score": 0.16307573874119033,
+      "n_episodes": 58
+    },
+    "wall_s": 12.4,
+    "rank_val": 110,
+    "rank_train": 116
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11634671320535195,
+      "curtail_fraction": 0.0031865077907225975,
+      "switches_per_group_run": 0.06285714285714286,
+      "score": 0.11315391970034364,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5433391506689936,
+      "curtail_fraction": 0.028677464574893178,
+      "switches_per_group_run": 0.4552380952380953,
+      "score": 0.5146161622845766,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.16643073811931244,
+      "curtail_fraction": 0.0033076002268286665,
+      "switches_per_group_run": 0.07862068965517241,
+      "score": 0.16311527582351826,
+      "n_episodes": 58
+    },
+    "wall_s": 12.4,
+    "rank_val": 111,
+    "rank_train": 115
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11634671320535195,
+      "curtail_fraction": 0.003229463553444311,
+      "switches_per_group_run": 0.06285714285714286,
+      "score": 0.11311096393762193,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5354857475276323,
+      "curtail_fraction": 0.028141959534096674,
+      "switches_per_group_run": 0.43142857142857144,
+      "score": 0.5073006451363927,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.179474216380182,
+      "curtail_fraction": 0.004391662500004943,
+      "switches_per_group_run": 0.09448275862068967,
+      "score": 0.17507310560431497,
+      "n_episodes": 58
+    },
+    "wall_s": 11.0,
+    "rank_val": 112,
+    "rank_train": 110
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11634671320535195,
+      "curtail_fraction": 0.003229463553444311,
+      "switches_per_group_run": 0.06285714285714286,
+      "score": 0.11311096393762193,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5357766143106457,
+      "curtail_fraction": 0.028138155784022838,
+      "switches_per_group_run": 0.43238095238095237,
+      "score": 0.5075952204313848,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.16764408493427704,
+      "curtail_fraction": 0.0035795016889334417,
+      "switches_per_group_run": 0.07862068965517241,
+      "score": 0.16405672117637807,
+      "n_episodes": 58
+    },
+    "wall_s": 11.8,
+    "rank_val": 113,
+    "rank_train": 114
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1154741128563118,
+      "curtail_fraction": 0.0024471845365197234,
+      "switches_per_group_run": 0.049523809523809526,
+      "score": 0.1130219759388397,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.5381035485747527,
+      "curtail_fraction": 0.028372883711927623,
+      "switches_per_group_run": 0.4495238095238095,
+      "score": 0.5096857124818728,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.16612740141557128,
+      "curtail_fraction": 0.0032347928317178498,
+      "switches_per_group_run": 0.07655172413793104,
+      "score": 0.16288495341143963,
+      "n_episodes": 58
+    },
+    "wall_s": 12.1,
+    "rank_val": 114,
+    "rank_train": 117
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.13379872018615474,
+      "curtail_fraction": 0.022239315552657585,
+      "switches_per_group_run": 0.3619047619047619,
+      "score": 0.11152321415730668,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13379872018615474,
+      "curtail_fraction": 0.022239315552657585,
+      "switches_per_group_run": 0.3619047619047619,
+      "score": 0.11152321415730668,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1961577350859454,
+      "curtail_fraction": 0.020747657184570303,
+      "switches_per_group_run": 0.42482758620689653,
+      "score": 0.1753675951427544,
+      "n_episodes": 58
+    },
+    "wall_s": 13.1,
+    "rank_val": 115,
+    "rank_train": 108
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.13379872018615474,
+      "curtail_fraction": 0.022239315552657585,
+      "switches_per_group_run": 0.3619047619047619,
+      "score": 0.11152321415730668,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13379872018615474,
+      "curtail_fraction": 0.022239315552657585,
+      "switches_per_group_run": 0.3619047619047619,
+      "score": 0.11152321415730668,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.19676440849342772,
+      "curtail_fraction": 0.020659923796109002,
+      "switches_per_group_run": 0.42275862068965514,
+      "score": 0.17606220883524976,
+      "n_episodes": 58
+    },
+    "wall_s": 13.4,
+    "rank_val": 116,
+    "rank_train": 107
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 11.9,
+    "rank_val": 117,
+    "rank_train": 126
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 12.1,
+    "rank_val": 118,
+    "rank_train": 127
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 12.0,
+    "rank_val": 119,
+    "rank_train": 128
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 15.8,
+    "rank_val": 120,
+    "rank_train": 129
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 15.7,
+    "rank_val": 121,
+    "rank_train": 130
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 15.7,
+    "rank_val": 122,
+    "rank_train": 131
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 20.1,
+    "rank_val": 123,
+    "rank_train": 132
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 20.2,
+    "rank_val": 124,
+    "rank_train": 133
+  },
+  {
+    "variant": "raw_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 20.1,
+    "rank_val": 125,
+    "rank_train": 134
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 11.3,
+    "rank_val": 126,
+    "rank_train": 135
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 11.5,
+    "rank_val": 127,
+    "rank_train": 136
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 11.7,
+    "rank_val": 128,
+    "rank_train": 137
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 14.9,
+    "rank_val": 129,
+    "rank_train": 138
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.000947320449069218,
+      "switches_per_group_run": 0.011428571428571429,
+      "score": 0.10958091423887228,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 15.0,
+    "rank_val": 130,
+    "rank_train": 139
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 15.2,
+    "rank_val": 131,
+    "rank_train": 140
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 18.0,
+    "rank_val": 132,
+    "rank_train": 141
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0005520533240477879,
+      "switches_per_group_run": 0.007619047619047619,
+      "score": 0.10997656231627466,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 17.7,
+    "rank_val": 133,
+    "rank_train": 142
+  },
+  {
+    "variant": "raw_dwell_ach",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11052937754508435,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.11052937754508435,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15530839231547017,
+      "curtail_fraction": 0.0,
+      "switches_per_group_run": 0.0,
+      "score": 0.15530839231547017,
+      "n_episodes": 58
+    },
+    "wall_s": 17.6,
+    "rank_val": 134,
+    "rank_train": 143
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.112565445026178,
+      "curtail_fraction": 0.0023877925352355912,
+      "switches_per_group_run": 0.051428571428571435,
+      "score": 0.11017250963379956,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.112565445026178,
+      "curtail_fraction": 0.0023877925352355912,
+      "switches_per_group_run": 0.051428571428571435,
+      "score": 0.11017250963379956,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15925176946410516,
+      "curtail_fraction": 0.002368306292361565,
+      "switches_per_group_run": 0.06896551724137931,
+      "score": 0.15687656662001945,
+      "n_episodes": 58
+    },
+    "wall_s": 12.7,
+    "rank_val": 135,
+    "rank_train": 119
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.6,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.13234438627108785,
+      "curtail_fraction": 0.02224215591945788,
+      "switches_per_group_run": 0.36,
+      "score": 0.11006623035162998,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.13234438627108785,
+      "curtail_fraction": 0.02224215591945788,
+      "switches_per_group_run": 0.36,
+      "score": 0.11006623035162998,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1955510616784631,
+      "curtail_fraction": 0.020681032651821828,
+      "switches_per_group_run": 0.4213793103448276,
+      "score": 0.17482789109560679,
+      "n_episodes": 58
+    },
+    "wall_s": 13.0,
+    "rank_val": 136,
+    "rank_train": 111
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.1571284125379171,
+      "curtail_fraction": 0.0019427705536246443,
+      "switches_per_group_run": 0.05655172413793103,
+      "score": 0.15517998681187864,
+      "n_episodes": 58
+    },
+    "wall_s": 13.2,
+    "rank_val": 137,
+    "rank_train": 144
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 12,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15743174924165823,
+      "curtail_fraction": 0.001981467723175027,
+      "switches_per_group_run": 0.05724137931034483,
+      "score": 0.15544455738055216,
+      "n_episodes": 58
+    },
+    "wall_s": 13.1,
+    "rank_val": 138,
+    "rank_train": 125
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15874620829120323,
+      "curtail_fraction": 0.0023758451044575647,
+      "switches_per_group_run": 0.07310344827586207,
+      "score": 0.15636305284191807,
+      "n_episodes": 58
+    },
+    "wall_s": 17.1,
+    "rank_val": 139,
+    "rank_train": 122
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15925176946410516,
+      "curtail_fraction": 0.0023616170943009137,
+      "switches_per_group_run": 0.07172413793103448,
+      "score": 0.15688297995601114,
+      "n_episodes": 58
+    },
+    "wall_s": 16.9,
+    "rank_val": 140,
+    "rank_train": 118
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 16,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.002315127640747117,
+      "switches_per_group_run": 0.047619047619047616,
+      "score": 0.10908208834861546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.157633973710819,
+      "curtail_fraction": 0.002070278009036105,
+      "switches_per_group_run": 0.05931034482758621,
+      "score": 0.15555776466730012,
+      "n_episodes": 58
+    },
+    "wall_s": 17.2,
+    "rank_val": 141,
+    "rank_train": 124
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 2,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.0027222858815678886,
+      "switches_per_group_run": 0.06476190476190477,
+      "score": 0.10867321582208041,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.0027222858815678886,
+      "switches_per_group_run": 0.06476190476190477,
+      "score": 0.10867321582208041,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15884732052578363,
+      "curtail_fraction": 0.002366417387551068,
+      "switches_per_group_run": 0.07379310344827586,
+      "score": 0.15647352382788773,
+      "n_episodes": 58
+    },
+    "wall_s": 21.6,
+    "rank_val": 142,
+    "rank_train": 120
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 1,
+    "val": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.0027671878740323686,
+      "switches_per_group_run": 0.06666666666666667,
+      "score": 0.10862812335342546,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.1114019778941245,
+      "curtail_fraction": 0.0027671878740323686,
+      "switches_per_group_run": 0.06666666666666667,
+      "score": 0.10862812335342546,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.15884732052578363,
+      "curtail_fraction": 0.002366417387551068,
+      "switches_per_group_run": 0.07379310344827586,
+      "score": 0.15647352382788773,
+      "n_episodes": 58
+    },
+    "wall_s": 21.9,
+    "rank_val": 143,
+    "rank_train": 121
+  },
+  {
+    "variant": "raw_hinge",
+    "price": 0.9,
+    "iters": 20,
+    "seed": 0,
+    "val": {
+      "achievement_rate": 0.11227457824316463,
+      "curtail_fraction": 0.005225257970131417,
+      "switches_per_group_run": 0.09714285714285714,
+      "score": 0.10703960598731893,
+      "n_episodes": 21
+    },
+    "val_unmasked_greedy": {
+      "achievement_rate": 0.11227457824316463,
+      "curtail_fraction": 0.005225257970131417,
+      "switches_per_group_run": 0.09714285714285714,
+      "score": 0.10703960598731893,
+      "n_episodes": 21
+    },
+    "train": {
+      "achievement_rate": 0.16066734074823052,
+      "curtail_fraction": 0.0044914202696692785,
+      "switches_per_group_run": 0.12275862068965518,
+      "score": 0.15616364461649226,
+      "n_episodes": 58
+    },
+    "wall_s": 21.3,
+    "rank_val": 144,
+    "rank_train": 123
+  }
+]

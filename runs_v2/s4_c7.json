@@ -1,0 +1,14 @@
+{
+  "train": {
+    "achievement_rate": 0.5812942366026289,
+    "curtail_fraction": 0.02818016610018489,
+    "switches_per_group_run": 0.6072413793103448,
+    "score": 0.553053346364513
+  },
+  "val": {
+    "achievement_rate": 0.5674810936591042,
+    "curtail_fraction": 0.030120743728050573,
+    "switches_per_group_run": 0.5495238095238095,
+    "score": 0.5373053975501011
+  }
+}
